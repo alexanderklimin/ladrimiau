@@ -1,0 +1,242 @@
+---
+import Icon from './Icon.astro';
+import { FOODS } from '../lib/foods.js';
+
+const emojiFile = (emoji: string) =>
+  [...emoji].map((char) => char.codePointAt(0)!.toString(16)).filter((code) => code !== 'fe0f').join('-');
+const compact = (items: typeof FOODS.dog) =>
+  items.map(({ slug, name, aka, verdict, emoji }) => ({ slug, name, aka, verdict, file: emojiFile(emoji) }));
+const data = JSON.stringify({ dog: compact(FOODS.dog), cat: compact(FOODS.cat) }).replace(/</g, '\\u003c');
+
+const tabs = [
+  { id: 'comer', label: 'Alimentos', icon: 'salad' },
+  { id: 'racion', label: 'Ración', icon: 'utensils' },
+  { id: 'embarazo', label: 'Embarazo', icon: 'calendar-heart' },
+];
+---
+<section class="quick card" data-quick aria-label="Herramientas rápidas">
+  <div class="quick-species" role="radiogroup" aria-label="Elige tu mascota">
+    <label><input type="radio" name="quick-species" value="dog" checked /><span><Icon name="dog" size={20} /> Perro</span></label>
+    <label><input type="radio" name="quick-species" value="cat" /><span><Icon name="cat" size={20} /> Gato</span></label>
+  </div>
+
+  <div class="quick-tabs" role="tablist" aria-label="Elige una herramienta">
+    {tabs.map((tab, index) => (
+      <button
+        type="button"
+        role="tab"
+        id={`tab-${tab.id}`}
+        aria-controls={`panel-${tab.id}`}
+        aria-selected={index === 0 ? 'true' : 'false'}
+        tabindex={index === 0 ? 0 : -1}
+      >
+        <Icon name={tab.icon as never} size={18} />
+        <span>{tab.label}</span>
+      </button>
+    ))}
+  </div>
+
+  <div class="quick-panel" role="tabpanel" id="panel-comer" aria-labelledby="tab-comer">
+    <label class="quick-label" for="quick-food">Escribe un alimento</label>
+    <input id="quick-food" type="search" placeholder="Ejemplo: fresas, huevo, palta…" autocomplete="off" />
+    <ul class="food-grid quick-results" data-quick-results aria-live="polite"></ul>
+    <p class="empty" data-quick-empty hidden>Todavía no tenemos ese alimento. Consulta a tu veterinario antes de dárselo.</p>
+  </div>
+
+  <form class="quick-panel" role="tabpanel" id="panel-racion" aria-labelledby="tab-racion" data-quick-portion novalidate hidden>
+    <label class="quick-label" for="quick-weight">Peso de tu mascota adulta (kg)</label>
+    <input id="quick-weight" name="weight" type="number" inputmode="decimal" min="0.1" step="0.1" />
+    <button class="btn-teal" type="submit"><Icon name="utensils" size={20} /> Calcular ración</button>
+    <p class="error" data-quick-portion-error role="alert"></p>
+    <div class="result" data-quick-portion-result aria-live="polite" hidden>
+      <span class="big" data-quick-grams></span>
+      <p data-quick-kcal></p>
+      <p>Estimación para un adulto esterilizado con alimento seco de 350 kcal por 100 g.</p>
+      <p><a data-quick-portion-link href="/calculadoras/comida-perro/">Ajustar por edad y tipo de alimento</a></p>
+    </div>
+  </form>
+
+  <form class="quick-panel" role="tabpanel" id="panel-embarazo" aria-labelledby="tab-embarazo" data-quick-pregnancy novalidate hidden>
+    <label class="quick-label" for="quick-date">Fecha de la monta</label>
+    <input id="quick-date" name="date" type="date" />
+    <button class="btn-grape" type="submit"><Icon name="calendar-heart" size={20} /> Calcular fecha de parto</button>
+    <p class="error" data-quick-pregnancy-error role="alert"></p>
+    <div class="result" data-quick-pregnancy-result aria-live="polite" hidden>
+      <span class="big" data-quick-likely></span>
+      <p data-quick-range></p>
+      <p><a data-quick-pregnancy-link href="/calculadoras/embarazo-perra/">Ver más detalles sobre el embarazo</a></p>
+    </div>
+  </form>
+
+  <script is:inline type="application/json" id="quick-foods" set:html={data}></script>
+</section>
+
+<style is:global>
+  .quick { position: relative; z-index: 2; margin-top: -1.75rem; padding: 1rem; }
+  .quick-species { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+  .quick-species input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .quick-species span { display: flex; align-items: center; justify-content: center; gap: 0.4rem; min-height: 2.75rem; border: 2px solid var(--line); border-radius: 14px; background: var(--surface); font-weight: 800; cursor: pointer; }
+  .quick-species input:checked + span { background: var(--teal-dark); border-color: var(--teal-dark); color: #fff; }
+  .quick-species input:focus-visible + span { outline: 3px solid var(--sun); outline-offset: 2px; }
+  .quick-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.25rem; margin-top: 0.75rem; padding: 0.25rem; border-radius: 16px; background: #f8eee1; }
+  .quick-tabs button { flex-direction: column; gap: 0.1rem; width: 100%; min-height: 3.25rem; padding: 0.25rem; border-radius: 12px; background: transparent; color: var(--ink); font-size: 0.8rem; font-weight: 800; line-height: 1.15; box-shadow: none; }
+  .quick-tabs button:hover { background: #f1e1cd; }
+  .quick-tabs button[aria-selected='true'] { background: var(--coral-dark); color: #fff; }
+  .quick-panel { margin-top: 0.85rem; }
+  .quick-panel[hidden] { display: none; }
+  .quick-label { display: block; font-weight: 750; margin-bottom: 0.3rem; }
+  .quick-panel button[type='submit'] { margin-top: 0.75rem; }
+  .quick-results { grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); margin-top: 0.75rem; }
+  .quick-results:empty { display: none; }
+  .hero-home { padding-bottom: 3rem; }
+  .hero-home h1 { margin-top: 0; font-size: clamp(1.6rem, 5.5vw, 2.5rem); }
+  .hero-home .lead { font-size: 1.02rem; }
+  @media (max-width: 39.99rem) { .hero-home .lead { display: none; } .hero-home { padding-top: 1.1rem; } }
+  @media (min-width: 40rem) {
+    .quick-tabs button { flex-direction: row; gap: 0.4rem; font-size: 0.95rem; }
+    .quick { padding: 1.25rem; }
+  }
+</style>
+
+<script>
+  import { dailyEnergy, portionGrams } from '../lib/energy.js';
+  import { estimateDueDate } from '../lib/pregnancy.js';
+
+  type Food = { slug: string; name: string; aka: string; verdict: 'si' | 'cuidado' | 'no'; file: string };
+  type Species = 'dog' | 'cat';
+
+  const root = document.querySelector<HTMLElement>('[data-quick]');
+  const source = document.querySelector<HTMLElement>('#quick-foods');
+  if (root && source) {
+    const foods = JSON.parse(source.textContent ?? '{}') as Record<Species, Food[]>;
+    const labels = { si: 'Sí', cuidado: 'Cuidado', no: 'No' };
+    const folders = { dog: 'perros', cat: 'gatos' };
+    const popular = ['fresa', 'platano', 'sandia', 'uva', 'huevo', 'chocolate'];
+    const normalize = (text: string) => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
+    const species = () => (root.querySelector<HTMLInputElement>('input[name="quick-species"]:checked')?.value ?? 'dog') as Species;
+    const number = new Intl.NumberFormat('es');
+    const dateFormat = new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+    const formatDate = (iso: string) => dateFormat.format(new Date(`${iso}T00:00:00Z`));
+
+    const query = root.querySelector<HTMLInputElement>('#quick-food')!;
+    const results = root.querySelector<HTMLElement>('[data-quick-results]')!;
+    const empty = root.querySelector<HTMLElement>('[data-quick-empty]')!;
+
+    const renderFood = (food: Food, folder: string) => {
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.className = 'food-link';
+      link.href = `/${folder}/pueden-comer/${food.slug}/`;
+      const image = document.createElement('img');
+      image.className = 'food-emoji';
+      image.src = `/food/${food.file}.svg`;
+      image.alt = '';
+      image.width = 32;
+      image.height = 32;
+      const name = document.createElement('span');
+      name.className = 'food-name';
+      name.textContent = food.name;
+      const pill = document.createElement('span');
+      pill.className = `pill v-${food.verdict}`;
+      pill.textContent = labels[food.verdict];
+      link.append(image, name, pill);
+      item.append(link);
+      return item;
+    };
+
+    const updateFoods = () => {
+      const current = species();
+      const needle = normalize(query.value);
+      const matches = needle
+        ? foods[current].filter((food) => normalize(`${food.name} ${food.aka}`).includes(needle)).slice(0, 6)
+        : popular.map((slug) => foods[current].find((food) => food.slug === slug)).filter((food): food is Food => Boolean(food));
+      results.replaceChildren(...matches.map((food) => renderFood(food, folders[current])));
+      empty.hidden = matches.length > 0;
+    };
+
+    const portionForm = root.querySelector<HTMLFormElement>('[data-quick-portion]')!;
+    const portionError = root.querySelector<HTMLElement>('[data-quick-portion-error]')!;
+    const portionResult = root.querySelector<HTMLElement>('[data-quick-portion-result]')!;
+    const pregnancyForm = root.querySelector<HTMLFormElement>('[data-quick-pregnancy]')!;
+    const pregnancyError = root.querySelector<HTMLElement>('[data-quick-pregnancy-error]')!;
+    const pregnancyResult = root.querySelector<HTMLElement>('[data-quick-pregnancy-result]')!;
+
+    const clearResults = () => {
+      portionError.textContent = '';
+      pregnancyError.textContent = '';
+      portionResult.hidden = true;
+      pregnancyResult.hidden = true;
+    };
+
+    portionForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      clearResults();
+      const weightKg = Number(String(new FormData(portionForm).get('weight')).replace(',', '.'));
+      if (!(weightKg > 0)) {
+        portionError.textContent = 'Introduce un peso válido en kilos.';
+        return;
+      }
+      try {
+        const current = species();
+        const energy = dailyEnergy({ species: current, weightKg, stage: 'neutered' });
+        const min = portionGrams(energy.minKcal, 350);
+        const max = portionGrams(energy.maxKcal, 350);
+        root.querySelector<HTMLElement>('[data-quick-grams]')!.textContent = `${number.format(min)}–${number.format(max)} g al día`;
+        root.querySelector<HTMLElement>('[data-quick-kcal]')!.textContent = `Equivale a ${number.format(energy.minKcal)}–${number.format(energy.maxKcal)} kcal al día.`;
+        root.querySelector<HTMLAnchorElement>('[data-quick-portion-link]')!.href = current === 'dog' ? '/calculadoras/comida-perro/' : '/calculadoras/comida-gato/';
+        portionResult.hidden = false;
+      } catch {
+        portionError.textContent = 'Revisa el peso: el valor no parece correcto para este animal.';
+      }
+    });
+
+    pregnancyForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      clearResults();
+      const date = String(new FormData(pregnancyForm).get('date') ?? '');
+      if (!date) {
+        pregnancyError.textContent = 'Selecciona una fecha.';
+        return;
+      }
+      try {
+        const current = species();
+        const due = estimateDueDate({ species: current, date });
+        root.querySelector<HTMLElement>('[data-quick-likely]')!.textContent = `Fecha probable: ${formatDate(due.likely)}`;
+        root.querySelector<HTMLElement>('[data-quick-range]')!.textContent = `Rango posible: del ${formatDate(due.earliest)} al ${formatDate(due.latest)}.`;
+        root.querySelector<HTMLAnchorElement>('[data-quick-pregnancy-link]')!.href = current === 'dog' ? '/calculadoras/embarazo-perra/' : '/calculadoras/embarazo-gata/';
+        pregnancyResult.hidden = false;
+      } catch {
+        pregnancyError.textContent = 'Revisa la fecha introducida.';
+      }
+    });
+
+    const tabs = [...root.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    const selectTab = (tab: HTMLButtonElement, focus = false) => {
+      for (const other of tabs) {
+        const active = other === tab;
+        other.setAttribute('aria-selected', String(active));
+        other.tabIndex = active ? 0 : -1;
+        root.querySelector<HTMLElement>(`#${other.getAttribute('aria-controls')}`)!.hidden = !active;
+      }
+      if (focus) tab.focus();
+    };
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => selectTab(tab));
+      tab.addEventListener('keydown', (event) => {
+        const step = event.key === 'ArrowRight' ? 1 : event.key === 'ArrowLeft' ? -1 : 0;
+        if (!step) return;
+        event.preventDefault();
+        selectTab(tabs[(index + step + tabs.length) % tabs.length], true);
+      });
+    });
+
+    query.addEventListener('input', updateFoods);
+    root.querySelectorAll('input[name="quick-species"]').forEach((input) => {
+      input.addEventListener('change', () => {
+        clearResults();
+        updateFoods();
+      });
+    });
+    updateFoods();
+  }
+</script>

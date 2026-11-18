@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import FoodEmoji from '../components/FoodEmoji.astro';
+import QuickTool from '../components/QuickTool.astro';
 import { FOODS, VERDICTS } from '../lib/foods.js';
 
 const tools = [
@@ -25,13 +26,14 @@ const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'L
   description="Comprueba qué alimentos pueden comer tu perro y tu gato, calcula su ración y fecha de parto, y encuentra su nombre ideal. Gratis y con fuentes veterinarias."
   jsonLd={jsonLd}
 >
-  <header class="hero tone-coral">
-    <span class="hero-badge"><Icon name="paw-print" size={30} /></span>
+  <header class="hero hero-home tone-coral">
     <h1>Todo para cuidar a tu perro y a tu gato</h1>
-    <p class="lead">Respuestas claras, calculadoras gratuitas y fuentes veterinarias.</p>
+    <p class="lead">Respuestas claras y calculadoras gratuitas con fuentes veterinarias.</p>
   </header>
 
-  <h2>Herramientas</h2>
+  <QuickTool />
+
+  <h2>Todas las herramientas</h2>
   <ul class="tools">
     {tools.map((tool) => (
       <li>
