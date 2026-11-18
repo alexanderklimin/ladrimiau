@@ -1,0 +1,9 @@
+---
+import NamePage from '../../components/NamePage.astro';
+import { NAME_PAGES } from '../../lib/nameLists.js';
+
+export function getStaticPaths() {
+  return NAME_PAGES.map((item) => ({ params: { page: item.path } }));
+}
+---
+<NamePage path={Astro.params.page as string} />

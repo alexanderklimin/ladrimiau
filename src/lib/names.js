@@ -1,4 +1,5 @@
 // Pet name generator. Framework-free so the app can reuse it.
+import { NAME_PAGES, parseName } from './nameLists.js';
 
 export const STYLES = Object.freeze({
   tiernos: 'Tiernos',
@@ -14,8 +15,8 @@ const NAMES = {
     hembra: ['Pelusa', 'Dulcinea', 'Mimosa', 'Princesa', 'Perla', 'Muñeca', 'Canela', 'Chispita', 'Coqueta', 'Lunita', 'Estrellita', 'Nena', 'Preciosa', 'Bonita', 'Reina', 'Cuqui'],
   },
   divertidos: {
-    macho: ['Churro', 'Taco', 'Nacho', 'Tamal', 'Pepino', 'Chorizo', 'Frijol', 'Waffle', 'Mostaza', 'Pistacho', 'Elote', 'Tostón', 'Bizcocho', 'Garbanzo', 'Turrón', 'Chicharrón'],
-    hembra: ['Galleta', 'Croqueta', 'Tortilla', 'Pizza', 'Empanada', 'Quesadilla', 'Papaya', 'Patata', 'Salsa', 'Mermelada', 'Aceituna', 'Paella', 'Arepa', 'Natilla', 'Rosquilla', 'Pimienta'],
+    macho: ['Churro', 'Taco', 'Nacho', 'Tamal', 'Piñón', 'Pretzel', 'Frijol', 'Waffle', 'Mostaza', 'Pistacho', 'Anís', 'Tostón', 'Bizcocho', 'Garbanzo', 'Turrón', 'Chicharrón'],
+    hembra: ['Galleta', 'Croqueta', 'Albóndiga', 'Pizza', 'Empanada', 'Quesadilla', 'Ciruela', 'Patata', 'Salsa', 'Mermelada', 'Aceituna', 'Paella', 'Avellana', 'Natilla', 'Rosquilla', 'Pimienta'],
   },
   naturaleza: {
     macho: ['Río', 'Trueno', 'Bosque', 'Roble', 'Cedro', 'Rayo', 'Sol', 'Viento', 'Musgo', 'Volcán', 'Cielo', 'Pino', 'Otoño', 'Océano', 'Cometa', 'Relámpago'],
@@ -27,9 +28,16 @@ const NAMES = {
   },
   miticos: {
     macho: ['Zeus', 'Apolo', 'Ares', 'Hermes', 'Odín', 'Loki', 'Hércules', 'Aquiles', 'Perseo', 'Poseidón', 'Orión', 'Quetzal', 'Atlas', 'Eros', 'Hades', 'Ulises'],
-    hembra: ['Atenea', 'Afrodita', 'Artemisa', 'Hera', 'Freya', 'Isis', 'Circe', 'Pandora', 'Calipso', 'Gaia', 'Selene', 'Ixchel', 'Dafne', 'Nike', 'Medea', 'Andrómeda'],
+    hembra: ['Atenea', 'Afrodita', 'Artemisa', 'Hera', 'Freya', 'Iris', 'Circe', 'Pandora', 'Calipso', 'Gaia', 'Selene', 'Ixchel', 'Dafne', 'Temis', 'Medea', 'Andrómeda'],
   },
 };
+
+for (const page of NAME_PAGES) {
+  for (const { style, sex, names } of page.sections) {
+    const targets = sex === 'todos' ? ['macho', 'hembra'] : [sex];
+    for (const target of targets) NAMES[style][target].push(...names.map((entry) => parseName(entry).name));
+  }
+}
 
 const normalize = (text) => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
 

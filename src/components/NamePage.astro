@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from './Icon.astro';
+import PageHero from './PageHero.astro';
+import { NAME_PAGES, countNames, parseName } from '../lib/nameLists.js';
+
+interface Props { path: string }
+const page = NAME_PAGES.find((item) => item.path === Astro.props.path)!;
+const total = countNames(page);
+const url = `/nombres/${page.path}/`;
+const isDog = page.species === 'dog';
+const hub = NAME_PAGES.find((item) => item.species === page.species && item.sex === 'todos')!;
+const crumbs = [{ name: 'Inicio', path: '/' }];
+if (page !== hub) crumbs.push({ name: hub.label, path: `/nombres/${hub.path}/` });
+crumbs.push({ name: page.label, path: url });
+
+const related = NAME_PAGES.filter((item) => item !== page);
+const jumpLabel = (item: { title: string; sex: string }) => {
+  const base = item.title
+    .replace(/^Nombres /, '')
+    .replace(/\s+para\s+(perros|perritas|perras|gatos|gatas)(\s+\p{L}+)?$/u, '')
+    .replace(/^./, (letter) => letter.toUpperCase());
+  const paired = page.sections.filter((other) => other.title.split(' ')[1] === item.title.split(' ')[1]).length > 1;
+  return paired ? `${base} (${item.sex})` : base;
+};
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${page.h1}: ${total} ideas`,
+    inLanguage: 'es',
+    datePublished: '2026-11-18',
+    dateModified: '2026-11-18',
+    mainEntityOfPage: new URL(url, Astro.site).href,
+    publisher: { '@type': 'Organization', name: 'Ladrimiau' },
+    author: { '@type': 'Organization', name: 'Ladrimiau' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: page.faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  },
+];
+---
+<Base
+  title={`${page.h1}: ${total} ideas | Ladrimiau`}
+  description={`${total} ${page.h1.toLowerCase()}. ${page.lead}`}
+  jsonLd={jsonLd}
+  crumbs={crumbs}
+>
+  <PageHero title={page.h1} lead={`${total} ideas. ${page.lead}`} icon={isDog ? 'dog' : 'cat'} tone={isDog ? 'teal' : 'coral'} />
+
+  <a class:list={['name-cta', isDog ? 'cta-dog' : 'cta-cat']} href="/nombres/generador/">
+    <Icon name="shuffle" size={20} /> ¿No te decides? Prueba el generador
+  </a>
+
+  <nav class="jump" aria-label="Secciones de esta página">
+    {page.sections.map((item) => <a href={`#${item.id}`}>{jumpLabel(item)}</a>)}
+  </nav>
+
+  {page.sections.map((item) => (
+    <section id={item.id} class="name-section">
+      <h2>{item.title}</h2>
+      <p>{item.intro}</p>
+      <ul class:list={['name-grid', isDog ? 'names-dog' : 'names-cat']}>
+        {item.names.map((entry) => {
+          const { name, meaning } = parseName(entry);
+          return <li>{name}{meaning && <small>{meaning}</small>}</li>;
+        })}
+      </ul>
+    </section>
+  ))}
+
+  <h2>Cómo elegir el nombre</h2>
+  <ul class="steps good">
+    {page.tips.map((tip) => <li><Icon name="circle-check" size={20} /><span>{tip}</span></li>)}
+  </ul>
+
+  <h2>Preguntas frecuentes</h2>
+  {page.faq.map(({ q, a }) => (
+    <>
+      <h3>{q}</h3>
+      <p>{a}</p>
+    </>
+  ))}
+
+  <h2>Más ideas de nombres</h2>
+  <ul class="tools">
+    {related.map((item) => (
+      <li>
+        <a class="tool" href={`/nombres/${item.path}/`}>
+          <span class:list={['tool-icon', item.species === 'dog' ? 'soft-teal' : 'soft-coral']}><Icon name={item.species === 'dog' ? 'dog' : 'cat'} /></span>
+          <span><strong>{item.label}</strong><span class="text">{countNames(item)} ideas</span></span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>
+
+<style is:global>
+  .name-cta { display: flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 3.1rem; padding: 0.5rem 1rem; border-radius: 14px; color: #fff; font-weight: 800; text-align: center; text-decoration: none; }
+  .cta-dog { background: var(--teal-dark); }
+  .cta-cat { background: var(--coral-dark); }
+  .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
+  .jump a { display: inline-flex; align-items: center; min-height: 2.5rem; padding: 0.25rem 0.8rem; border-radius: 999px; background: #f6ecdf; color: var(--ink); font-size: 0.9rem; font-weight: 700; text-decoration: none; }
+  .jump a:hover { background: #eddcc7; }
+  .name-section { scroll-margin-top: 7.5rem; }
+  .name-section > p { margin: 0; color: var(--muted); }
+  .names-dog li { background: var(--teal-soft); color: var(--teal-dark); }
+  .names-cat li { background: var(--coral-soft); color: var(--coral-dark); }
+  .name-grid small { display: block; margin-top: 0.1rem; font-size: 0.78rem; font-weight: 600; line-height: 1.25; }
+</style>

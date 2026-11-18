@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import PageHero from '../../components/PageHero.astro';
 import { STYLES, listNames } from '../../lib/names.js';
+import { NAME_PAGES, countNames } from '../../lib/nameLists.js';
 
 const path = '/nombres/generador/';
 const total = listNames().length;
@@ -47,6 +48,18 @@ const jsonLd = [
     <ul class="name-grid" data-names aria-live="polite"></ul>
     <p class="error" data-error role="alert"></p>
   </form>
+
+  <h2>Listas de nombres</h2>
+  <ul class="tools">
+    {NAME_PAGES.map((item) => (
+      <li>
+        <a class="tool" href={`/nombres/${item.path}/`}>
+          <span class:list={['tool-icon', item.species === 'dog' ? 'soft-teal' : 'soft-coral']}><Icon name={item.species === 'dog' ? 'dog' : 'cat'} /></span>
+          <span><strong>{item.label}</strong><span class="text">{countNames(item)} ideas</span></span>
+        </a>
+      </li>
+    ))}
+  </ul>
 
   <h2>Preguntas frecuentes</h2>
   {faq.map(({ q, a }) => (
