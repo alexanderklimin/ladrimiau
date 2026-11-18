@@ -1,0 +1,9 @@
+---
+import FoodPage from '../../../components/FoodPage.astro';
+import { FOODS } from '../../../lib/foods.js';
+
+export function getStaticPaths() {
+  return FOODS.cat.map((item) => ({ params: { slug: item.slug } }));
+}
+---
+<FoodPage species="cat" slug={Astro.params.slug} />

@@ -1,0 +1,12 @@
+---
+import Icon from './Icon.astro';
+import FoodEmoji from './FoodEmoji.astro';
+
+interface Props { title: string; lead: string; icon: string; tone?: 'coral' | 'teal' | 'grape' | 'sun'; emoji?: string }
+const { title, lead, icon, tone = 'coral', emoji } = Astro.props;
+---
+<header class:list={['hero', `tone-${tone}`]}>
+  <span class="hero-badge">{emoji ? <FoodEmoji emoji={emoji} class="hero-emoji" eager /> : <Icon name={icon as never} size={30} />}</span>
+  <h1>{title}</h1>
+  <p class="lead">{lead}</p>
+</header>

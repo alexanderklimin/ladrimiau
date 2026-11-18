@@ -8,7 +8,7 @@ export const GESTATION = Object.freeze({
     ovulation: Object.freeze({ min: 64, likely: 65, max: 66 }),
   }),
   cat: Object.freeze({
-    mating: Object.freeze({ min: 63, likely: 65, max: 67 }),
+    mating: Object.freeze({ min: 64, likely: 65, max: 66 }),
   }),
 });
 

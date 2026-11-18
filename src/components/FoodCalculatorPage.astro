@@ -1,5 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icon from './Icon.astro';
+import PageHero from './PageHero.astro';
 import { FACTORS } from '../lib/energy.js';
 
 interface Props { species: 'dog' | 'cat' }
@@ -95,8 +97,7 @@ const jsonLd = [
   jsonLd={jsonLd}
   crumbs={[{ name: 'Inicio', path: '/' }, { name: copy.crumb, path: copy.path }]}
 >
-  <h1>{copy.h1}</h1>
-  <p class="lead">{copy.lead}</p>
+  <PageHero title={copy.h1} lead={copy.lead} icon={species === 'dog' ? 'dog' : 'cat'} tone="teal" />
 
   <form class="card" data-food-calculator data-species={species} novalidate>
     <div class="field">
@@ -117,7 +118,7 @@ const jsonLd = [
       <input id="density" name="density" type="number" inputmode="decimal" min="1" step="1" value="350" required />
       <small>Cambia el valor por el que aparece en el envase. 350 es solo un ejemplo de alimento seco.</small>
     </div>
-    <button type="submit">Calcular ración</button>
+    <button class="btn-teal" type="submit"><Icon name="utensils" size={20} /> Calcular ración</button>
     <p class="error" data-error role="alert"></p>
     <div class="result" data-result aria-live="polite" hidden>
       <span class="big" data-grams></span>
@@ -127,6 +128,7 @@ const jsonLd = [
   </form>
 
   <div class="notice">
+    <Icon name="info" />
     <p><strong>Es una estimación.</strong> Cada animal es distinto: sigue la guía del envase y consulta a tu veterinario antes de hacer cambios importantes en su dieta.</p>
   </div>
 

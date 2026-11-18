@@ -18,11 +18,11 @@ test('dog from ovulation: 64, 65 and 66 days', () => {
   });
 });
 
-test('cat from mating: 63, 65 and 67 days', () => {
+test('cat from mating: 64, 65 and 66 days', () => {
   assert.deepEqual(estimateDueDate({ species: 'cat', date: '2026-01-01' }), {
-    earliest: '2026-03-05',
+    earliest: '2026-03-06',
     likely: '2026-03-07',
-    latest: '2026-03-09',
+    latest: '2026-03-08',
   });
 });
 

@@ -11,3 +11,9 @@
 - Превью не выложено: на сервере нет токена Cloudflare (numeroastral деплоится через Workers Builds из GitHub, в /opt/astro-es/.env токена нет, wrangler не авторизован). Нужен токен с правом Cloudflare Pages: Edit и Account ID в /opt/pets-es/.env. Wrangler 4.164.0 добавлен в devDependencies.
 - Деплой как в numeroastral (решение пользователя): Cloudflare Workers + static assets, сборка из GitHub (Workers Builds), репозиторий alexanderklimin/ladrimiau, deploy key /root/.ssh/ladrimiau_deploy, алиас github-ladrimiau. Превью на *.workers.dev вместо *.pages.dev, токен Cloudflare на сервере не нужен.
 - public/_headers: ВРЕМЕННО X-Robots-Tag noindex до запуска — удалить при публикации на ladrimiau.com, тогда же workers_dev=false.
+- Код отправлен в GitHub: alexanderklimin/ladrimiau, ветка main (d7896bd). Следующий шаг: пользователь подключает репозиторий в Cloudflare Workers Builds.
+- Превью работает: https://ladrimiau.alexander-klimin.workers.dev (Workers Builds из GitHub, noindex). Проверены страницы, 404, sitemap, заголовки и калькуляторы в браузере на ширине 360 px. Домен ladrimiau.com не подключён.
+- Новый дизайн: яркая палитра, иконки Lucide (ISC), иллюстрации продуктов Twemoji (CC BY 4.0) локально в public/food, меню на телефоне в 4 колонки.
+- Первая партия «можно ли есть»: 42 страницы для собак и 16 для кошек, плюс 2 справочника с поиском. Вердикт только при прямом подтверждении в источнике (ASPCA, Merck, AKC, PetMD); при расхождении источников берётся более осторожный. Без источника отложены: папайя, тунец и рыба для собак, чечевица, фасоль, креветки, нут, слива, мандарин, арахис; для кошек авокадо, рис, картофель, папайя, креветки, хлеб. Страницы ветеринаром не проверялись.
+- Генератор кличек: /nombres/generador/, 160 имён.
+- Беременность кошки: 64–66 дней по Merck вместо 63–67 из CLAUDE.md, второго надёжного источника на 63–67 не нашлось.

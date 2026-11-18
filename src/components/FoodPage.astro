@@ -1,0 +1,145 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from './Icon.astro';
+import FoodEmoji from './FoodEmoji.astro';
+import PageHero from './PageHero.astro';
+import { FOODS, REVIEWED_ON, SOURCES, VERDICTS, findFood } from '../lib/foods.js';
+
+interface Props { species: 'dog' | 'cat'; slug: string }
+const { species, slug } = Astro.props;
+const item = findFood(species, slug)!;
+
+const copy = {
+  dog: { folder: 'perros', animal: 'perro', plural: 'perros', article: 'tu perro', calc: '/calculadoras/comida-perro/', calcLabel: 'Calcula su ración diaria', tone: 'coral' },
+  cat: { folder: 'gatos', animal: 'gato', plural: 'gatos', article: 'tu gato', calc: '/calculadoras/comida-gato/', calcLabel: 'Calcula su ración diaria', tone: 'teal' },
+}[species];
+
+const verdict = VERDICTS[item.verdict];
+const indexPath = `/${copy.folder}/pueden-comer/`;
+const path = `${indexPath}${item.slug}/`;
+const question = `¿Los ${copy.plural} pueden comer ${item.name}?`;
+const related = FOODS[species].filter((other) => other.slug !== item.slug && other.verdict === item.verdict).slice(0, 4);
+const otherSpecies = species === 'dog' ? 'cat' : 'dog';
+const counterpart = findFood(otherSpecies, item.slug);
+const counterpartFolder = species === 'dog' ? 'gatos' : 'perros';
+const reviewed = new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${REVIEWED_ON}T00:00:00Z`));
+const howTitle = item.verdict === 'no' ? 'Qué debes hacer' : `Cómo dárselo a ${copy.article}`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: question,
+    inLanguage: 'es',
+    dateModified: REVIEWED_ON,
+    datePublished: REVIEWED_ON,
+    mainEntityOfPage: new URL(path, Astro.site).href,
+    publisher: { '@type': 'Organization', name: 'Ladrimiau' },
+    author: { '@type': 'Organization', name: 'Ladrimiau' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [{ '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: item.answer } }],
+  },
+];
+---
+<Base
+  title={`${question} ${verdict.short} | Ladrimiau`}
+  description={item.answer}
+  jsonLd={jsonLd}
+  crumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: `Qué pueden comer los ${copy.plural}`, path: indexPath },
+    { name: item.name, path },
+  ]}
+>
+  <PageHero
+    title={question}
+    lead={item.aka ? `También conocido como ${item.aka}.` : `Respuesta clara para cuidar a ${copy.article}.`}
+    icon="salad"
+    emoji={item.emoji}
+    tone={copy.tone as 'coral' | 'teal'}
+  />
+
+  <section class:list={['verdict', `v-${item.verdict}`]}>
+    <Icon name={verdict.icon as never} size={34} />
+    <div>
+      <strong>{verdict.label}</strong>
+      <p>{item.answer}</p>
+    </div>
+  </section>
+
+  {item.verdict === 'no' && (
+    <div class="notice urgent">
+      <Icon name="phone" />
+      <p><strong>Si {copy.article} ya lo ha comido,</strong> llama de inmediato a tu veterinario o a un servicio de urgencias, aunque no tenga síntomas. No intentes provocarle el vómito sin indicación veterinaria.</p>
+    </div>
+  )}
+
+  <h2>{howTitle}</h2>
+  <ul class:list={['steps', item.verdict === 'no' ? 'bad' : 'good']}>
+    {item.how.map((step) => <li><Icon name={item.verdict === 'no' ? 'circle-x' : 'circle-check'} size={20} /><span>{step}</span></li>)}
+  </ul>
+
+  <h2>Riesgos que debes conocer</h2>
+  <ul class="steps bad">
+    {item.risks.map((risk) => <li><Icon name="triangle-alert" size={20} /><span>{risk}</span></li>)}
+  </ul>
+
+  {item.verdict !== 'no' && (
+    <div class="notice">
+      <Icon name="stethoscope" />
+      <p>Introduce cada alimento poco a poco. Si {copy.article} tiene alguna enfermedad o sigue una dieta especial, consulta antes con tu veterinario.</p>
+    </div>
+  )}
+
+  <h2>Sigue explorando</h2>
+  <ul class="tools">
+    {counterpart && (
+      <li>
+        <a class="tool" href={`/${counterpartFolder}/pueden-comer/${counterpart.slug}/`}>
+          <span class="tool-icon soft-teal"><Icon name={species === 'dog' ? 'cat' : 'dog'} /></span>
+          <span><strong>¿Y los {counterpartFolder}?</strong><span class="text">Consulta la respuesta para {counterpartFolder}.</span></span>
+        </a>
+      </li>
+    )}
+    <li>
+      <a class="tool" href={copy.calc}>
+        <span class="tool-icon soft-coral"><Icon name="utensils" /></span>
+        <span><strong>{copy.calcLabel}</strong><span class="text">Calorías y gramos según su peso.</span></span>
+      </a>
+    </li>
+    <li>
+      <a class="tool" href={indexPath}>
+        <span class="tool-icon soft-grape"><Icon name="search" /></span>
+        <span><strong>Buscar otro alimento</strong><span class="text">Lista completa para {copy.plural}.</span></span>
+      </a>
+    </li>
+  </ul>
+
+  {related.length > 0 && (
+    <>
+      <h2>Alimentos con la misma respuesta</h2>
+      <ul class="food-grid">
+        {related.map((other) => (
+          <li>
+            <a class="food-link" href={`${indexPath}${other.slug}/`}>
+              <FoodEmoji emoji={other.emoji} />
+              <span class="food-name">{other.name}</span>
+              <Icon name="chevron-right" size={20} />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <section class="sources" aria-label="Fuentes">
+    <h2>Fuentes</h2>
+    <ul>
+      {item.sources.map((key) => <li><a href={SOURCES[key].url} rel="noopener">{SOURCES[key].name}</a></li>)}
+    </ul>
+    <p>Revisado el {reviewed}.</p>
+  </section>
+</Base>

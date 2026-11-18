@@ -1,0 +1,97 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from './Icon.astro';
+import FoodEmoji from './FoodEmoji.astro';
+import PageHero from './PageHero.astro';
+import { FOODS, VERDICTS } from '../lib/foods.js';
+
+interface Props { species: 'dog' | 'cat' }
+const { species } = Astro.props;
+
+const copy = {
+  dog: { folder: 'perros', animal: 'perro', plural: 'perros', crumb: 'Qué pueden comer los perros', tone: 'coral' },
+  cat: { folder: 'gatos', animal: 'gato', plural: 'gatos', crumb: 'Qué pueden comer los gatos', tone: 'teal' },
+}[species];
+
+const path = `/${copy.folder}/pueden-comer/`;
+const foods = [...FOODS[species]].sort((a, b) => a.name.localeCompare(b.name, 'es'));
+const filters = [['todos', 'Todos'], ...Object.entries(VERDICTS).map(([key, value]) => [key, value.short])];
+---
+<Base
+  title={`Qué pueden comer los ${copy.plural}: alimentos permitidos y prohibidos`}
+  description={`Busca un alimento y comprueba si tu ${copy.animal} puede comerlo: sí, con cuidado o no. Respuestas claras con fuentes veterinarias.`}
+  crumbs={[{ name: 'Inicio', path: '/' }, { name: copy.crumb, path }]}
+>
+  <PageHero
+    title={`¿Qué pueden comer los ${copy.plural}?`}
+    lead={`Busca un alimento y descubre si es seguro para tu ${copy.animal}.`}
+    icon={species === 'dog' ? 'dog' : 'cat'}
+    tone={copy.tone as 'coral' | 'teal'}
+  />
+
+  <nav class="switch" aria-label="Elige tu mascota">
+    <a href="/perros/pueden-comer/" aria-current={species === 'dog' ? 'page' : undefined}><Icon name="dog" size={20} /> Perros</a>
+    <a href="/gatos/pueden-comer/" aria-current={species === 'cat' ? 'page' : undefined}><Icon name="cat" size={20} /> Gatos</a>
+  </nav>
+
+  <div class="card" data-food-search>
+    <label for="food-query"><strong>Buscar alimento</strong></label>
+    <input id="food-query" type="search" placeholder="Ejemplo: fresas, palta, huevo…" autocomplete="off" />
+    <div class="filters" role="group" aria-label="Filtrar por respuesta">
+      {filters.map(([key, label], index) => (
+        <button type="button" data-filter={key} aria-pressed={index === 0 ? 'true' : 'false'}>{label}</button>
+      ))}
+    </div>
+  </div>
+
+  <ul class="food-grid">
+    {foods.map((item) => (
+      <li data-food data-verdict={item.verdict} data-search={`${item.name} ${item.aka}`}>
+        <a class="food-link" href={`${path}${item.slug}/`}>
+          <FoodEmoji emoji={item.emoji} />
+          <span class="food-name">{item.name}</span>
+          <span class:list={['pill', `v-${item.verdict}`]}>
+            <Icon name={VERDICTS[item.verdict].icon as never} size={15} />
+            {VERDICTS[item.verdict].short}
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="empty" data-empty aria-live="polite" hidden>No encontramos ese alimento todavía. Si tienes dudas, consulta a tu veterinario antes de dárselo.</p>
+
+  <div class="notice urgent">
+    <Icon name="phone" />
+    <p><strong>¿Ya ha comido algo peligroso?</strong> Llama a tu veterinario o a un servicio de urgencias de inmediato, aunque todavía no tenga síntomas.</p>
+  </div>
+</Base>
+
+<script>
+  const normalize = (text: string) => text.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().trim();
+  const input = document.querySelector<HTMLInputElement>('#food-query');
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
+  const items = [...document.querySelectorAll<HTMLElement>('[data-food]')];
+  const empty = document.querySelector<HTMLElement>('[data-empty]');
+  let verdict = 'todos';
+
+  const apply = () => {
+    const needle = normalize(input?.value ?? '');
+    let visible = 0;
+    for (const item of items) {
+      const show = (verdict === 'todos' || item.dataset.verdict === verdict)
+        && normalize(item.dataset.search ?? '').includes(needle);
+      item.hidden = !show;
+      if (show) visible += 1;
+    }
+    if (empty) empty.hidden = visible > 0;
+  };
+
+  input?.addEventListener('input', apply);
+  for (const button of buttons) {
+    button.addEventListener('click', () => {
+      verdict = button.dataset.filter ?? 'todos';
+      for (const other of buttons) other.setAttribute('aria-pressed', String(other === button));
+      apply();
+    });
+  }
+</script>

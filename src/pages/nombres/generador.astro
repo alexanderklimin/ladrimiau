@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import PageHero from '../../components/PageHero.astro';
+import { STYLES, listNames } from '../../lib/names.js';
+
+const path = '/nombres/generador/';
+const total = listNames().length;
+const faq = [
+  { q: '¿Cómo elegir un buen nombre para mi mascota?', a: 'Elige un nombre corto, fácil de pronunciar y que no se parezca a las órdenes que vas a enseñarle. Los nombres de una o dos sílabas suelen ser los más cómodos de usar a diario.' },
+  { q: '¿Sirven los mismos nombres para perros y gatos?', a: 'Sí. Todos los nombres del generador funcionan para perros y gatos. Puedes filtrarlos por sexo, estilo y letra inicial.' },
+];
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Generador de nombres para mascotas', url: new URL(path, Astro.site).href, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', inLanguage: 'es', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base
+  title="Generador de nombres para perros y gatos | Ladrimiau"
+  description={`Encuentra el nombre perfecto para tu perro o tu gato entre ${total} ideas. Filtra por sexo, estilo y letra inicial.`}
+  jsonLd={jsonLd}
+  crumbs={[{ name: 'Inicio', path: '/' }, { name: 'Generador de nombres', path }]}
+>
+  <PageHero title="Generador de nombres para perros y gatos" lead={`${total} ideas para encontrar el nombre perfecto.`} icon="sparkles" tone="grape" />
+
+  <form class="card" data-name-generator>
+    <div class="field">
+      <label for="sex">Sexo</label>
+      <select id="sex" name="sex">
+        <option value="todos">Cualquiera</option>
+        <option value="macho">Macho</option>
+        <option value="hembra">Hembra</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="style">Estilo</label>
+      <select id="style" name="style">
+        <option value="todos">Todos los estilos</option>
+        {Object.entries(STYLES).map(([value, label]) => <option value={value}>{label}</option>)}
+      </select>
+    </div>
+    <div class="field">
+      <label for="initial">Letra inicial (opcional)</label>
+      <input id="initial" name="initial" type="text" maxlength="1" autocomplete="off" />
+    </div>
+    <button class="btn-grape" type="submit"><Icon name="shuffle" size={20} /> Generar nombres</button>
+    <ul class="name-grid" data-names aria-live="polite"></ul>
+    <p class="error" data-error role="alert"></p>
+  </form>
+
+  <h2>Preguntas frecuentes</h2>
+  {faq.map(({ q, a }) => (
+    <>
+      <h3>{q}</h3>
+      <p>{a}</p>
+    </>
+  ))}
+</Base>
+
+<script>
+  import { generateNames } from '../../lib/names.js';
+
+  const form = document.querySelector<HTMLFormElement>('[data-name-generator]');
+  if (form) {
+    const list = form.querySelector<HTMLElement>('[data-names]')!;
+    const error = form.querySelector<HTMLElement>('[data-error]')!;
+    const render = () => {
+      const data = new FormData(form);
+      const names = generateNames({
+        sex: String(data.get('sex')),
+        style: String(data.get('style')),
+        initial: String(data.get('initial') ?? ''),
+      }, 12);
+      error.textContent = names.length ? '' : 'No hay nombres con esos filtros. Prueba con otra letra o estilo.';
+      list.replaceChildren(...names.map((name) => {
+        const item = document.createElement('li');
+        item.textContent = name;
+        return item;
+      }));
+    };
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      render();
+    });
+    render();
+  }
+</script>

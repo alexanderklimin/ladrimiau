@@ -1,32 +1,61 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import FoodEmoji from '../components/FoodEmoji.astro';
+import { FOODS, VERDICTS } from '../lib/foods.js';
 
 const tools = [
-  { href: '/calculadoras/comida-perro/', name: 'Comida para perros', text: 'Calorías y gramos al día según su peso y etapa de vida.' },
-  { href: '/calculadoras/comida-gato/', name: 'Comida para gatos', text: 'Una ración orientativa adaptada a tu gato.' },
-  { href: '/calculadoras/embarazo-perra/', name: 'Embarazo de la perra', text: 'Fecha probable de parto y rango de días.' },
-  { href: '/calculadoras/embarazo-gata/', name: 'Embarazo de la gata', text: 'Calcula cuándo pueden nacer los gatitos.' },
+  { href: '/perros/pueden-comer/', name: '¿Qué puede comer tu perro?', text: 'Busca un alimento y obtén una respuesta clara.', icon: 'dog', tone: 'soft-coral' },
+  { href: '/gatos/pueden-comer/', name: '¿Qué puede comer tu gato?', text: 'Alimentos seguros, con cuidado y prohibidos.', icon: 'cat', tone: 'soft-teal' },
+  { href: '/calculadoras/comida-perro/', name: 'Ración para perros', text: 'Calorías y gramos al día según su peso.', icon: 'utensils', tone: 'soft-sun' },
+  { href: '/calculadoras/comida-gato/', name: 'Ración para gatos', text: 'Una cantidad orientativa adaptada a tu gato.', icon: 'scale', tone: 'soft-grape' },
+  { href: '/calculadoras/embarazo-perra/', name: 'Embarazo de la perra', text: 'Fecha probable de parto y rango de días.', icon: 'calendar-heart', tone: 'soft-coral' },
+  { href: '/calculadoras/embarazo-gata/', name: 'Embarazo de la gata', text: 'Calcula cuándo pueden nacer los gatitos.', icon: 'heart', tone: 'soft-teal' },
+  { href: '/nombres/generador/', name: 'Generador de nombres', text: 'Ideas para llamar a tu nueva mascota.', icon: 'sparkles', tone: 'soft-grape' },
 ];
 
-const jsonLd = [{
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'Ladrimiau',
-  url: Astro.site?.href,
-  inLanguage: 'es',
-}];
+const popular = ['fresa', 'platano', 'sandia', 'uva', 'mango', 'manzana', 'aguacate', 'chocolate']
+  .map((slug) => FOODS.dog.find((item) => item.slug === slug))
+  .filter(Boolean);
+
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'Ladrimiau', url: Astro.site?.href, inLanguage: 'es' }];
 ---
 <Base
-  title="Ladrimiau: calculadoras y guías para perros y gatos"
-  description="Herramientas gratuitas para cuidar a tu perro o tu gato: ración diaria de comida y fecha probable de parto, con fuentes veterinarias."
+  title="Ladrimiau: qué pueden comer, calculadoras y nombres para perros y gatos"
+  description="Comprueba qué alimentos pueden comer tu perro y tu gato, calcula su ración y fecha de parto, y encuentra su nombre ideal. Gratis y con fuentes veterinarias."
   jsonLd={jsonLd}
 >
-  <h1>Cuida mejor a tu perro y a tu gato</h1>
-  <p class="lead">Calculadoras gratuitas y claras, basadas en fuentes veterinarias.</p>
-  <h2>Calculadoras</h2>
+  <header class="hero tone-coral">
+    <span class="hero-badge"><Icon name="paw-print" size={30} /></span>
+    <h1>Todo para cuidar a tu perro y a tu gato</h1>
+    <p class="lead">Respuestas claras, calculadoras gratuitas y fuentes veterinarias.</p>
+  </header>
+
+  <h2>Herramientas</h2>
   <ul class="tools">
     {tools.map((tool) => (
-      <li><a href={tool.href}><strong>{tool.name}</strong><span>{tool.text}</span></a></li>
+      <li>
+        <a class="tool" href={tool.href}>
+          <span class:list={['tool-icon', tool.tone]}><Icon name={tool.icon as never} /></span>
+          <span><strong>{tool.name}</strong><span class="text">{tool.text}</span></span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <h2>Lo más consultado para perros</h2>
+  <ul class="food-grid">
+    {popular.map((item) => (
+      <li>
+        <a class="food-link" href={`/perros/pueden-comer/${item!.slug}/`}>
+          <FoodEmoji emoji={item!.emoji} />
+          <span class="food-name">{item!.name}</span>
+          <span class:list={['pill', `v-${item!.verdict}`]}>
+            <Icon name={VERDICTS[item!.verdict].icon as never} size={15} />
+            {VERDICTS[item!.verdict].short}
+          </span>
+        </a>
+      </li>
     ))}
   </ul>
 </Base>
