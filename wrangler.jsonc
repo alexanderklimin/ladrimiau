@@ -9,6 +9,6 @@
     "not_found_handling": "404-page"
   },
   "routes": [{ "pattern": "ladrimiau.com", "custom_domain": true }],
-  "workers_dev": true,
+  "workers_dev": false,
   "preview_urls": false
 }
