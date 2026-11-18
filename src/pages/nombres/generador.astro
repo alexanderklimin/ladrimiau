@@ -94,7 +94,7 @@ const jsonLd = [
     form.addEventListener('submit', (event) => {
       event.preventDefault();
       render();
-      window.gtag?.('event', 'generate_names');
+      window.dataLayer?.push({ event: 'generate_names' });
     });
     render();
   }

@@ -1,12 +1,12 @@
 ---
-// GA4 with Consent Mode v2. Visitors in European time zones get no Google script until
+// Google Tag Manager with Consent Mode v2. Visitors in European time zones get no Google script until
 // they accept. Elsewhere analytics runs without advertising storage, and Google still
 // applies the denied default to EEA, UK and Swiss traffic by IP.
-import { GA_ID } from '../data/site.js';
+import { GTM_ID } from '../data/site.js';
 
 const EEA = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IS', 'IE', 'IT', 'LV', 'LI', 'LT', 'LU', 'MT', 'NL', 'NO', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB', 'CH'];
 ---
-{GA_ID && (
+{GTM_ID && (
   <>
     <div class="consent" id="consent" role="region" aria-label="Preferencias de cookies" hidden>
       <p>Usamos cookies de análisis para saber qué páginas son útiles y mejorar el sitio. <a href="/privacidad/">Política de privacidad y cookies</a></p>
@@ -15,7 +15,7 @@ const EEA = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', '
         <button type="button" data-consent="yes">Aceptar</button>
       </div>
     </div>
-    <script is:inline define:vars={{ GA_ID, EEA }}>
+    <script is:inline define:vars={{ GTM_ID, EEA }}>
       (function () {
         var KEY = 'ld_consent';
         var box = document.getElementById('consent');
@@ -25,22 +25,20 @@ const EEA = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', '
         var europe = /^Europe\//.test(zone) || ['Atlantic/Canary', 'Atlantic/Madeira', 'Atlantic/Azores', 'Atlantic/Reykjavik', 'Africa/Ceuta'].indexOf(zone) !== -1;
         var loaded = false;
 
-        window.dataLayer = window.dataLayer || [];
         function gtag() { window.dataLayer.push(arguments); }
 
         function load(granted) {
           if (loaded) return;
           loaded = true;
-          window.gtag = gtag;
+          window.dataLayer = window.dataLayer || [];
           var denied = { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' };
           gtag('consent', 'default', Object.assign({ analytics_storage: 'denied', region: EEA, wait_for_update: 500 }, denied));
           gtag('consent', 'default', Object.assign({ analytics_storage: 'granted' }, denied));
           if (granted !== null) gtag('consent', 'update', { analytics_storage: granted ? 'granted' : 'denied' });
-          gtag('js', new Date());
-          gtag('config', GA_ID);
+          window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
           var script = document.createElement('script');
           script.async = true;
-          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+          script.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
           document.head.appendChild(script);
         }
 

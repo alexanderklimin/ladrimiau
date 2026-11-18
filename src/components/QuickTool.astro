@@ -187,7 +187,7 @@ const tabs = [
         root.querySelector<HTMLElement>('[data-quick-kcal]')!.textContent = `Equivale a ${number.format(energy.minKcal)}–${number.format(energy.maxKcal)} kcal al día.`;
         root.querySelector<HTMLAnchorElement>('[data-quick-portion-link]')!.href = current === 'dog' ? '/calculadoras/comida-perro/' : '/calculadoras/comida-gato/';
         portionResult.hidden = false;
-        window.gtag?.('event', 'calc_food', { species: current, source: 'home' });
+        window.dataLayer?.push({ event: 'calc_food', species: current, source: 'home' });
       } catch {
         portionError.textContent = 'Revisa el peso: el valor no parece correcto para este animal.';
       }
@@ -208,7 +208,7 @@ const tabs = [
         root.querySelector<HTMLElement>('[data-quick-range]')!.textContent = `Rango posible: del ${formatDate(due.earliest)} al ${formatDate(due.latest)}.`;
         root.querySelector<HTMLAnchorElement>('[data-quick-pregnancy-link]')!.href = current === 'dog' ? '/calculadoras/embarazo-perra/' : '/calculadoras/embarazo-gata/';
         pregnancyResult.hidden = false;
-        window.gtag?.('event', 'calc_pregnancy', { species: current, source: 'home' });
+        window.dataLayer?.push({ event: 'calc_pregnancy', species: current, source: 'home' });
       } catch {
         pregnancyError.textContent = 'Revisa la fecha introducida.';
       }
