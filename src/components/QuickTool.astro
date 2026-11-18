@@ -76,12 +76,14 @@ const tabs = [
   .quick-species { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
   .quick-species input { position: absolute; opacity: 0; width: 1px; height: 1px; }
   .quick-species span { display: flex; align-items: center; justify-content: center; gap: 0.4rem; min-height: 2.75rem; border: 2px solid #9fe3d9; border-radius: 14px; background: var(--teal-soft); color: var(--teal-dark); font-weight: 800; cursor: pointer; }
+  .quick-species input[value='dog'] + span { background: var(--coral-soft); border-color: #ffc4b3; color: var(--coral-dark); }
   .quick-species input:checked + span { background: var(--teal-dark); border-color: var(--teal-dark); color: #fff; }
+  .quick-species input[value='dog']:checked + span { background: var(--coral-dark); border-color: var(--coral-dark); color: #fff; }
   .quick-species input:focus-visible + span { outline: 3px solid var(--sun); outline-offset: 2px; }
   .quick-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.25rem; margin-top: 0.75rem; padding: 0.25rem; border-radius: 16px; background: #f8eee1; }
   .quick-tabs button { flex-direction: column; gap: 0.1rem; width: 100%; min-height: 3.25rem; padding: 0.25rem; border-radius: 12px; background: transparent; color: var(--ink); font-size: 0.8rem; font-weight: 800; line-height: 1.15; box-shadow: none; }
   .quick-tabs button:hover { background: #f1e1cd; }
-  .quick-tabs button[aria-selected='true'] { background: var(--coral-dark); color: #fff; }
+  .quick-tabs button[aria-selected='true'], .quick-tabs button[aria-selected='true']:hover { background: var(--grape-dark); color: #fff; }
   .quick-panel { margin-top: 0.85rem; }
   .quick-panel[hidden] { display: none; }
   .quick-label { display: block; font-weight: 750; margin-bottom: 0.3rem; }
