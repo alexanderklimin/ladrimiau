@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { CONTACT_EMAIL, LEGAL_UPDATED } from '../data/site.js';
+---
+<Base
+  title="Aviso legal | Ladrimiau"
+  description="Condiciones de uso de Ladrimiau: información general sobre mascotas que no sustituye la consulta veterinaria."
+  crumbs={[{ name: 'Inicio', path: '/' }, { name: 'Aviso legal', path: '/aviso-legal/' }]}
+>
+  <PageHero title="Aviso legal" lead="Condiciones de uso de este sitio web." icon="book-open" tone="teal" />
+
+  <h2>Titular del sitio</h2>
+  <p>Ladrimiau es un sitio web de información sobre el cuidado de perros y gatos. Contacto: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+
+  <h2>Información veterinaria</h2>
+  <p>Los contenidos y las calculadoras ofrecen información general y resultados orientativos. No sustituyen el diagnóstico, el tratamiento ni el consejo de un veterinario. Ante cualquier duda sobre la salud de tu mascota, o si ha comido algo peligroso, consulta de inmediato a un profesional.</p>
+  <p>Revisamos el contenido con fuentes veterinarias, que citamos en cada página junto con la fecha de revisión. Aun así, puede contener errores o quedar desactualizado. Si detectas alguno, <a href="/contacto/">avísanos</a>.</p>
+
+  <h2>Enlaces a otros sitios</h2>
+  <p>Enlazamos a fuentes externas para que puedas comprobar la información. No controlamos esos sitios ni respondemos de su contenido.</p>
+
+  <h2>Propiedad intelectual</h2>
+  <p>Los textos y el diseño de Ladrimiau pertenecen a su titular. Los iconos proceden de <a href="https://lucide.dev" rel="noopener">Lucide</a> (licencia ISC) y las ilustraciones de alimentos de <a href="https://github.com/jdecked/twemoji" rel="noopener">Twemoji</a> (licencia CC BY 4.0).</p>
+
+  <p class="sources">Última actualización: {LEGAL_UPDATED}.</p>
+</Base>

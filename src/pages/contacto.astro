@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import PageHero from '../components/PageHero.astro';
+import { CONTACT_EMAIL } from '../data/site.js';
+---
+<Base
+  title="Contacto | Ladrimiau"
+  description="Escríbenos para comunicar un error, proponer una mejora o hacer una consulta sobre Ladrimiau."
+  crumbs={[{ name: 'Inicio', path: '/' }, { name: 'Contacto', path: '/contacto/' }]}
+>
+  <PageHero title="Contacto" lead="Tu opinión nos ayuda a mejorar Ladrimiau." icon="heart" tone="teal" />
+
+  <a class="name-cta cta-dog" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+
+  <h2>Escríbenos si quieres</h2>
+  <ul class="steps good">
+    <li><Icon name="circle-check" size={20} /><span>Avisarnos de un error en un alimento, una calculadora o una fuente.</span></li>
+    <li><Icon name="circle-check" size={20} /><span>Proponer un alimento, una herramienta o un tema nuevo.</span></li>
+    <li><Icon name="circle-check" size={20} /><span>Ejercer tus derechos sobre tus datos personales.</span></li>
+  </ul>
+
+  <div class="notice urgent">
+    <Icon name="phone" />
+    <p><strong>No atendemos consultas veterinarias ni urgencias.</strong> Si tu mascota ha comido algo peligroso o se encuentra mal, llama de inmediato a tu veterinario o a un servicio de urgencias.</p>
+  </div>
+</Base>
+
+<style is:global>
+  .name-cta { display: flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 3.1rem; padding: 0.5rem 1rem; border-radius: 14px; color: #fff; font-weight: 800; text-align: center; text-decoration: none; overflow-wrap: anywhere; }
+  .cta-dog { background: var(--teal-dark); }
+</style>

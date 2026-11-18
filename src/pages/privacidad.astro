@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { CONTACT_EMAIL, LEGAL_UPDATED } from '../data/site.js';
+---
+<Base
+  title="Política de privacidad y cookies | Ladrimiau"
+  description="Qué datos trata Ladrimiau, para qué los usa y qué derechos tienes. El sitio no usa cookies ni herramientas de seguimiento."
+  crumbs={[{ name: 'Inicio', path: '/' }, { name: 'Privacidad', path: '/privacidad/' }]}
+>
+  <PageHero title="Política de privacidad y cookies" lead="Usamos el mínimo de datos posible." icon="info" tone="teal" />
+
+  <h2>Resumen</h2>
+  <p>Ladrimiau no te pide registrarte, no usa cookies y no incluye herramientas de analítica ni publicidad. Los datos que introduces en las calculadoras y en el generador de nombres se procesan en tu navegador y no se envían a nuestros servidores.</p>
+
+  <h2>Responsable</h2>
+  <p>El responsable del tratamiento es el titular de Ladrimiau. Puedes contactar con él en <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+
+  <h2>Datos que tratamos</h2>
+  <h3>Datos técnicos de la conexión</h3>
+  <p>Al visitar el sitio, nuestro proveedor de alojamiento, Cloudflare, Inc., trata datos técnicos como la dirección IP y el tipo de navegador para entregar las páginas y proteger el servicio. La base legal es nuestro interés legítimo en mantener el sitio seguro y en funcionamiento. Cloudflare puede tratar estos datos fuera de tu país, incluido Estados Unidos, conforme a sus propias garantías de protección de datos.</p>
+  <h3>Mensajes que nos envías</h3>
+  <p>Si nos escribes por correo electrónico, usamos tu dirección y tu mensaje solo para responderte. Los conservamos mientras sea necesario para atender tu consulta. La base legal es tu consentimiento al escribirnos.</p>
+
+  <h2>Cookies</h2>
+  <p>Este sitio no instala cookies propias ni de terceros y no guarda información en tu dispositivo. Si esto cambia, por ejemplo al incorporar publicidad o analítica, actualizaremos esta página y te pediremos el consentimiento cuando la ley lo exija.</p>
+
+  <h2>Tus derechos</h2>
+  <p>Puedes solicitar el acceso, la rectificación, la supresión, la limitación o la portabilidad de tus datos, y oponerte a su tratamiento, escribiendo a <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. También puedes presentar una reclamación ante la autoridad de protección de datos de tu país. En España es la Agencia Española de Protección de Datos.</p>
+
+  <p class="sources">Última actualización: {LEGAL_UPDATED}.</p>
+</Base>
