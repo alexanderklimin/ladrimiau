@@ -63,7 +63,7 @@ if (crumbs.length) {
       <div class="wrap bar">
         <a class="brand" href="/" aria-label="Ladrimiau, inicio">
           <span class="brand-mark"><Icon name="paw-print" size={22} /></span>
-          Ladrimiau
+          <span><span class="brand-ladri">Ladri</span><span class="brand-miau">miau</span></span>
         </a>
         <nav aria-label="Principal">
           {nav.map((item) => (
@@ -149,7 +149,7 @@ if (crumbs.length) {
   a { color: var(--coral-dark); text-underline-offset: 0.15em; }
   h1, h2, h3 { line-height: 1.18; letter-spacing: -0.015em; }
   h1 { font-size: clamp(1.9rem, 6vw, 3rem); font-weight: 850; margin: 0.6rem 0 0.6rem; }
-  h2 { font-size: 1.5rem; font-weight: 800; margin: 2.25rem 0 0.7rem; }
+  h2 { font-size: 1.5rem; font-weight: 800; margin: 2.25rem 0 0.7rem; color: var(--teal-dark); }
   h3 { font-size: 1.12rem; font-weight: 750; margin: 1.25rem 0 0.25rem; }
   .icon { flex: none; vertical-align: -0.2em; }
   .lead { font-size: 1.15rem; margin: 0; }
@@ -164,6 +164,8 @@ if (crumbs.length) {
     .bar .brand { justify-self: center; }
   }
   .brand { display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 900; font-size: 1.3rem; color: var(--ink); text-decoration: none; }
+  .brand-ladri { color: var(--teal-dark); }
+  .brand-miau { color: var(--coral-dark); }
   .brand-mark { display: inline-grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 12px; color: #fff; background: linear-gradient(135deg, var(--teal-dark), #12a594); }
   .bar nav { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; max-width: 100%; }
   .bar nav a { display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; min-height: 2.5rem; padding: 0.3rem 0.6rem; border-radius: 999px; color: var(--ink); font-weight: 700; font-size: 0.9rem; text-decoration: none; }
