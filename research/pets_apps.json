@@ -1,0 +1,8402 @@
+[
+ {
+  "id": 328453619,
+  "name": "Care.com: Hire Caregivers",
+  "seller": "Care.com, Inc.",
+  "genre": "Lifestyle",
+  "released": "2009-10-10",
+  "updated": "2026-11-11",
+  "rating": 4.40599,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 43619
+  },
+  "hits": {
+   "us": [
+    "pet care#10"
+   ]
+  }
+ },
+ {
+  "id": 445358235,
+  "name": "¡Rompecabezas! Para adultos",
+  "seller": "M2H B.V.",
+  "genre": "Games",
+  "released": "2011-07-01",
+  "updated": "2026-11-11",
+  "rating": 4.58934,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 319
+  },
+  "hits": {
+   "mx": [
+    "app para perros#16",
+    "app para gatos#19"
+   ]
+  }
+ },
+ {
+  "id": 448923379,
+  "name": "Dog Buddy - Activities & Log",
+  "seller": "倩 赵",
+  "genre": "Medical",
+  "released": "2011-07-14",
+  "updated": "2026-07-14",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2
+  },
+  "hits": {
+   "es": [
+    "diario mascota#15"
+   ]
+  }
+ },
+ {
+  "id": 464511058,
+  "name": "Traductor Humano-Gato",
+  "seller": "Electric French Fries Inc.",
+  "genre": "Entertainment",
+  "released": "2011-09-15",
+  "updated": "2023-11-22",
+  "rating": 4.36491,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 781,
+   "es": 382,
+   "us": 8204
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#12",
+    "traductor perro#21"
+   ],
+   "es": [
+    "app para gatos#9"
+   ],
+   "us": [
+    "cat pain scan#12"
+   ]
+  }
+ },
+ {
+  "id": 527098118,
+  "name": "Catlendario Y Diario",
+  "seller": "Webi & Neti Internet Services Inc.",
+  "genre": "Productivity",
+  "released": "2012-10-16",
+  "updated": "2026-03-27",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 39,
+  "ratings": {
+   "mx": 3
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#19"
+   ]
+  }
+ },
+ {
+  "id": 529818833,
+  "name": "Pet World Refugio de animales",
+  "seller": "Trophy Games Development A/S",
+  "genre": "Games",
+  "released": "2012-10-04",
+  "updated": "2024-12-03",
+  "rating": 3.7234,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 94,
+   "es": 145
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#18",
+    "veterinario#4"
+   ],
+   "es": [
+    "cuidado de mascotas#12",
+    "veterinario#1"
+   ]
+  }
+ },
+ {
+  "id": 533173905,
+  "name": "MY LITTLE PONY: mágico",
+  "seller": "Gameloft",
+  "genre": "Games",
+  "released": "2012-11-08",
+  "updated": "2026-10-21",
+  "rating": 4.53233,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 943
+  },
+  "hits": {
+   "es": [
+    "mascotas#13"
+   ]
+  }
+ },
+ {
+  "id": 547320928,
+  "name": "Rover: Cuidado de mascotas",
+  "seller": "A Place for Rover, Inc.",
+  "genre": "Travel",
+  "released": "2019-05-21",
+  "updated": "2026-11-17",
+  "rating": 4.73088,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 6332,
+   "us": 519390
+  },
+  "hits": {
+   "es": [
+    "mascotas#4",
+    "cuidado de mascotas#1",
+    "app para perros#16"
+   ],
+   "us": [
+    "pet care#2"
+   ]
+  }
+ },
+ {
+  "id": 567978689,
+  "name": "Catlendario Y Diario Lite",
+  "seller": "Webi & Neti Internet Services Inc.",
+  "genre": "Productivity",
+  "released": "2012-10-19",
+  "updated": "2026-03-27",
+  "rating": 4.42105,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 19,
+   "es": 2
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#10"
+   ],
+   "es": [
+    "diario mascota#7"
+   ]
+  }
+ },
+ {
+  "id": 573647544,
+  "name": "Vetsmart Cães e Gatos",
+  "seller": "Petsupermarket Comercio de Produtos para a Animais SA",
+  "genre": "Medical",
+  "released": "2012-11-21",
+  "updated": "2026-09-25",
+  "rating": 4.78571,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 14,
+   "es": 10
+  },
+  "hits": {
+   "mx": [
+    "veterinario#21"
+   ],
+   "es": [
+    "veterinario#21"
+   ]
+  }
+ },
+ {
+  "id": 582639260,
+  "name": "zooplus: todo para tu mascota",
+  "seller": "Zooplus SE",
+  "genre": "Shopping",
+  "released": "2017-10-30",
+  "updated": "2026-11-17",
+  "rating": 4.77137,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 46040
+  },
+  "hits": {
+   "es": [
+    "mascotas#7",
+    "cuidado de mascotas#15",
+    "app para perros#18"
+   ]
+  }
+ },
+ {
+  "id": 590313331,
+  "name": "PetFetch - Organizador Mascota",
+  "seller": "Michael Peterson",
+  "genre": "Lifestyle",
+  "released": "2013-01-20",
+  "updated": "2026-09-08",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "us": 16
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#1"
+   ],
+   "us": [
+    "pet vaccine reminder#14"
+   ]
+  }
+ },
+ {
+  "id": 626789870,
+  "name": "Monitor de perro",
+  "seller": "TappyTaps s.r.o.",
+  "genre": "Lifestyle",
+  "released": "2013-08-16",
+  "updated": "2026-10-12",
+  "rating": 4.63999,
+  "es": true,
+  "iap": null,
+  "price": 7.99,
+  "ratings": {
+   "es": 25
+  },
+  "hits": {
+   "es": [
+    "salud perro#18"
+   ]
+  }
+ },
+ {
+  "id": 631377773,
+  "name": "PetDesk",
+  "seller": "PetDesk, LLC",
+  "genre": "Lifestyle",
+  "released": "2013-04-22",
+  "updated": "2026-11-17",
+  "rating": 4.85911,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 513487
+  },
+  "hits": {
+   "us": [
+    "pet care#4",
+    "pet health tracker#3",
+    "dog health#1",
+    "cat health#2"
+   ]
+  }
+ },
+ {
+  "id": 631738108,
+  "name": "Memoria Juego con Animales",
+  "seller": "Sergio Licea",
+  "genre": "Games",
+  "released": "2013-04-24",
+  "updated": "2026-10-14",
+  "rating": 4.30105,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 9540
+  },
+  "hits": {
+   "mx": [
+    "app para perros#21"
+   ]
+  }
+ },
+ {
+  "id": 657500465,
+  "name": "Mi Talking Tom",
+  "seller": "Outfit7 Limited",
+  "genre": "Games",
+  "released": "2013-11-13",
+  "updated": "2026-10-05",
+  "rating": 4.41622,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 87441,
+   "es": 17065
+  },
+  "hits": {
+   "mx": [
+    "mascotas#8"
+   ],
+   "es": [
+    "mascotas#3"
+   ]
+  }
+ },
+ {
+  "id": 706099830,
+  "name": "My Boo: Mascota virtual mona",
+  "seller": "TPG TECNOLOGIA DA INFORMACAO LTDA",
+  "genre": "Games",
+  "released": "2013-09-25",
+  "updated": "2026-11-05",
+  "rating": 4.29786,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 658
+  },
+  "hits": {
+   "es": [
+    "mascotas#21"
+   ]
+  }
+ },
+ {
+  "id": 783484669,
+  "name": "Mi futuro trabajo: Veterinario. Mi primera consulta de animales",
+  "seller": "Tivola Games GmbH",
+  "genre": "Games",
+  "released": "2014-05-29",
+  "updated": "2015-05-13",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 19,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "veterinario#25"
+   ]
+  }
+ },
+ {
+  "id": 799061555,
+  "name": "Banfield Pet Hospital",
+  "seller": "Medical Management International Inc.",
+  "genre": "Medical",
+  "released": "2014-02-04",
+  "updated": "2026-09-29",
+  "rating": 4.84354,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 124629
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#8"
+   ]
+  }
+ },
+ {
+  "id": 854574906,
+  "name": "My Virtual Pet Shop: Salón Vet",
+  "seller": "TPG TECNOLOGIA DA INFORMACAO LTDA",
+  "genre": "Games",
+  "released": "2014-04-30",
+  "updated": "2026-10-28",
+  "rating": 4.73869,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2744,
+   "es": 1730,
+   "us": 14975
+  },
+  "hits": {
+   "mx": [
+    "mascotas#3",
+    "cuidado de mascotas#10",
+    "veterinario#1"
+   ],
+   "es": [
+    "mascotas#10",
+    "cuidado de mascotas#17",
+    "veterinario#3"
+   ],
+   "us": [
+    "pet care#20"
+   ]
+  }
+ },
+ {
+  "id": 897974742,
+  "name": "Memoria, Juego con Animales",
+  "seller": "Sergio Licea",
+  "genre": "Games",
+  "released": "2014-08-08",
+  "updated": "2026-10-13",
+  "rating": 4.30664,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1836
+  },
+  "hits": {
+   "mx": [
+    "app para perros#18"
+   ]
+  }
+ },
+ {
+  "id": 921588809,
+  "name": "Tractive GPS para perro y gato",
+  "seller": "tractive GmbH",
+  "genre": "Lifestyle",
+  "released": "2015-03-19",
+  "updated": "2026-11-16",
+  "rating": 4.83607,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 976,
+   "es": 11155
+  },
+  "hits": {
+   "mx": [
+    "salud perro#1"
+   ],
+   "es": [
+    "salud perro#1",
+    "app para perros#11",
+    "app para gatos#11"
+   ]
+  }
+ },
+ {
+  "id": 934948619,
+  "name": "GreatPetCare",
+  "seller": "Pawprint Acquisition, LLC",
+  "genre": "Lifestyle",
+  "released": "2014-11-12",
+  "updated": "2026-10-26",
+  "rating": 4.49237,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2163
+  },
+  "hits": {
+   "us": [
+    "pet care#12",
+    "pet health tracker#2",
+    "pet vaccine reminder#5"
+   ]
+  }
+ },
+ {
+  "id": 935328165,
+  "name": "Vetsmart Bovinos e Equinos",
+  "seller": "Petsupermarket Comercio de Produtos para a Animais SA",
+  "genre": "Medical",
+  "released": "2014-11-19",
+  "updated": "2026-09-24",
+  "rating": 4.14286,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 7
+  },
+  "hits": {
+   "mx": [
+    "veterinario#20"
+   ]
+  }
+ },
+ {
+  "id": 940734609,
+  "name": "Wag! - Dog Walkers & Sitters",
+  "seller": "Wag Labs, Inc",
+  "genre": "Travel",
+  "released": "2014-12-23",
+  "updated": "2026-11-12",
+  "rating": 4.76483,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 67964
+  },
+  "hits": {
+   "us": [
+    "pet care#13"
+   ]
+  }
+ },
+ {
+  "id": 940738731,
+  "name": "Wag! Pet Caregiver",
+  "seller": "Wag Labs, Inc",
+  "genre": "Travel",
+  "released": "2021-03-01",
+  "updated": "2026-11-04",
+  "rating": 4.70113,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 19029
+  },
+  "hits": {
+   "us": [
+    "pet care#7"
+   ]
+  }
+ },
+ {
+  "id": 941681115,
+  "name": "Médico del hospital mascotas",
+  "seller": "Les Placements R.A. Inc.",
+  "genre": "Games",
+  "released": "2014-11-20",
+  "updated": "2026-04-09",
+  "rating": 4.31349,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1142
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#13",
+    "app para perros#15"
+   ]
+  }
+ },
+ {
+  "id": 955252538,
+  "name": "VitusVet Pet Medical Records",
+  "seller": "Vitus Animal Health, Inc.",
+  "genre": "Lifestyle",
+  "released": "2015-01-17",
+  "updated": "2026-11-11",
+  "rating": 4.86095,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 10773
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#14",
+    "pet vaccine reminder#24"
+   ]
+  }
+ },
+ {
+  "id": 962039537,
+  "name": "InstaKitty3D",
+  "seller": "HappyGiant, LLC",
+  "genre": "Games",
+  "released": "2015-05-14",
+  "updated": "2018-06-15",
+  "rating": 4.67354,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 242
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#21"
+   ]
+  }
+ },
+ {
+  "id": 966632083,
+  "name": "My Virtual Bear - Juego Gratis de Mascota y Animal Virtual",
+  "seller": "TPG TECNOLOGIA DA INFORMACAO LTDA",
+  "genre": "Games",
+  "released": "2015-03-06",
+  "updated": "2015-11-03",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "mascotas#15"
+   ]
+  }
+ },
+ {
+  "id": 973183563,
+  "name": "Mi Veterinario",
+  "seller": "Quality Compusoft S.L.",
+  "genre": "Medical",
+  "released": "2015-12-08",
+  "updated": "2019-01-18",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "es": 360
+  },
+  "hits": {
+   "mx": [
+    "veterinario#13"
+   ],
+   "es": [
+    "veterinario#5"
+   ]
+  }
+ },
+ {
+  "id": 974533839,
+  "name": "Doctora de mascotitas",
+  "seller": "BWEB SARL",
+  "genre": "Games",
+  "released": "2015-07-08",
+  "updated": "2021-10-29",
+  "rating": 4.44149,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3547,
+   "es": 950
+  },
+  "hits": {
+   "mx": [
+    "veterinario#7"
+   ],
+   "es": [
+    "veterinario#10"
+   ]
+  }
+ },
+ {
+  "id": 980579005,
+  "name": "NyanPass - cat data management",
+  "seller": "mitsuhiro nara",
+  "genre": "Medical",
+  "released": "2015-04-06",
+  "updated": "2026-03-15",
+  "rating": 4.59999,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 10
+  },
+  "hits": {
+   "us": [
+    "cat health#19"
+   ]
+  }
+ },
+ {
+  "id": 991283955,
+  "name": "TheDayBefore(Contador de días)",
+  "seller": "TheDayBefore, Inc.",
+  "genre": "Lifestyle",
+  "released": "2015-05-13",
+  "updated": "2026-11-17",
+  "rating": 4.80732,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1038,
+   "es": 167
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#16"
+   ],
+   "es": [
+    "diario mascota#14"
+   ]
+  }
+ },
+ {
+  "id": 992944298,
+  "name": "Salón para perritos y gatitos",
+  "seller": "Les Placements R.A. Inc.",
+  "genre": "Games",
+  "released": "2015-08-20",
+  "updated": "2022-01-13",
+  "rating": 4.3236,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 11366,
+   "es": 2765
+  },
+  "hits": {
+   "mx": [
+    "app para perros#11"
+   ],
+   "es": [
+    "app para perros#7",
+    "app para gatos#18",
+    "veterinario#25"
+   ]
+  }
+ },
+ {
+  "id": 998176001,
+  "name": "World de juego casa de muñecas",
+  "seller": "MY TOWN GAMES LTD",
+  "genre": "Education",
+  "released": "2015-07-23",
+  "updated": "2026-10-28",
+  "rating": 4.42224,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 6565
+  },
+  "hits": {
+   "es": [
+    "veterinario#12"
+   ]
+  }
+ },
+ {
+  "id": 1015306725,
+  "name": "My Kitten (Cat Simulator)",
+  "seller": "Anton Tonev",
+  "genre": "Entertainment",
+  "released": "2015-07-23",
+  "updated": "2025-05-13",
+  "rating": 4.46914,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 243
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#22"
+   ]
+  }
+ },
+ {
+  "id": 1036140513,
+  "name": "IMAIOS vet-Anatomy",
+  "seller": "IMAIOS",
+  "genre": "Education",
+  "released": "2015-09-29",
+  "updated": "2026-11-16",
+  "rating": 4.85074,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 67,
+   "es": 42
+  },
+  "hits": {
+   "mx": [
+    "veterinario#3"
+   ],
+   "es": [
+    "veterinario#7"
+   ]
+  }
+ },
+ {
+  "id": 1046837813,
+  "name": "Monitor de perro Annie",
+  "seller": "Dog Monitor s.r.o.",
+  "genre": "Lifestyle",
+  "released": "2016-01-17",
+  "updated": "2026-10-19",
+  "rating": 4,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 7
+  },
+  "hits": {
+   "es": [
+    "salud perro#17"
+   ]
+  }
+ },
+ {
+  "id": 1048613064,
+  "name": "Juegos de cuidado veterinario",
+  "seller": "Pazu Games Ltd",
+  "genre": "Games",
+  "released": "2015-10-24",
+  "updated": "2026-11-11",
+  "rating": 4.58213,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 347,
+   "es": 195
+  },
+  "hits": {
+   "mx": [
+    "veterinario#17"
+   ],
+   "es": [
+    "veterinario#22"
+   ]
+  }
+ },
+ {
+  "id": 1051659665,
+  "name": "Salón para Caballos Mascota",
+  "seller": "BWEB SARL",
+  "genre": "Games",
+  "released": "2015-11-13",
+  "updated": "2021-12-17",
+  "rating": 4.43292,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1282
+  },
+  "hits": {
+   "mx": [
+    "veterinario#19"
+   ]
+  }
+ },
+ {
+  "id": 1071400859,
+  "name": "SantéVet",
+  "seller": "LA COMPAGNIE DES ANIMAUX",
+  "genre": "Medical",
+  "released": "2016-01-17",
+  "updated": "2026-11-09",
+  "rating": 4.748,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1250
+  },
+  "hits": {
+   "es": [
+    "salud perro#5"
+   ]
+  }
+ },
+ {
+  "id": 1092799236,
+  "name": "Yuka - Food & Cosmetic Scanner",
+  "seller": "Yuca",
+  "genre": "Health & Fitness",
+  "released": "2017-01-09",
+  "updated": "2026-11-12",
+  "rating": 4.81703,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 102504
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#9"
+   ]
+  }
+ },
+ {
+  "id": 1095459556,
+  "name": "Nike: todo para atletas",
+  "seller": "Nike, Inc",
+  "genre": "Shopping",
+  "released": "2017-07-19",
+  "updated": "2026-11-12",
+  "rating": 4.83226,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 69862
+  },
+  "hits": {
+   "es": [
+    "app para perros#23"
+   ]
+  }
+ },
+ {
+  "id": 1124474577,
+  "name": "Peluquería de cachorros",
+  "seller": "Les Placements R.A. Inc.",
+  "genre": "Games",
+  "released": "2016-06-16",
+  "updated": "2023-03-02",
+  "rating": 4.35698,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 5863,
+   "es": 1592
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#14"
+   ],
+   "es": [
+    "cuidado de mascotas#18"
+   ]
+  }
+ },
+ {
+  "id": 1125847588,
+  "name": "Human to Cat Translator",
+  "seller": "Dima Komar",
+  "genre": "Games",
+  "released": "2016-07-11",
+  "updated": "2022-06-22",
+  "rating": 4.57619,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 23062
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#15"
+   ]
+  }
+ },
+ {
+  "id": 1130176396,
+  "name": "Furiend: Salud de Mascota",
+  "seller": "MCRUNCHER R&D SDN BHD",
+  "genre": "Health & Fitness",
+  "released": "2016-09-04",
+  "updated": "2026-09-25",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "salud perro#23"
+   ]
+  }
+ },
+ {
+  "id": 1142565858,
+  "name": "Traductor Perro-Dog Translator",
+  "seller": "富成 魏",
+  "genre": "Utilities",
+  "released": "2016-09-06",
+  "updated": "2025-07-22",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 5
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#5"
+   ]
+  }
+ },
+ {
+  "id": 1147215836,
+  "name": "iTrainer Dog Whistle & Clicker",
+  "seller": "Jade Lizard Software LLC",
+  "genre": "Utilities",
+  "released": "2016-09-17",
+  "updated": "2025-12-24",
+  "rating": 4.46064,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 33562
+  },
+  "hits": {
+   "us": [
+    "dog training#4"
+   ]
+  }
+ },
+ {
+  "id": 1149449468,
+  "name": "Chewy - Pet Care & Pharmacy",
+  "seller": "Chewy, Inc.",
+  "genre": "Shopping",
+  "released": "2016-11-07",
+  "updated": "2026-11-13",
+  "rating": 4.91029,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1269664
+  },
+  "hits": {
+   "us": [
+    "pet care#14",
+    "dog health#3",
+    "dog training#11"
+   ]
+  }
+ },
+ {
+  "id": 1153294767,
+  "name": "Dogo Adiestramiento & Clicker",
+  "seller": "Dogo App GmbH",
+  "genre": "Education",
+  "released": "2016-12-22",
+  "updated": "2026-11-10",
+  "rating": 4.85846,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2720,
+   "es": 1267,
+   "us": 17382
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#1"
+   ],
+   "es": [
+    "adiestramiento perros#1"
+   ],
+   "us": [
+    "dog health#6",
+    "dog training#3"
+   ]
+  }
+ },
+ {
+  "id": 1153421262,
+  "name": "Patio Para Perros",
+  "seller": "Uniqo Lab FZC",
+  "genre": "Entertainment",
+  "released": "2016-09-27",
+  "updated": "2026-11-18",
+  "rating": 4.49403,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 419,
+   "es": 63
+  },
+  "hits": {
+   "mx": [
+    "app para perros#4",
+    "app para gatos#14"
+   ],
+   "es": [
+    "app para perros#5"
+   ]
+  }
+ },
+ {
+  "id": 1154907335,
+  "name": "Laser Point For Cat Joke",
+  "seller": "Alina Sapolgina",
+  "genre": "Games",
+  "released": "2016-09-24",
+  "updated": "2016-09-24",
+  "rating": 1.52736,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 804
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#19"
+   ]
+  }
+ },
+ {
+  "id": 1162892504,
+  "name": "Mi Salón de Mascotas Bebé",
+  "seller": "Ninjafish Studios LLC",
+  "genre": "Games",
+  "released": "2016-10-12",
+  "updated": "2026-09-19",
+  "rating": 4.51955,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1432
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#21"
+   ]
+  }
+ },
+ {
+  "id": 1165273364,
+  "name": "Cuidado de mascotas(Care Pet)",
+  "seller": "志荣 胡",
+  "genre": "Games",
+  "released": "2016-10-19",
+  "updated": "2016-10-19",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "cuidado de mascotas#24"
+   ]
+  }
+ },
+ {
+  "id": 1166542799,
+  "name": "Laser Pointer for Cat",
+  "seller": "Astrologic Games LTDA",
+  "genre": "Entertainment",
+  "released": "2016-10-18",
+  "updated": "2026-07-17",
+  "rating": 3.41368,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 614
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#14"
+   ]
+  }
+ },
+ {
+  "id": 1174404481,
+  "name": "HappyCats un juego para Gatos",
+  "seller": "Penji Games B.V.",
+  "genre": "Games",
+  "released": "2016-11-13",
+  "updated": "2019-01-11",
+  "rating": 4.18519,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 27
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#20"
+   ]
+  }
+ },
+ {
+  "id": 1181084226,
+  "name": "Tiendanimal",
+  "seller": "TIENDANIMAL COMERCIO ELECTRONICO DE ARTICULOS PARA MASCOTAS SL",
+  "genre": "Shopping",
+  "released": "2016-12-07",
+  "updated": "2026-11-05",
+  "rating": 4.40079,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2021
+  },
+  "hits": {
+   "es": [
+    "mascotas#22"
+   ]
+  }
+ },
+ {
+  "id": 1194697604,
+  "name": "Traductor de Perros",
+  "seller": "Astrologic Games LTDA",
+  "genre": "Entertainment",
+  "released": "2017-01-16",
+  "updated": "2019-12-14",
+  "rating": 3.11494,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 87
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#15"
+   ]
+  }
+ },
+ {
+  "id": 1199338956,
+  "name": "Puppr - Dog Training & Tricks",
+  "seller": "Chin and Cheeks LLC",
+  "genre": "Lifestyle",
+  "released": "2017-06-25",
+  "updated": "2026-11-15",
+  "rating": 4.79739,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 27259
+  },
+  "hits": {
+   "us": [
+    "dog health#9",
+    "dog training#2"
+   ]
+  }
+ },
+ {
+  "id": 1209845479,
+  "name": "Traductor: Juego para perros",
+  "seller": "Dima Komar",
+  "genre": "Games",
+  "released": "2017-03-14",
+  "updated": "2026-11-12",
+  "rating": 4.48763,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1698
+  },
+  "hits": {
+   "es": [
+    "app para perros#4",
+    "app para gatos#13"
+   ]
+  }
+ },
+ {
+  "id": 1229499618,
+  "name": "Sonidos de Silbato para Perros",
+  "seller": "Filip Nikolic",
+  "genre": "Utilities",
+  "released": "2017-05-03",
+  "updated": "2023-11-30",
+  "rating": 4,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "app para perros#7"
+   ]
+  }
+ },
+ {
+  "id": 1229529595,
+  "name": "DogLog - Track your dog’s life",
+  "seller": "RSLL VENTURES INC",
+  "genre": "Lifestyle",
+  "released": "2017-04-26",
+  "updated": "2026-10-28",
+  "rating": 4.78192,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1394
+  },
+  "hits": {
+   "us": [
+    "dog health#21"
+   ]
+  }
+ },
+ {
+  "id": 1247409901,
+  "name": "Zoo Craft: Granja de Animales",
+  "seller": "Lab Cave Gaming, SL",
+  "genre": "Games",
+  "released": "2017-11-06",
+  "updated": "2026-11-11",
+  "rating": 4.32376,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 383
+  },
+  "hits": {
+   "es": [
+    "veterinario#20"
+   ]
+  }
+ },
+ {
+  "id": 1267861706,
+  "name": "My Tamagotchi Forever",
+  "seller": "BANDAI NAMCO Entertainment Europe",
+  "genre": "Games",
+  "released": "2018-03-14",
+  "updated": "2025-11-19",
+  "rating": 4.45088,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2626
+  },
+  "hits": {
+   "es": [
+    "mascotas#6"
+   ]
+  }
+ },
+ {
+  "id": 1278520013,
+  "name": "Pet Cloud",
+  "seller": "Figo Pet Insurance LLC",
+  "genre": "Productivity",
+  "released": "2018-12-20",
+  "updated": "2026-10-29",
+  "rating": 4.7873,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 9887
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#13"
+   ]
+  }
+ },
+ {
+  "id": 1282188054,
+  "name": "CuidaMiMascota",
+  "seller": "CUIDA MI MASCOTA SAPI DE CV",
+  "genre": "Lifestyle",
+  "released": "2017-12-14",
+  "updated": "2026-07-23",
+  "rating": 4.83146,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 7375
+  },
+  "hits": {
+   "mx": [
+    "mascotas#11",
+    "cuidado de mascotas#1",
+    "app para perros#22"
+   ]
+  }
+ },
+ {
+  "id": 1303269455,
+  "name": "Poop Map - Diario de popó",
+  "seller": "Poop OU",
+  "genre": "Entertainment",
+  "released": "2017-10-31",
+  "updated": "2026-11-07",
+  "rating": 4.80238,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 420,
+   "es": 850
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#9"
+   ],
+   "es": [
+    "diario mascota#2"
+   ]
+  }
+ },
+ {
+  "id": 1313470810,
+  "name": "Pet Reminder",
+  "seller": "Ege Sucu",
+  "genre": "Productivity",
+  "released": "2017-11-16",
+  "updated": "2026-10-23",
+  "rating": 4.5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#12"
+   ]
+  }
+ },
+ {
+  "id": 1313818172,
+  "name": "Dog Town: Pet & Animal Games",
+  "seller": "FRISMOS INC",
+  "genre": "Games",
+  "released": "2017-12-21",
+  "updated": "2026-11-13",
+  "rating": 4.75544,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1333
+  },
+  "hits": {
+   "es": [
+    "mascotas#8",
+    "veterinario#18"
+   ]
+  }
+ },
+ {
+  "id": 1325285117,
+  "name": "Laika- La tienda de tu mascota",
+  "seller": "PROYECTO E SAS",
+  "genre": "Shopping",
+  "released": "2018-02-21",
+  "updated": "2026-11-05",
+  "rating": 4.75735,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4830
+  },
+  "hits": {
+   "mx": [
+    "mascotas#10",
+    "app para perros#14",
+    "app para gatos#18"
+   ]
+  }
+ },
+ {
+  "id": 1368715736,
+  "name": "Petco: The Pet Parents Partner",
+  "seller": "PETCO ANIMAL SUPPLIES STORES, INC.",
+  "genre": "Shopping",
+  "released": "2018-04-30",
+  "updated": "2026-11-04",
+  "rating": 4.7398,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 422832
+  },
+  "hits": {
+   "us": [
+    "pet care#16"
+   ]
+  }
+ },
+ {
+  "id": 1394742877,
+  "name": "Juegos para gatos!",
+  "seller": "Matas Cuplinskas",
+  "genre": "Games",
+  "released": "2018-08-02",
+  "updated": "2023-09-15",
+  "rating": 3.57637,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 491,
+   "es": 182
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#11"
+   ],
+   "es": [
+    "app para gatos#6"
+   ]
+  }
+ },
+ {
+  "id": 1403471929,
+  "name": "Préstame Tu Perrito",
+  "seller": "Emprunte Mon Toutou",
+  "genre": "Travel",
+  "released": "2018-10-14",
+  "updated": "2026-04-07",
+  "rating": 4.30827,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 532
+  },
+  "hits": {
+   "es": [
+    "cuidado de mascotas#7"
+   ]
+  }
+ },
+ {
+  "id": 1404249218,
+  "name": "Mi Mascota Virtual Rico el Pug",
+  "seller": "PEAKSEL doo",
+  "genre": "Games",
+  "released": "2018-07-30",
+  "updated": "2026-07-14",
+  "rating": 4.73838,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1571
+  },
+  "hits": {
+   "mx": [
+    "mascotas#13"
+   ]
+  }
+ },
+ {
+  "id": 1437252500,
+  "name": "Pezz - Salud de Mascotas",
+  "seller": "PEZZ life GmbH",
+  "genre": "Health & Fitness",
+  "released": "2019-03-06",
+  "updated": "2025-10-22",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#11"
+   ],
+   "es": [
+    "salud perro#12"
+   ]
+  }
+ },
+ {
+  "id": 1437699295,
+  "name": "Sniffspot - Private Dog Parks",
+  "seller": "SniffSpot, Inc.",
+  "genre": "Lifestyle",
+  "released": "2018-10-17",
+  "updated": "2026-11-17",
+  "rating": 4.90284,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 25421
+  },
+  "hits": {
+   "us": [
+    "dog health#22",
+    "dog training#19"
+   ]
+  }
+ },
+ {
+  "id": 1438036784,
+  "name": "Fi - GPS Dog Tracker",
+  "seller": "Barking Labs Corp.",
+  "genre": "Health & Fitness",
+  "released": "2019-03-06",
+  "updated": "2026-11-11",
+  "rating": 4.64852,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 42739
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#19",
+    "dog health#17"
+   ]
+  }
+ },
+ {
+  "id": 1440148382,
+  "name": "Juego de cuidado de mascotas",
+  "seller": "CLEAR INVEST LTD",
+  "genre": "Games",
+  "released": "2018-11-22",
+  "updated": "2025-10-14",
+  "rating": 4.41176,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 34
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#15"
+   ]
+  }
+ },
+ {
+  "id": 1447333104,
+  "name": "onedog - Dog health management",
+  "seller": "dotD, Inc.",
+  "genre": "Health & Fitness",
+  "released": "2018-12-21",
+  "updated": "2026-11-06",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "dog health#13"
+   ]
+  }
+ },
+ {
+  "id": 1447489158,
+  "name": "Dog Scanner",
+  "seller": "Siwalu Software GmbH",
+  "genre": "Education",
+  "released": "2019-01-21",
+  "updated": "2026-07-28",
+  "rating": 4.62962,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 36758
+  },
+  "hits": {
+   "us": [
+    "dog health#20",
+    "dog training#17"
+   ]
+  }
+ },
+ {
+  "id": 1447491786,
+  "name": "Cat Scanner",
+  "seller": "Siwalu Software GmbH",
+  "genre": "Education",
+  "released": "2019-02-01",
+  "updated": "2026-07-28",
+  "rating": 4.59894,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 6969
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#3"
+   ]
+  }
+ },
+ {
+  "id": 1448478595,
+  "name": "Airvet for Pet Parents",
+  "seller": "AIRVET, INC",
+  "genre": "Medical",
+  "released": "2019-04-03",
+  "updated": "2026-11-05",
+  "rating": 4.93417,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 11453
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#17"
+   ]
+  }
+ },
+ {
+  "id": 1452211365,
+  "name": "Patrulla Veterinaria",
+  "seller": "BWEB SARL",
+  "genre": "Games",
+  "released": "2019-02-15",
+  "updated": "2022-02-10",
+  "rating": 4.37908,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1406,
+   "es": 787
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#9",
+    "veterinario#14"
+   ],
+   "es": [
+    "cuidado de mascotas#23",
+    "veterinario#13"
+   ]
+  }
+ },
+ {
+  "id": 1453443419,
+  "name": "Salón para perritos & mascota",
+  "seller": "Les Placements R.A. Inc.",
+  "genre": "Games",
+  "released": "2019-02-22",
+  "updated": "2021-06-16",
+  "rating": 4.5134,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 20152,
+   "es": 4974
+  },
+  "hits": {
+   "mx": [
+    "mascotas#6",
+    "cuidado de mascotas#8",
+    "app para perros#12",
+    "veterinario#5"
+   ],
+   "es": [
+    "mascotas#11",
+    "cuidado de mascotas#11",
+    "app para perros#14",
+    "veterinario#6"
+   ]
+  }
+ },
+ {
+  "id": 1453572279,
+  "name": "Diario Virtual de Mascotas",
+  "seller": "Anton Deev",
+  "genre": "Lifestyle",
+  "released": "2019-02-23",
+  "updated": "2021-09-05",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#7"
+   ],
+   "es": [
+    "diario mascota#4"
+   ]
+  }
+ },
+ {
+  "id": 1454549944,
+  "name": "Centro de cuidado de mascotas",
+  "seller": "Les Placements R.A. Inc.",
+  "genre": "Games",
+  "released": "2019-03-02",
+  "updated": "2021-04-21",
+  "rating": 4.43802,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3856,
+   "es": 1224,
+   "us": 5736
+  },
+  "hits": {
+   "mx": [
+    "mascotas#14",
+    "cuidado de mascotas#6"
+   ],
+   "es": [
+    "cuidado de mascotas#6"
+   ],
+   "us": [
+    "pet care#17"
+   ]
+  }
+ },
+ {
+  "id": 1455222739,
+  "name": "Smolsies - Mi Mascotas Virtual",
+  "seller": "TUTOTOONS LTD",
+  "genre": "Education",
+  "released": "2019-03-15",
+  "updated": "2026-10-28",
+  "rating": 3.49621,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 264,
+   "es": 179,
+   "us": 3562
+  },
+  "hits": {
+   "mx": [
+    "mascotas#5"
+   ],
+   "es": [
+    "mascotas#2"
+   ],
+   "us": [
+    "pet care#11"
+   ]
+  }
+ },
+ {
+  "id": 1462026646,
+  "name": "GoDog: Puppy & Dog Training",
+  "seller": "LEVERX POLAND SP Z O O",
+  "genre": "Lifestyle",
+  "released": "2019-05-15",
+  "updated": "2026-08-14",
+  "rating": 4.63292,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1057
+  },
+  "hits": {
+   "us": [
+    "dog training#8"
+   ]
+  }
+ },
+ {
+  "id": 1463044676,
+  "name": "concurso de perros",
+  "seller": "TAKAYUKI MASUDA",
+  "genre": "Games",
+  "released": "2021-02-23",
+  "updated": "2026-08-15",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#19"
+   ]
+  }
+ },
+ {
+  "id": 1468253317,
+  "name": "JoJo Siwa: Vivir para bailar",
+  "seller": "Cocoplay Limited",
+  "genre": "Games",
+  "released": "2019-10-03",
+  "updated": "2024-02-16",
+  "rating": 4.75676,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1998
+  },
+  "hits": {
+   "mx": [
+    "app para perros#19"
+   ]
+  }
+ },
+ {
+  "id": 1469506430,
+  "name": "SumOne: Diario de pareja",
+  "seller": "sandfox",
+  "genre": "Lifestyle",
+  "released": "2019-12-20",
+  "updated": "2026-11-14",
+  "rating": 4.8933,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 21024,
+   "es": 3084
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#4"
+   ],
+   "es": [
+    "diario mascota#19"
+   ]
+  }
+ },
+ {
+  "id": 1469546306,
+  "name": "Doctor de ponis",
+  "seller": "Les Placements R.A. Inc.",
+  "genre": "Games",
+  "released": "2019-06-28",
+  "updated": "2024-02-14",
+  "rating": 4.43326,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2592,
+   "es": 1118
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#12",
+    "veterinario#18"
+   ],
+   "es": [
+    "cuidado de mascotas#16",
+    "veterinario#16"
+   ]
+  }
+ },
+ {
+  "id": 1471414850,
+  "name": "PETMOOBY: Pet, Health, Vaccine",
+  "seller": "Bruno Salmito",
+  "genre": "Utilities",
+  "released": "2019-07-20",
+  "updated": "2026-09-04",
+  "rating": 3.86364,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 22
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#18"
+   ]
+  }
+ },
+ {
+  "id": 1473042508,
+  "name": "Digitail - Smarter Pet Care",
+  "seller": "DIGITAIL INNOVATION S.R.L.",
+  "genre": "Lifestyle",
+  "released": "2019-11-04",
+  "updated": "2026-11-03",
+  "rating": 4.90137,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 4117
+  },
+  "hits": {
+   "us": [
+    "pet care#18",
+    "pet health tracker#7",
+    "pet vaccine reminder#3"
+   ]
+  }
+ },
+ {
+  "id": 1474529123,
+  "name": "Juegos de gatos",
+  "seller": "MINDSOFT YAZILIM HIZMETLERI SANAYI TICARET LIMITED SIRKETI",
+  "genre": "Games",
+  "released": "2019-08-09",
+  "updated": "2026-11-06",
+  "rating": 4.55675,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 555,
+   "es": 195
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#13"
+   ],
+   "es": [
+    "app para gatos#5"
+   ]
+  }
+ },
+ {
+  "id": 1474625303,
+  "name": "StepDog: Perro de Pasos",
+  "seller": "Yingchi Wang",
+  "genre": "Health & Fitness",
+  "released": "2019-08-10",
+  "updated": "2026-10-22",
+  "rating": 3.77778,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 9,
+   "es": 8
+  },
+  "hits": {
+   "mx": [
+    "salud perro#6"
+   ],
+   "es": [
+    "salud perro#8"
+   ]
+  }
+ },
+ {
+  "id": 1476456602,
+  "name": "Pupford: Puppy Training",
+  "seller": "Pupford LLC",
+  "genre": "Lifestyle",
+  "released": "2019-10-05",
+  "updated": "2026-08-06",
+  "rating": 4.76456,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 3725
+  },
+  "hits": {
+   "us": [
+    "dog training#5"
+   ]
+  }
+ },
+ {
+  "id": 1477041576,
+  "name": "Silbato para Perros - Dogo",
+  "seller": "Dogo App GmbH",
+  "genre": "Utilities",
+  "released": "2019-08-24",
+  "updated": "2026-10-19",
+  "rating": 4.63636,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 44
+  },
+  "hits": {
+   "mx": [
+    "app para perros#10",
+    "adiestramiento perros#12"
+   ]
+  }
+ },
+ {
+  "id": 1479029472,
+  "name": "PetWorld: Hospital de animales",
+  "seller": "Trophy Games Development A/S",
+  "genre": "Games",
+  "released": "2019-12-04",
+  "updated": "2026-04-13",
+  "rating": 4.77119,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 118,
+   "es": 244
+  },
+  "hits": {
+   "mx": [
+    "veterinario#15"
+   ],
+   "es": [
+    "veterinario#2"
+   ]
+  }
+ },
+ {
+  "id": 1480397119,
+  "name": "My Cat - Juego de Gato Virtual",
+  "seller": "APPSYOULOVE LTD",
+  "genre": "Games",
+  "released": "2019-10-22",
+  "updated": "2026-11-15",
+  "rating": 4.30891,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2198
+  },
+  "hits": {
+   "es": [
+    "cuidado de mascotas#14"
+   ]
+  }
+ },
+ {
+  "id": 1481301238,
+  "name": "Cuidado Con el Perro",
+  "seller": "Comercializadora Almacenes Garcia de Mexico S.A. de C.V.",
+  "genre": "Shopping",
+  "released": "2019-10-28",
+  "updated": "2026-11-04",
+  "rating": 4.32472,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2787
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#4"
+   ]
+  }
+ },
+ {
+  "id": 1481473756,
+  "name": "Thrive Pet Healthcare",
+  "seller": "TXAVC PLLC",
+  "genre": "Medical",
+  "released": "2019-10-27",
+  "updated": "2026-11-09",
+  "rating": 4.87694,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 12165
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#9"
+   ]
+  }
+ },
+ {
+  "id": 1486468778,
+  "name": "Meowtel: In-Home Cat Sitting",
+  "seller": "Meowtel, Inc.",
+  "genre": "Travel",
+  "released": "2020-07-19",
+  "updated": "2026-11-11",
+  "rating": 4.86315,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 4684
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#6"
+   ]
+  }
+ },
+ {
+  "id": 1488080064,
+  "name": "EveryDoggy: silbato para perro",
+  "seller": "Star Focus, Inc.",
+  "genre": "Lifestyle",
+  "released": "2019-12-21",
+  "updated": "2026-11-16",
+  "rating": 4.58277,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 453,
+   "es": 201,
+   "us": 3895
+  },
+  "hits": {
+   "mx": [
+    "app para perros#6"
+   ],
+   "es": [
+    "mascotas#23",
+    "app para perros#3"
+   ],
+   "us": [
+    "dog training#7"
+   ]
+  }
+ },
+ {
+  "id": 1495948983,
+  "name": "Juegos Veterinario de mascotas",
+  "seller": "Pazu Games Ltd",
+  "genre": "Games",
+  "released": "2020-03-25",
+  "updated": "2026-11-11",
+  "rating": 4.46042,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 695,
+   "es": 592
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#19",
+    "veterinario#10"
+   ],
+   "es": [
+    "cuidado de mascotas#13",
+    "veterinario#8"
+   ]
+  }
+ },
+ {
+  "id": 1498193052,
+  "name": "Pet Vet Hospital - Doctor Care",
+  "seller": "Miftah Nawazen",
+  "genre": "Games",
+  "released": "2020-10-10",
+  "updated": "2026-04-10",
+  "rating": 4.39383,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 551,
+   "es": 387
+  },
+  "hits": {
+   "mx": [
+    "veterinario#6"
+   ],
+   "es": [
+    "veterinario#4"
+   ]
+  }
+ },
+ {
+  "id": 1498829744,
+  "name": "Human to Dog Translator: Emoji",
+  "seller": "Yapps Limited",
+  "genre": "Entertainment",
+  "released": "2020-02-28",
+  "updated": "2022-04-26",
+  "rating": 3.875,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 88
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#18"
+   ]
+  }
+ },
+ {
+  "id": 1500596230,
+  "name": "Petivity: Smart Cat Health",
+  "seller": "Nestle Purina Petcare Company",
+  "genre": "Lifestyle",
+  "released": "2021-08-30",
+  "updated": "2026-11-09",
+  "rating": 4.62743,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 773
+  },
+  "hits": {
+   "us": [
+    "cat health#6",
+    "cat pain scan#18"
+   ]
+  }
+ },
+ {
+  "id": 1500720102,
+  "name": "ConsultaVet App veterinaria",
+  "seller": "CONSULTA DE DIFUSION SL",
+  "genre": "Medical",
+  "released": "2020-04-22",
+  "updated": "2025-11-25",
+  "rating": 4,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3,
+   "es": 10
+  },
+  "hits": {
+   "mx": [
+    "veterinario#22"
+   ],
+   "es": [
+    "veterinario#19"
+   ]
+  }
+ },
+ {
+  "id": 1504449006,
+  "name": "Verdecora: Todo para tu jardín",
+  "seller": "CIMODIN SL",
+  "genre": "Shopping",
+  "released": "2020-04-15",
+  "updated": "2026-01-25",
+  "rating": 4.50901,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1497
+  },
+  "hits": {
+   "es": [
+    "app para perros#22"
+   ]
+  }
+ },
+ {
+  "id": 1504667963,
+  "name": "Fluvsies - Cuidar mascotas",
+  "seller": "TUTOTOONS LTD",
+  "genre": "Education",
+  "released": "2020-04-01",
+  "updated": "2026-11-06",
+  "rating": 4.20973,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 329,
+   "es": 155
+  },
+  "hits": {
+   "mx": [
+    "mascotas#2"
+   ],
+   "es": [
+    "mascotas#9"
+   ]
+  }
+ },
+ {
+  "id": 1509432873,
+  "name": "Spring Valley: Juego granja",
+  "seller": "AI GAMES FZ LLC",
+  "genre": "Games",
+  "released": "2022-04-26",
+  "updated": "2026-11-16",
+  "rating": 4.74686,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1272
+  },
+  "hits": {
+   "es": [
+    "cuidado de mascotas#21"
+   ]
+  }
+ },
+ {
+  "id": 1514417760,
+  "name": "Barkibu. Para perros y gatos",
+  "seller": "barkibu s.l.",
+  "genre": "Medical",
+  "released": "2020-06-05",
+  "updated": "2026-11-17",
+  "rating": 4.86167,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 13656
+  },
+  "hits": {
+   "es": [
+    "mascotas#14",
+    "cuidado de mascotas#4",
+    "salud perro#2",
+    "app para perros#9",
+    "app para gatos#8",
+    "veterinario#23"
+   ]
+  }
+ },
+ {
+  "id": 1524158266,
+  "name": "Veterinario Juegos de pequeños",
+  "seller": "TROCHOISOFT LTD",
+  "genre": "Games",
+  "released": "2020-10-07",
+  "updated": "2025-10-16",
+  "rating": 4.35454,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 110
+  },
+  "hits": {
+   "es": [
+    "veterinario#24"
+   ]
+  }
+ },
+ {
+  "id": 1526812127,
+  "name": "VetPet app",
+  "seller": "Ekaterina Dmitrieva",
+  "genre": "Lifestyle",
+  "released": "2020-08-12",
+  "updated": "2020-08-12",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#25"
+   ]
+  }
+ },
+ {
+  "id": 1527756855,
+  "name": "DogNote - Perro Mascota Diario",
+  "seller": "Restack OU",
+  "genre": "Lifestyle",
+  "released": "2020-11-06",
+  "updated": "2026-11-14",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4,
+   "us": 928
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#6"
+   ],
+   "us": [
+    "dog health#14"
+   ]
+  }
+ },
+ {
+  "id": 1528595748,
+  "name": "Finch: Self-Care Pet",
+  "seller": "Finch Care Public Benefit Corporation",
+  "genre": "Health & Fitness",
+  "released": "2021-05-12",
+  "updated": "2026-11-12",
+  "rating": 4.94721,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 777035
+  },
+  "hits": {
+   "us": [
+    "pet care#21"
+   ]
+  }
+ },
+ {
+  "id": 1532020050,
+  "name": "Woofz: Cuidar y entrenar perro",
+  "seller": "nove8 LTD",
+  "genre": "Lifestyle",
+  "released": "2020-11-24",
+  "updated": "2026-11-17",
+  "rating": 4.67472,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 6330,
+   "es": 1326,
+   "us": 58703
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#2",
+    "app para perros#2"
+   ],
+   "es": [
+    "cuidado de mascotas#5",
+    "app para perros#2"
+   ],
+   "us": [
+    "dog health#23",
+    "dog training#1"
+   ]
+  }
+ },
+ {
+  "id": 1532299969,
+  "name": "LoveMyPets: Cuidado Mascotas",
+  "seller": "Stefano Fantesini",
+  "genre": "Lifestyle",
+  "released": "2020-10-06",
+  "updated": "2026-08-27",
+  "rating": 2.33333,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#15"
+   ]
+  }
+ },
+ {
+  "id": 1538989967,
+  "name": "Kiwoko – Todo para tu mascota",
+  "seller": "ISKAY PET, S.L.",
+  "genre": "Shopping",
+  "released": "2020-11-18",
+  "updated": "2026-11-10",
+  "rating": 4.69219,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1881
+  },
+  "hits": {
+   "es": [
+    "mascotas#12",
+    "veterinario#17"
+   ]
+  }
+ },
+ {
+  "id": 1543272359,
+  "name": "Games for Cats Cat Toy – Meow",
+  "seller": "Gameville Studio LLC",
+  "genre": "Lifestyle",
+  "released": "2020-12-04",
+  "updated": "2026-11-16",
+  "rating": 4.4744,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 293,
+   "es": 129
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#2"
+   ],
+   "es": [
+    "app para gatos#1"
+   ]
+  }
+ },
+ {
+  "id": 1546178391,
+  "name": "Veterinarias Mister Mascotas",
+  "seller": "Grupo Mister Mascotas S de RL de CV",
+  "genre": "Shopping",
+  "released": "2020-12-29",
+  "updated": "2026-02-02",
+  "rating": 4.8027,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1850
+  },
+  "hits": {
+   "mx": [
+    "veterinario#16"
+   ]
+  }
+ },
+ {
+  "id": 1550121165,
+  "name": "Zigzag: Educa a tu cachorro",
+  "seller": "PetCare Services Ltd",
+  "genre": "Education",
+  "released": "2021-05-14",
+  "updated": "2026-11-16",
+  "rating": 4.69564,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 92,
+   "us": 4222
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#3"
+   ],
+   "us": [
+    "dog training#6"
+   ]
+  }
+ },
+ {
+  "id": 1551003273,
+  "name": "Veterinario Mascota Dog Cat",
+  "seller": "Cloudlogic, Unipessoal Lda",
+  "genre": "Medical",
+  "released": "2021-02-26",
+  "updated": "2026-11-03",
+  "rating": 4.84507,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 71,
+   "es": 83,
+   "us": 962
+  },
+  "hits": {
+   "mx": [
+    "veterinario#23"
+   ],
+   "es": [
+    "salud perro#3",
+    "veterinario#14"
+   ],
+   "us": [
+    "pet care#3",
+    "pet health tracker#6",
+    "dog health#4",
+    "cat health#13",
+    "pet vaccine reminder#4"
+   ]
+  }
+ },
+ {
+  "id": 1551831515,
+  "name": "Vetster – Online Vets 24/7",
+  "seller": "Vetster Inc.",
+  "genre": "Medical",
+  "released": "2021-07-13",
+  "updated": "2026-11-10",
+  "rating": 4.57794,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2938
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#16"
+   ]
+  }
+ },
+ {
+  "id": 1553442588,
+  "name": "Hundeo - Adiestrar Perros",
+  "seller": "RINACLA LTD",
+  "genre": "Education",
+  "released": "2021-02-24",
+  "updated": "2026-11-12",
+  "rating": 4.63636,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 110,
+   "es": 79,
+   "us": 635
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#2"
+   ],
+   "es": [
+    "adiestramiento perros#2"
+   ],
+   "us": [
+    "dog training#15"
+   ]
+  }
+ },
+ {
+  "id": 1553584485,
+  "name": "Salud Mascotas: PetnotePlus",
+  "seller": "Shibapp LLC",
+  "genre": "Health & Fitness",
+  "released": "2021-02-28",
+  "updated": "2026-10-29",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 3,
+   "us": 16
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#24",
+    "recordatorio vacunas mascota#8"
+   ],
+   "es": [
+    "diario mascota#13"
+   ],
+   "us": [
+    "pet care#22"
+   ]
+  }
+ },
+ {
+  "id": 1553778157,
+  "name": "Medika - Libreta de salud",
+  "seller": "Foxtastic",
+  "genre": "Medical",
+  "released": "2021-08-23",
+  "updated": "2026-11-12",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#17"
+   ],
+   "es": [
+    "salud perro#25"
+   ]
+  }
+ },
+ {
+  "id": 1561965563,
+  "name": "Traductor de perros - Juegos",
+  "seller": "MOBILIOJI VISATA UAB",
+  "genre": "Games",
+  "released": "2021-05-07",
+  "updated": "2026-11-11",
+  "rating": 4.47457,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1711,
+   "es": 438,
+   "us": 39136
+  },
+  "hits": {
+   "mx": [
+    "app para perros#1",
+    "traductor perro#1"
+   ],
+   "es": [
+    "app para perros#1"
+   ],
+   "us": [
+    "dog training#20"
+   ]
+  }
+ },
+ {
+  "id": 1573258717,
+  "name": "Superpet, comida para mascotas",
+  "seller": "SUPERPET PUNTO CLUB SOCIEDAD LIMITADA",
+  "genre": "Shopping",
+  "released": "2021-06-23",
+  "updated": "2024-02-12",
+  "rating": 4.80276,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 796
+  },
+  "hits": {
+   "es": [
+    "app para perros#17",
+    "app para gatos#21"
+   ]
+  }
+ },
+ {
+  "id": 1576667292,
+  "name": "MyPetApp Mi aplicación mascota",
+  "seller": "Knecht, Inc.",
+  "genre": "Health & Fitness",
+  "released": "2021-07-29",
+  "updated": "2026-08-22",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 2,
+   "us": 2
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#21"
+   ],
+   "es": [
+    "diario mascota#12"
+   ],
+   "us": [
+    "pet health tracker#8"
+   ]
+  }
+ },
+ {
+  "id": 1580581463,
+  "name": "PetNoter: Salud y Cuidado AI",
+  "seller": "Manu Benjamin",
+  "genre": "Lifestyle",
+  "released": "2021-08-16",
+  "updated": "2026-11-04",
+  "rating": 4.5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2,
+   "es": 1,
+   "us": 17
+  },
+  "hits": {
+   "mx": [
+    "salud perro#13",
+    "recordatorio vacunas mascota#25"
+   ],
+   "es": [
+    "salud perro#16"
+   ],
+   "us": [
+    "pet vaccine reminder#17"
+   ]
+  }
+ },
+ {
+  "id": 1585012954,
+  "name": "Identificar la raza del perro",
+  "seller": "DRIMTIM APPS, OOO",
+  "genre": "Education",
+  "released": "2021-11-13",
+  "updated": "2026-02-12",
+  "rating": 4.40449,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 89
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#18"
+   ]
+  }
+ },
+ {
+  "id": 1586080273,
+  "name": "DogPack: Lugares para perros",
+  "seller": "DogPack App Inc.",
+  "genre": "Social Networking",
+  "released": "2021-09-21",
+  "updated": "2026-11-05",
+  "rating": 4.91317,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 334,
+   "es": 330
+  },
+  "hits": {
+   "mx": [
+    "app para perros#13",
+    "adiestramiento perros#8"
+   ],
+   "es": [
+    "app para perros#19",
+    "adiestramiento perros#7"
+   ]
+  }
+ },
+ {
+  "id": 1586265498,
+  "name": "Dog Life Simulator !",
+  "seller": "FUNCELL GAMES PRIVATE LIMITED",
+  "genre": "Games",
+  "released": "2021-12-20",
+  "updated": "2026-10-30",
+  "rating": 4.74275,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 181752
+  },
+  "hits": {
+   "us": [
+    "cat health#12"
+   ]
+  }
+ },
+ {
+  "id": 1586766574,
+  "name": "juego mascotas: perros y gatos",
+  "seller": "Muhammad Irfan",
+  "genre": "Games",
+  "released": "2022-02-11",
+  "updated": "2025-07-03",
+  "rating": 4.13636,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 110
+  },
+  "hits": {
+   "es": [
+    "mascotas#15"
+   ]
+  }
+ },
+ {
+  "id": 1591169210,
+  "name": "Centro de Cuidado de Mascotas.",
+  "seller": "SINGAPORE BABYBUS PTE. LTD.",
+  "genre": "Education",
+  "released": "2021-10-26",
+  "updated": "2026-05-12",
+  "rating": 4.57143,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 14
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#20"
+   ]
+  }
+ },
+ {
+  "id": 1591575192,
+  "name": "Dr.Tail: 24/7 AI Vet Care",
+  "seller": "Dr.Tail Inc.",
+  "genre": "Lifestyle",
+  "released": "2021-11-12",
+  "updated": "2026-06-23",
+  "rating": 4.77013,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 683
+  },
+  "hits": {
+   "us": [
+    "ai vet#3"
+   ]
+  }
+ },
+ {
+  "id": 1594794194,
+  "name": "Pawp: 24/7 Vet & Pet Care",
+  "seller": "Pawp, Inc.",
+  "genre": "Medical",
+  "released": "2021-12-29",
+  "updated": "2026-11-13",
+  "rating": 4.87276,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 15192
+  },
+  "hits": {
+   "us": [
+    "pet care#9",
+    "dog health#12",
+    "cat health#23"
+   ]
+  }
+ },
+ {
+  "id": 1595781193,
+  "name": "Pet-Care",
+  "seller": "Haochen Wang",
+  "genre": "Lifestyle",
+  "released": "2021-12-09",
+  "updated": "2026-10-21",
+  "rating": 4.2,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 25
+  },
+  "hits": {
+   "us": [
+    "pet care#15"
+   ]
+  }
+ },
+ {
+  "id": 1596750830,
+  "name": "Feline Grimace Scale",
+  "seller": "Paulo Steagall",
+  "genre": "Medical",
+  "released": "2021-11-30",
+  "updated": "2026-11-05",
+  "rating": 4.86667,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 15
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#2"
+   ]
+  }
+ },
+ {
+  "id": 1598324188,
+  "name": "Traductor de Perros - Juego",
+  "seller": "Tripti Kumari",
+  "genre": "Lifestyle",
+  "released": "2021-12-14",
+  "updated": "2026-11-17",
+  "rating": 4.40094,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 212
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#2"
+   ]
+  }
+ },
+ {
+  "id": 1598923934,
+  "name": "Global Pet Security",
+  "seller": "Paul Miller",
+  "genre": "Productivity",
+  "released": "2021-12-24",
+  "updated": "2026-05-12",
+  "rating": 3.26667,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 15
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#15"
+   ]
+  }
+ },
+ {
+  "id": 1602247555,
+  "name": "PetsHealth: cuida tu mascota",
+  "seller": "Volodymyr Voitsekhivskyi",
+  "genre": "Health & Fitness",
+  "released": "2022-01-13",
+  "updated": "2026-11-17",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#19"
+   ]
+  }
+ },
+ {
+  "id": 1607326619,
+  "name": "Silbato y Clicker para Perros",
+  "seller": "Andrei Nemtsou",
+  "genre": "Lifestyle",
+  "released": "2022-01-29",
+  "updated": "2026-11-14",
+  "rating": 4.75,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 4
+  },
+  "hits": {
+   "es": [
+    "app para perros#12"
+   ]
+  }
+ },
+ {
+  "id": 1607536760,
+  "name": "Pet Butler Pet Care",
+  "seller": "Pet Butler, LLC",
+  "genre": "Business",
+  "released": "2022-08-17",
+  "updated": "2026-10-20",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "pet care#23"
+   ]
+  }
+ },
+ {
+  "id": 1610284725,
+  "name": "Clio: Dog Cat Pet Care Tracker",
+  "seller": "Hae Bum Kim",
+  "genre": "Lifestyle",
+  "released": "2022-07-29",
+  "updated": "2023-05-07",
+  "rating": 4.35897,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 39
+  },
+  "hits": {
+   "us": [
+    "cat health#24"
+   ]
+  }
+ },
+ {
+  "id": 1611758616,
+  "name": "VetGuide Medicina Veterinária",
+  "seller": "VETGUIDE LTDA",
+  "genre": "Medical",
+  "released": "2025-12-11",
+  "updated": "2026-10-26",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "veterinario#9"
+   ],
+   "es": [
+    "veterinario#15"
+   ]
+  }
+ },
+ {
+  "id": 1614679447,
+  "name": "Traductor de Perros: Ladridos",
+  "seller": "Evgeniya Yastrebova",
+  "genre": "Entertainment",
+  "released": "2022-07-26",
+  "updated": "2026-04-28",
+  "rating": 4.56818,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 44,
+   "es": 14
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#13"
+   ],
+   "es": [
+    "adiestramiento perros#10"
+   ]
+  }
+ },
+ {
+  "id": 1616308024,
+  "name": "Pet Parents: Easy Pet Records",
+  "seller": "Scott Rassatt",
+  "genre": "Lifestyle",
+  "released": "2022-07-05",
+  "updated": "2023-02-21",
+  "rating": 4.26316,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 19
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#10"
+   ]
+  }
+ },
+ {
+  "id": 1621861950,
+  "name": "Lumsters: Daily Pet Care",
+  "seller": "Lumsters Oy",
+  "genre": "Lifestyle",
+  "released": "2022-05-25",
+  "updated": "2026-10-06",
+  "rating": 4.5873,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 504
+  },
+  "hits": {
+   "us": [
+    "cat health#14"
+   ]
+  }
+ },
+ {
+  "id": 1622502023,
+  "name": "SUSH Cría Mascotas Virtuales",
+  "seller": "Emotion Studio, Inc",
+  "genre": "Social Networking",
+  "released": "2022-05-29",
+  "updated": "2026-11-04",
+  "rating": 4.82773,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 58813,
+   "es": 10380
+  },
+  "hits": {
+   "mx": [
+    "mascotas#4"
+   ],
+   "es": [
+    "mascotas#5"
+   ]
+  }
+ },
+ {
+  "id": 1624400432,
+  "name": "PromisingPups: Dog Training.",
+  "seller": "Vicki Kouvendaris",
+  "genre": "Health & Fitness",
+  "released": "2022-09-14",
+  "updated": "2026-10-18",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 3
+  },
+  "hits": {
+   "us": [
+    "dog training#16"
+   ]
+  }
+ },
+ {
+  "id": 1625299333,
+  "name": "WAUDOG PETSAVER",
+  "seller": "Collarcom Inc.",
+  "genre": "Lifestyle",
+  "released": "2022-08-18",
+  "updated": "2026-11-17",
+  "rating": 4.75,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 4
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#23"
+   ]
+  }
+ },
+ {
+  "id": 1626301400,
+  "name": "Entrenar Perros - Perro Juego",
+  "seller": "Uladzislau Yanushka",
+  "genre": "Games",
+  "released": "2022-06-18",
+  "updated": "2025-01-22",
+  "rating": 4.08561,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 292,
+   "es": 198
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#5"
+   ],
+   "es": [
+    "app para perros#21",
+    "adiestramiento perros#5"
+   ]
+  }
+ },
+ {
+  "id": 1627260837,
+  "name": "Pet Rescue Empire Tycoon—Game",
+  "seller": "Codigames SL",
+  "genre": "Games",
+  "released": "2022-07-14",
+  "updated": "2024-04-04",
+  "rating": 4.7641,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 195,
+   "es": 190
+  },
+  "hits": {
+   "mx": [
+    "veterinario#24"
+   ],
+   "es": [
+    "veterinario#9"
+   ]
+  }
+ },
+ {
+  "id": 1629517582,
+  "name": "Traductor de Perros! Juegos",
+  "seller": "Aigarai D.O.O.",
+  "genre": "Music",
+  "released": "2022-07-23",
+  "updated": "2026-02-16",
+  "rating": 3,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2,
+   "es": 4
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#17",
+    "traductor perro#20"
+   ],
+   "es": [
+    "adiestramiento perros#12"
+   ]
+  }
+ },
+ {
+  "id": 1630558619,
+  "name": "Traductor de Perros: Sonidos",
+  "seller": "SERHII USHAKOV",
+  "genre": "Entertainment",
+  "released": "2022-07-03",
+  "updated": "2026-05-08",
+  "rating": 3.96154,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 26
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#23"
+   ]
+  }
+ },
+ {
+  "id": 1630923388,
+  "name": "Friendog - App para perros",
+  "seller": "Friendog Labs SL",
+  "genre": "Lifestyle",
+  "released": "2022-06-27",
+  "updated": "2026-06-26",
+  "rating": 2,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3,
+   "es": 86
+  },
+  "hits": {
+   "mx": [
+    "app para perros#8"
+   ],
+   "es": [
+    "mascotas#19",
+    "app para perros#8"
+   ]
+  }
+ },
+ {
+  "id": 1633459819,
+  "name": "The Pack by Zoetis",
+  "seller": "Zoetis Inc.",
+  "genre": "Lifestyle",
+  "released": "2024-09-10",
+  "updated": "2026-11-18",
+  "rating": 4.88475,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 10282
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#21"
+   ]
+  }
+ },
+ {
+  "id": 1633623560,
+  "name": "Cat Breed Identifier: Pet Scan",
+  "seller": "DREAMTEAM APPS sp. z o.o.",
+  "genre": "Utilities",
+  "released": "2022-08-07",
+  "updated": "2025-05-28",
+  "rating": 4.43801,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 863
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#7"
+   ]
+  }
+ },
+ {
+  "id": 1641107226,
+  "name": "Widgetable: Besties & Parejas",
+  "seller": "HAPPENY TECHNOLOGY PTE. LTD.",
+  "genre": "Social Networking",
+  "released": "2022-08-27",
+  "updated": "2026-11-13",
+  "rating": 4.91258,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 63385,
+   "es": 15882
+  },
+  "hits": {
+   "mx": [
+    "mascotas#1"
+   ],
+   "es": [
+    "mascotas#1"
+   ]
+  }
+ },
+ {
+  "id": 1641860089,
+  "name": "PetCare by DaySmart Vet",
+  "seller": "DaySmart Software, LLC",
+  "genre": "Health & Fitness",
+  "released": "2022-10-22",
+  "updated": "2026-11-05",
+  "rating": 2.7,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 20
+  },
+  "hits": {
+   "us": [
+    "pet care#1"
+   ]
+  }
+ },
+ {
+  "id": 1658522610,
+  "name": "Perros – Traductor de Idiomas",
+  "seller": "ITincubator UAB",
+  "genre": "Entertainment",
+  "released": "2023-05-23",
+  "updated": "2025-01-09",
+  "rating": 4.5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 18,
+   "es": 5
+  },
+  "hits": {
+   "mx": [
+    "app para perros#9",
+    "traductor perro#3"
+   ],
+   "es": [
+    "app para perros#15",
+    "adiestramiento perros#17"
+   ]
+  }
+ },
+ {
+  "id": 1658539065,
+  "name": "myPurina – Pet Rewards & Care",
+  "seller": "Nestle Purina Petcare Company",
+  "genre": "Lifestyle",
+  "released": "2023-01-31",
+  "updated": "2026-11-17",
+  "rating": 4.85649,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 88964
+  },
+  "hits": {
+   "us": [
+    "pet care#19"
+   ]
+  }
+ },
+ {
+  "id": 1660950862,
+  "name": "Princesas mascota",
+  "seller": "Pazu Games Ltd",
+  "genre": "Games",
+  "released": "2023-01-04",
+  "updated": "2025-10-19",
+  "rating": 3.13333,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 45
+  },
+  "hits": {
+   "es": [
+    "mascotas#17"
+   ]
+  }
+ },
+ {
+  "id": 1660965890,
+  "name": "Silbato para Perro Entrenador",
+  "seller": "AppLiks Sp. z O.O.",
+  "genre": "Education",
+  "released": "2023-05-01",
+  "updated": "2026-10-01",
+  "rating": 4.71429,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 7,
+   "es": 4
+  },
+  "hits": {
+   "mx": [
+    "app para perros#5"
+   ],
+   "es": [
+    "app para perros#10"
+   ]
+  }
+ },
+ {
+  "id": 1669223306,
+  "name": "Juegos de Perros para Niños 2+",
+  "seller": "JMH Developers OU",
+  "genre": "Education",
+  "released": "2023-03-09",
+  "updated": "2024-03-27",
+  "rating": 4.03698,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2650
+  },
+  "hits": {
+   "mx": [
+    "app para perros#20"
+   ]
+  }
+ },
+ {
+  "id": 1669711712,
+  "name": "Moggie Cat Activity Tracker",
+  "seller": "moggie ltd",
+  "genre": "Lifestyle",
+  "released": "2023-06-21",
+  "updated": "2026-08-20",
+  "rating": 4.17647,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 17
+  },
+  "hits": {
+   "us": [
+    "cat health#21"
+   ]
+  }
+ },
+ {
+  "id": 1670385689,
+  "name": "Juegos de Veterinaria Animales",
+  "seller": "JMH Developers OU",
+  "genre": "Education",
+  "released": "2023-03-08",
+  "updated": "2026-08-21",
+  "rating": 3.9759,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 83
+  },
+  "hits": {
+   "mx": [
+    "veterinario#12"
+   ]
+  }
+ },
+ {
+  "id": 6760017949,
+  "name": "Whispet - Cartilla de Mascotas",
+  "seller": "CRE8EVE SP Z O O",
+  "genre": "Lifestyle",
+  "released": "2026-07-18",
+  "updated": "2026-11-16",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "mascotas#7"
+   ]
+  }
+ },
+ {
+  "id": 6757317743,
+  "name": "Mi Patata Mascota –Virtual Pet",
+  "seller": "JUAN ALEJANDRO ACOSTA BARRON",
+  "genre": "Games",
+  "released": "2026-01-06",
+  "updated": "2026-10-20",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3
+  },
+  "hits": {
+   "mx": [
+    "mascotas#9"
+   ]
+  }
+ },
+ {
+  "id": 6774614818,
+  "name": "Gatos - Mascotas Virtuales",
+  "seller": "Brainytrainee Ltd",
+  "genre": "Games",
+  "released": "2026-07-17",
+  "updated": "2026-11-10",
+  "rating": 3.88889,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 9,
+   "es": 3
+  },
+  "hits": {
+   "mx": [
+    "mascotas#12",
+    "cuidado de mascotas#22"
+   ],
+   "es": [
+    "cuidado de mascotas#22"
+   ]
+  }
+ },
+ {
+  "id": 6759053024,
+  "name": "Petopia: Mascota Virtual",
+  "seller": "Shogo Shibuya",
+  "genre": "Graphics & Design",
+  "released": "2026-03-12",
+  "updated": "2026-11-04",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4
+  },
+  "hits": {
+   "mx": [
+    "mascotas#16"
+   ]
+  }
+ },
+ {
+  "id": 6767497797,
+  "name": "Casa Mascotas: Hatch y Cuida",
+  "seller": "GunjanApps Studios and Solutions LLP",
+  "genre": "Games",
+  "released": "2026-09-23",
+  "updated": "2026-11-04",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "mascotas#17"
+   ]
+  }
+ },
+ {
+  "id": 6774090950,
+  "name": "Cuidado de Fluvsies: princesa",
+  "seller": "TUTOTOONS LTD",
+  "genre": "Education",
+  "released": "2026-07-13",
+  "updated": "2026-09-11",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2
+  },
+  "hits": {
+   "mx": [
+    "mascotas#18",
+    "cuidado de mascotas#11"
+   ]
+  }
+ },
+ {
+  "id": 6462927800,
+  "name": "Friends – Pengu, Bao & Mellow",
+  "seller": "SLAY GmbH",
+  "genre": "Social Networking",
+  "released": "2023-09-30",
+  "updated": "2026-10-29",
+  "rating": 4.83779,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 9944
+  },
+  "hits": {
+   "mx": [
+    "mascotas#19"
+   ]
+  }
+ },
+ {
+  "id": 6776477513,
+  "name": "PetMira - Traductor Felino",
+  "seller": "PAWNESE HK LIMITED",
+  "genre": "Lifestyle",
+  "released": "2026-06-16",
+  "updated": "2026-10-22",
+  "rating": 4.48712,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 505,
+   "es": 110
+  },
+  "hits": {
+   "mx": [
+    "mascotas#20"
+   ],
+   "es": [
+    "mascotas#16"
+   ]
+  }
+ },
+ {
+  "id": 6806899344,
+  "name": "Valle de Duelos: Mascotas",
+  "seller": "EZEJEN MORAN",
+  "genre": "Games",
+  "released": "2026-09-27",
+  "updated": "2026-09-28",
+  "rating": 1,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "mascotas#21"
+   ]
+  }
+ },
+ {
+  "id": 6462423140,
+  "name": "Simulador de Gato: Mascotas",
+  "seller": "LLP Take Top Entertainment",
+  "genre": "Games",
+  "released": "2023-09-03",
+  "updated": "2026-08-27",
+  "rating": 4.86035,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 802,
+   "es": 398
+  },
+  "hits": {
+   "mx": [
+    "mascotas#22"
+   ],
+   "es": [
+    "mascotas#18"
+   ]
+  }
+ },
+ {
+  "id": 6744258979,
+  "name": "Sittsy - Cuidado de Mascotas",
+  "seller": "Sittsy, LLC",
+  "genre": "Travel",
+  "released": "2025-04-09",
+  "updated": "2026-10-06",
+  "rating": 4.85149,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 505,
+   "es": 1788
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#3"
+   ],
+   "es": [
+    "cuidado de mascotas#2"
+   ]
+  }
+ },
+ {
+  "id": 6504866293,
+  "name": "Dogin: Cuidado de Mascotas",
+  "seller": "Petsclub spa",
+  "genre": "Productivity",
+  "released": "2024-07-05",
+  "updated": "2026-11-10",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#4"
+   ],
+   "es": [
+    "cuidado de mascotas#10"
+   ]
+  }
+ },
+ {
+  "id": 6761444819,
+  "name": "Wuffoos: Guardería y Pensión",
+  "seller": "Ruffoos Guarderia y Cuidado de Mascotas SAPI de CV",
+  "genre": "Lifestyle",
+  "released": "2026-05-08",
+  "updated": "2026-11-15",
+  "rating": 4.27273,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 11
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#5"
+   ]
+  }
+ },
+ {
+  "id": 6738948332,
+  "name": "ASMR Juego Cuidado Piel",
+  "seller": "DO VAN HUY",
+  "genre": "Games",
+  "released": "2024-12-04",
+  "updated": "2026-11-12",
+  "rating": 4.78474,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4037,
+   "es": 1548
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#7"
+   ],
+   "es": [
+    "cuidado de mascotas#9"
+   ]
+  }
+ },
+ {
+  "id": 6820768026,
+  "name": "PetWorld: cuidado de mascotas",
+  "seller": "Ana Paula Gonzalez Sada",
+  "genre": "Lifestyle",
+  "released": "2026-10-16",
+  "updated": "2026-11-13",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#16",
+    "recordatorio vacunas mascota#12"
+   ]
+  }
+ },
+ {
+  "id": 6477581200,
+  "name": "My Dragon - Juego de Mascotas",
+  "seller": "APPSYOULOVE LTD",
+  "genre": "Games",
+  "released": "2024-03-17",
+  "updated": "2026-06-02",
+  "rating": 4.73982,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 442,
+   "es": 98
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#17"
+   ],
+   "es": [
+    "mascotas#20",
+    "cuidado de mascotas#20"
+   ]
+  }
+ },
+ {
+  "id": 6767697574,
+  "name": "Zumi: Cuidado de tu Mascota",
+  "seller": "Cesar Ortiz Marriaga",
+  "genre": "Lifestyle",
+  "released": "2026-09-05",
+  "updated": "2026-11-09",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#23",
+    "recordatorio vacunas mascota#4"
+   ]
+  }
+ },
+ {
+  "id": 6747727295,
+  "name": "Oli - Cuidados de Mascotas",
+  "seller": "Olena Hrebenyk",
+  "genre": "Lifestyle",
+  "released": "2025-10-02",
+  "updated": "2026-11-11",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "cuidado de mascotas#24",
+    "recordatorio vacunas mascota#22"
+   ]
+  }
+ },
+ {
+  "id": 6751434305,
+  "name": "Petee: Salud de perros y gatos",
+  "seller": "Pawel Kosz",
+  "genre": "Lifestyle",
+  "released": "2026-09-07",
+  "updated": "2026-11-15",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#2"
+   ]
+  }
+ },
+ {
+  "id": 6504340762,
+  "name": "Woofly – Todo para tu perro",
+  "seller": "Sandro Pennisi",
+  "genre": "Health & Fitness",
+  "released": "2024-08-05",
+  "updated": "2026-08-26",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "es": 1
+  },
+  "hits": {
+   "mx": [
+    "salud perro#3",
+    "recordatorio vacunas mascota#21"
+   ],
+   "es": [
+    "salud perro#6",
+    "app para perros#13"
+   ]
+  }
+ },
+ {
+  "id": 6761087142,
+  "name": "Vivra: Salud de Perros y Gatos",
+  "seller": "DIEGO CANO",
+  "genre": "Lifestyle",
+  "released": "2026-05-05",
+  "updated": "2026-10-29",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#4",
+    "recordatorio vacunas mascota#14"
+   ]
+  }
+ },
+ {
+  "id": 6759310183,
+  "name": "Pawsitive: salud perro y gato",
+  "seller": "Yeonjoo Sung",
+  "genre": "Lifestyle",
+  "released": "2026-03-13",
+  "updated": "2026-10-29",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#5"
+   ]
+  }
+ },
+ {
+  "id": 6810023839,
+  "name": "PetChill: Cuidado Perro y Gato",
+  "seller": "Khoa Nguyen",
+  "genre": "Lifestyle",
+  "released": "2026-09-14",
+  "updated": "2026-09-20",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "salud perro#7"
+   ]
+  }
+ },
+ {
+  "id": 6794556851,
+  "name": "Catitos: Salud de tu mascota",
+  "seller": "Joaquin Jurao",
+  "genre": "Lifestyle",
+  "released": "2026-08-27",
+  "updated": "2026-11-18",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3,
+   "es": 1
+  },
+  "hits": {
+   "mx": [
+    "salud perro#8",
+    "recordatorio vacunas mascota#3"
+   ],
+   "es": [
+    "salud perro#11"
+   ]
+  }
+ },
+ {
+  "id": 6504843284,
+  "name": "Moomoo AI: Salud perro y gato",
+  "seller": "Playbench Co,.Ltd",
+  "genre": "Productivity",
+  "released": "2024-07-01",
+  "updated": "2026-08-24",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#9"
+   ]
+  }
+ },
+ {
+  "id": 6748543786,
+  "name": "PetGuard: Salud Perro y Gato",
+  "seller": "MadhuSuresh Nandyala",
+  "genre": "Medical",
+  "released": "2025-08-12",
+  "updated": "2026-11-12",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#10"
+   ]
+  }
+ },
+ {
+  "id": 6752663608,
+  "name": "Calendario Gestación Perra",
+  "seller": "Joachim Lampl",
+  "genre": "Education",
+  "released": "2026-08-11",
+  "updated": "2026-11-08",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#12"
+   ],
+   "es": [
+    "salud perro#15"
+   ]
+  }
+ },
+ {
+  "id": 6470394543,
+  "name": "Salud y cuidados del perro",
+  "seller": "Vladislav Zhirnov",
+  "genre": "Utilities",
+  "released": "2023-10-29",
+  "updated": "2025-11-29",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#14"
+   ],
+   "es": [
+    "salud perro#7"
+   ]
+  }
+ },
+ {
+  "id": 6760197595,
+  "name": "Salud de Perros y Gatos",
+  "seller": "Lizaveta Khmialnitskaya",
+  "genre": "Lifestyle",
+  "released": "2026-04-13",
+  "updated": "2026-11-13",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 2
+  },
+  "hits": {
+   "mx": [
+    "salud perro#15"
+   ],
+   "es": [
+    "salud perro#4"
+   ]
+  }
+ },
+ {
+  "id": 6740836763,
+  "name": "Salud Animal: Perros y Gatos",
+  "seller": "Onyekachi Edmond",
+  "genre": "Lifestyle",
+  "released": "2025-01-29",
+  "updated": "2026-05-30",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#16"
+   ]
+  }
+ },
+ {
+  "id": 6758295980,
+  "name": "DogCare: Salud de tu Perro",
+  "seller": "TianjinDongliYuanYouSoftwareStudio",
+  "genre": "Health & Fitness",
+  "released": "2026-02-16",
+  "updated": "2026-11-13",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#18"
+   ]
+  }
+ },
+ {
+  "id": 6504329774,
+  "name": "Petify: Salud de Mascotas IA",
+  "seller": "BJS Soft Solutions LLC",
+  "genre": "Lifestyle",
+  "released": "2024-06-27",
+  "updated": "2026-11-12",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#19"
+   ]
+  }
+ },
+ {
+  "id": 6760984730,
+  "name": "PetCool: Entrenar Perro y Gato",
+  "seller": "DIEGO VALERO SEYFFERT",
+  "genre": "Lifestyle",
+  "released": "2026-04-20",
+  "updated": "2026-11-09",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 5
+  },
+  "hits": {
+   "mx": [
+    "salud perro#20"
+   ]
+  }
+ },
+ {
+  "id": 6783566574,
+  "name": "Zyana: Salud de tu Perro",
+  "seller": "Michele Jenkins",
+  "genre": "Health & Fitness",
+  "released": "2026-07-09",
+  "updated": "2026-10-21",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "us": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#21"
+   ],
+   "us": [
+    "dog health#19"
+   ]
+  }
+ },
+ {
+  "id": 6762567002,
+  "name": "Salud de tu perro: NutriPet",
+  "seller": "JIESUS RICARDO ROJAS MANJARREZ",
+  "genre": "Utilities",
+  "released": "2026-05-13",
+  "updated": "2026-11-08",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#22"
+   ]
+  }
+ },
+ {
+  "id": 6759038221,
+  "name": "Pawffy: Salud de Perro y Gato",
+  "seller": "YAKUP UMIT KARTAL",
+  "genre": "Health & Fitness",
+  "released": "2026-02-25",
+  "updated": "2026-11-08",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#23"
+   ]
+  }
+ },
+ {
+  "id": 6736642546,
+  "name": "YoPaws: IA Salud Mascota",
+  "seller": "Hangzhou Zhichong Future Technology Co., Ltd",
+  "genre": "Lifestyle",
+  "released": "2024-11-13",
+  "updated": "2026-06-24",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#24"
+   ]
+  }
+ },
+ {
+  "id": 6758636869,
+  "name": "dog-stories: Perro y Salud",
+  "seller": "Robert Jensen",
+  "genre": "Lifestyle",
+  "released": "2026-05-21",
+  "updated": "2026-09-17",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "salud perro#25"
+   ]
+  }
+ },
+ {
+  "id": 6480925450,
+  "name": "Juego para gatos - para perros",
+  "seller": "Arpine Poghosyan",
+  "genre": "Games",
+  "released": "2024-05-09",
+  "updated": "2026-07-08",
+  "rating": 4.50591,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 423,
+   "es": 54
+  },
+  "hits": {
+   "mx": [
+    "app para perros#3",
+    "app para gatos#1"
+   ],
+   "es": [
+    "app para perros#6",
+    "app para gatos#2"
+   ]
+  }
+ },
+ {
+  "id": 6742487960,
+  "name": "Amico Fido: App para perros",
+  "seller": "Pietro Petrocchi",
+  "genre": "Lifestyle",
+  "released": "2025-04-03",
+  "updated": "2026-11-08",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 1
+  },
+  "hits": {
+   "mx": [
+    "app para perros#17"
+   ],
+   "es": [
+    "adiestramiento perros#25"
+   ]
+  }
+ },
+ {
+  "id": 6751529953,
+  "name": "Juegos Láser para Gatos",
+  "seller": "A & D GENERAL CONSTRUCTION LLC",
+  "genre": "Games",
+  "released": "2026-05-20",
+  "updated": "2026-11-10",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#3"
+   ],
+   "es": [
+    "app para gatos#16"
+   ]
+  }
+ },
+ {
+  "id": 6753912041,
+  "name": "Juego para Gatos: Ratones",
+  "seller": "PRESCHOOL PLAY-LEARNING GAMES, MChJ",
+  "genre": "Entertainment",
+  "released": "2025-11-05",
+  "updated": "2026-07-13",
+  "rating": 4.79167,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 24,
+   "es": 6
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#4"
+   ],
+   "es": [
+    "app para gatos#12"
+   ]
+  }
+ },
+ {
+  "id": 6736918442,
+  "name": "Juegos para Gatos y Gatitosㅤ",
+  "seller": "Joseph White",
+  "genre": "Utilities",
+  "released": "2025-04-13",
+  "updated": "2026-11-13",
+  "rating": 4.46536,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 765,
+   "es": 66
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#5"
+   ],
+   "es": [
+    "app para gatos#3"
+   ]
+  }
+ },
+ {
+  "id": 6754696747,
+  "name": "Traductor para Gatos: Maullido",
+  "seller": "Andrey Dolzhenko",
+  "genre": "Entertainment",
+  "released": "2026-01-21",
+  "updated": "2026-11-16",
+  "rating": 3,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#6"
+   ]
+  }
+ },
+ {
+  "id": 6443951478,
+  "name": "Traductor de lenguaje de Gatos",
+  "seller": "SHALAT LTD",
+  "genre": "Entertainment",
+  "released": "2022-11-11",
+  "updated": "2026-11-11",
+  "rating": 4.61212,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2457,
+   "es": 537
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#7"
+   ],
+   "es": [
+    "app para gatos#4"
+   ]
+  }
+ },
+ {
+  "id": 6749792433,
+  "name": "Juegos para Gatos: Peppy Cat",
+  "seller": "Kei LO",
+  "genre": "Entertainment",
+  "released": "2025-09-08",
+  "updated": "2026-08-29",
+  "rating": 4.47058,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 17,
+   "es": 9
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#8"
+   ],
+   "es": [
+    "app para gatos#10"
+   ]
+  }
+ },
+ {
+  "id": 6499431400,
+  "name": "Traductor de Gatos para Humano",
+  "seller": "INHABITR LIMITED",
+  "genre": "Entertainment",
+  "released": "2024-05-20",
+  "updated": "2026-11-06",
+  "rating": 4.69944,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 356,
+   "es": 52,
+   "us": 2018
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#9"
+   ],
+   "es": [
+    "app para gatos#7"
+   ],
+   "us": [
+    "cat pain scan#23"
+   ]
+  }
+ },
+ {
+  "id": 6760046687,
+  "name": "Juegos para Gatos & Gatitos⁺",
+  "seller": "Arctic Gold ehf.",
+  "genre": "Entertainment",
+  "released": "2026-07-31",
+  "updated": "2026-10-20",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#10"
+   ]
+  }
+ },
+ {
+  "id": 6473855240,
+  "name": "Juegos Para Gatos: Mouse Juego",
+  "seller": "Genioworks Consulting und It-Services UG haftungsbeschraenkt",
+  "genre": "Games",
+  "released": "2024-01-03",
+  "updated": "2026-06-06",
+  "rating": 4.59694,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 196,
+   "es": 29
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#15"
+   ],
+   "es": [
+    "app para gatos#15"
+   ]
+  }
+ },
+ {
+  "id": 6466280007,
+  "name": "Juegos de Gatos para Niños 2-5",
+  "seller": "JMH Developers OU",
+  "genre": "Education",
+  "released": "2023-10-12",
+  "updated": "2024-02-14",
+  "rating": 4.12878,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1025,
+   "es": 267
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#16"
+   ],
+   "es": [
+    "app para gatos#17"
+   ]
+  }
+ },
+ {
+  "id": 6736983519,
+  "name": "Juegos para Gatos: Juego Pesca",
+  "seller": "Hunter Nelson",
+  "genre": "Utilities",
+  "released": "2024-11-11",
+  "updated": "2026-11-02",
+  "rating": 4.47573,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 309
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#17"
+   ]
+  }
+ },
+ {
+  "id": 6749260045,
+  "name": "Traductor de Gatos +",
+  "seller": "Nigel Corley",
+  "genre": "Games",
+  "released": "2026-01-22",
+  "updated": "2026-11-09",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "app para gatos#21"
+   ]
+  }
+ },
+ {
+  "id": 6760048090,
+  "name": "VetGPT: Doctor Veterinario IA",
+  "seller": "Emrah Korkmaz",
+  "genre": "Medical",
+  "released": "2026-03-23",
+  "updated": "2026-07-08",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "us": 2
+  },
+  "hits": {
+   "mx": [
+    "veterinario#2"
+   ],
+   "us": [
+    "ai vet#5"
+   ]
+  }
+ },
+ {
+  "id": 6753769768,
+  "name": "Manual de Veterinaria MSD",
+  "seller": "Merck Sharp & Dohme LLC",
+  "genre": "Medical",
+  "released": "2026-01-16",
+  "updated": "2026-07-17",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "veterinario#8"
+   ],
+   "es": [
+    "veterinario#11"
+   ]
+  }
+ },
+ {
+  "id": 6775531380,
+  "name": "Bivia: Anatomía Veterinaria",
+  "seller": "Higor Rodrigues Torres da Silva",
+  "genre": "Education",
+  "released": "2026-06-07",
+  "updated": "2026-11-09",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 15
+  },
+  "hits": {
+   "mx": [
+    "veterinario#11"
+   ]
+  }
+ },
+ {
+  "id": 6759956114,
+  "name": "Pukutan: Diario y Mascota",
+  "seller": "CodeBox Technology Company Limited",
+  "genre": "Social Networking",
+  "released": "2026-03-26",
+  "updated": "2026-11-09",
+  "rating": 4.75,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#1"
+   ],
+   "es": [
+    "diario mascota#3"
+   ]
+  }
+ },
+ {
+  "id": 6820108248,
+  "name": "Moxi: Mascota de autocuidado",
+  "seller": "MM Digital S.A.S.",
+  "genre": "Health & Fitness",
+  "released": "2026-10-12",
+  "updated": "2026-11-13",
+  "rating": 4.89655,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 29
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#2"
+   ]
+  }
+ },
+ {
+  "id": 6479562689,
+  "name": "PetMatez - Diario Mascota",
+  "seller": "Robin Guido Schmidt",
+  "genre": "Lifestyle",
+  "released": "2024-05-06",
+  "updated": "2026-01-23",
+  "rating": 4.8,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 5
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#3"
+   ]
+  }
+ },
+ {
+  "id": 6745396420,
+  "name": "PetNote Family: Diario Mascota",
+  "seller": "Ryo Oyama",
+  "genre": "Lifestyle",
+  "released": "2025-05-07",
+  "updated": "2026-10-28",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#5",
+    "recordatorio vacunas mascota#16"
+   ],
+   "es": [
+    "diario mascota#1"
+   ]
+  }
+ },
+ {
+  "id": 6756287657,
+  "name": "Mascota Pequeña - Diario",
+  "seller": "KEIK, LIMITED LIABILITY COMPANY",
+  "genre": "Lifestyle",
+  "released": "2025-12-15",
+  "updated": "2026-11-11",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#8"
+   ],
+   "es": [
+    "diario mascota#5"
+   ]
+  }
+ },
+ {
+  "id": 6677016305,
+  "name": "Otto: Tareas y Mascota Virtual",
+  "seller": "Zipo Apps Ltd.",
+  "genre": "Health & Fitness",
+  "released": "2024-09-24",
+  "updated": "2026-09-02",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#11"
+   ]
+  }
+ },
+ {
+  "id": 6761395287,
+  "name": "Pacepal: Corre diario",
+  "seller": "Dallio Software Solutions, S. de R.L. de C.V.",
+  "genre": "Health & Fitness",
+  "released": "2026-04-14",
+  "updated": "2026-07-30",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#12"
+   ]
+  }
+ },
+ {
+  "id": 6806863493,
+  "name": "Tanemy: Cuidado de Mascotas!",
+  "seller": "NW Team SAC",
+  "genre": "Health & Fitness",
+  "released": "2026-09-08",
+  "updated": "2026-11-14",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#13"
+   ],
+   "es": [
+    "diario mascota#8"
+   ]
+  }
+ },
+ {
+  "id": 6760020801,
+  "name": "Mascota: Cuidados y Medicación",
+  "seller": "Anas Ben Mustafa",
+  "genre": "Lifestyle",
+  "released": "2026-03-25",
+  "updated": "2026-11-11",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1,
+   "es": 1,
+   "us": 6
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#14",
+    "recordatorio vacunas mascota#2"
+   ],
+   "es": [
+    "diario mascota#17"
+   ],
+   "us": [
+    "pet vaccine reminder#20"
+   ]
+  }
+ },
+ {
+  "id": 6772203457,
+  "name": "Pet Journal: Diario Mascotas",
+  "seller": "帅 陈",
+  "genre": "Lifestyle",
+  "released": "2026-05-26",
+  "updated": "2026-08-07",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#15"
+   ]
+  }
+ },
+ {
+  "id": 6756494347,
+  "name": "Salud Mascota",
+  "seller": "Tomohito Kii",
+  "genre": "Lifestyle",
+  "released": "2025-12-18",
+  "updated": "2026-11-02",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#17"
+   ]
+  }
+ },
+ {
+  "id": 6826691036,
+  "name": "Hatchit: hábitos con mascota",
+  "seller": "Julian Sanchez",
+  "genre": "Productivity",
+  "released": "2026-11-04",
+  "updated": "2026-11-15",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#18"
+   ],
+   "es": [
+    "diario mascota#11"
+   ]
+  }
+ },
+ {
+  "id": 6797346889,
+  "name": "Trivia diaria: Datos curiosos",
+  "seller": "Marshall Matters Ventures Pte Ltd",
+  "genre": "Education",
+  "released": "2026-08-20",
+  "updated": "2026-09-22",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 5
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#20"
+   ]
+  }
+ },
+ {
+  "id": 6673890505,
+  "name": "Couple2—space for couples",
+  "seller": "SINGAPORE YOULOFT TECHNOLOGY PTE. LTD.",
+  "genre": "Utilities",
+  "released": "2024-10-12",
+  "updated": "2026-11-11",
+  "rating": 4.73308,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 266,
+   "es": 36
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#22"
+   ],
+   "es": [
+    "diario mascota#18"
+   ]
+  }
+ },
+ {
+  "id": 6755437345,
+  "name": "AstroAnimal: Horóscopo Mascota",
+  "seller": "OM CAPITAL LIMITED",
+  "genre": "Lifestyle",
+  "released": "2026-03-06",
+  "updated": "2026-09-24",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "diario mascota#23"
+   ]
+  }
+ },
+ {
+  "id": 6751991744,
+  "name": "Arya: Pastillas para Mascotas",
+  "seller": "Alan Acuna",
+  "genre": "Health & Fitness",
+  "released": "2025-09-25",
+  "updated": "2026-11-07",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#5"
+   ]
+  }
+ },
+ {
+  "id": 6792299436,
+  "name": "Cartilla Mascotas: Cat-a-log",
+  "seller": "Adam Makowski",
+  "genre": "Lifestyle",
+  "released": "2026-08-12",
+  "updated": "2026-11-12",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#6"
+   ]
+  }
+ },
+ {
+  "id": 6822934075,
+  "name": "PetHome: tu mascota al día",
+  "seller": "LA LYKLA, S.A. DE C.V.",
+  "genre": "Shopping",
+  "released": "2026-10-22",
+  "updated": "2026-11-14",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#7"
+   ]
+  }
+ },
+ {
+  "id": 6760733683,
+  "name": "Purrwell: Vacunas Mascota",
+  "seller": "HALIL GOKTEPE",
+  "genre": "Lifestyle",
+  "released": "2026-03-23",
+  "updated": "2026-06-28",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#9"
+   ]
+  }
+ },
+ {
+  "id": 6738308041,
+  "name": "FurryApp: Cuidado de Mascotas",
+  "seller": "Josafat Vicente Perez",
+  "genre": "Medical",
+  "released": "2024-12-09",
+  "updated": "2025-09-30",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#10"
+   ]
+  }
+ },
+ {
+  "id": 6792265281,
+  "name": "PawNook: Salud de Mascotas",
+  "seller": "Yuliia Kulakova",
+  "genre": "Health & Fitness",
+  "released": "2026-07-29",
+  "updated": "2026-07-30",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#11"
+   ]
+  }
+ },
+ {
+  "id": 6806062876,
+  "name": "Control de Mis Mascotas",
+  "seller": "Lehreer SAS",
+  "genre": "Lifestyle",
+  "released": "2026-09-09",
+  "updated": "2026-11-18",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#13"
+   ]
+  }
+ },
+ {
+  "id": 6670189692,
+  "name": "PetsCarnet",
+  "seller": "Jonathan Abimael Cruz Orozco",
+  "genre": "Lifestyle",
+  "released": "2024-10-23",
+  "updated": "2026-11-10",
+  "rating": 4.5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 2
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#17"
+   ]
+  }
+ },
+ {
+  "id": 6821598556,
+  "name": "PetVital: Salud de tu mascota",
+  "seller": "ADEPT LABS TECHNOLOGY COMPANY LIMITED",
+  "genre": "Medical",
+  "released": "2026-10-16",
+  "updated": "2026-10-19",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#18"
+   ],
+   "es": [
+    "salud perro#13"
+   ]
+  }
+ },
+ {
+  "id": 6759790238,
+  "name": "NotePet: Recordatorio Mascotas",
+  "seller": "AitchSoft LLC",
+  "genre": "Productivity",
+  "released": "2026-03-12",
+  "updated": "2026-10-19",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#20"
+   ]
+  }
+ },
+ {
+  "id": 6748838665,
+  "name": "Vaax",
+  "seller": "VILIFE SA de CV",
+  "genre": "Lifestyle",
+  "released": "2026-03-10",
+  "updated": "2026-09-21",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#23"
+   ]
+  }
+ },
+ {
+  "id": 6745103920,
+  "name": "Ruffo! App para mascotas",
+  "seller": "GPA SAS",
+  "genre": "Health & Fitness",
+  "released": "2025-08-07",
+  "updated": "2026-11-09",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "recordatorio vacunas mascota#24"
+   ]
+  }
+ },
+ {
+  "id": 6763531390,
+  "name": "Adiestramiento Perros: Clicker",
+  "seller": "SELECTA LAB LLC",
+  "genre": "Education",
+  "released": "2026-05-20",
+  "updated": "2026-10-23",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#3"
+   ]
+  }
+ },
+ {
+  "id": 6443503926,
+  "name": "Mister Cooper - Adiestramiento",
+  "seller": "Jonathan Lima",
+  "genre": "Education",
+  "released": "2022-10-11",
+  "updated": "2025-12-04",
+  "rating": 4.16667,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 6,
+   "es": 39
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#4"
+   ],
+   "es": [
+    "adiestramiento perros#4"
+   ]
+  }
+ },
+ {
+  "id": 6783878749,
+  "name": "PupSchool: Adiestra Perros",
+  "seller": "Ferran Espuna",
+  "genre": "Lifestyle",
+  "released": "2026-06-30",
+  "updated": "2026-06-30",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#6"
+   ],
+   "es": [
+    "adiestramiento perros#6"
+   ]
+  }
+ },
+ {
+  "id": 6755099390,
+  "name": "Pet Chat: Gatos y Perros IA",
+  "seller": "Chongqing Xiamao Technology Co., Ltd.",
+  "genre": "Lifestyle",
+  "released": "2025-12-22",
+  "updated": "2026-11-16",
+  "rating": 4.66667,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3,
+   "es": 9
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#7"
+   ],
+   "es": [
+    "adiestramiento perros#8"
+   ]
+  }
+ },
+ {
+  "id": 6737748858,
+  "name": "Dog Translator - Dog Training",
+  "seller": "DIGICORP JOINT STOCK COMPANY",
+  "genre": "Lifestyle",
+  "released": "2024-12-11",
+  "updated": "2026-11-05",
+  "rating": 4.27946,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 297,
+   "us": 9414
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#9"
+   ],
+   "us": [
+    "dog training#18"
+   ]
+  }
+ },
+ {
+  "id": 6736829352,
+  "name": "PawChamp－Educar Perros y Crías",
+  "seller": "Fontadella Limited",
+  "genre": "Lifestyle",
+  "released": "2025-01-13",
+  "updated": "2026-11-12",
+  "rating": 4.36151,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 473,
+   "us": 16060
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#10"
+   ],
+   "us": [
+    "dog training#12"
+   ]
+  }
+ },
+ {
+  "id": 6451440232,
+  "name": "Dosty: Cuidado de Perros Gatos",
+  "seller": "Dosty SIA",
+  "genre": "Lifestyle",
+  "released": "2023-11-08",
+  "updated": "2026-07-19",
+  "rating": 4.8,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 10
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#11"
+   ]
+  }
+ },
+ {
+  "id": 6753620435,
+  "name": "Silbato sonoro: educar perros",
+  "seller": "Muhammad Asad",
+  "genre": "Utilities",
+  "released": "2025-10-07",
+  "updated": "2026-11-04",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#13"
+   ],
+   "es": [
+    "adiestramiento perros#13"
+   ]
+  }
+ },
+ {
+  "id": 6748603708,
+  "name": "Entrenador de Perro: Sonidos .",
+  "seller": "Shane Evans",
+  "genre": "Games",
+  "released": "2026-02-07",
+  "updated": "2026-09-27",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#14"
+   ]
+  }
+ },
+ {
+  "id": 6738327693,
+  "name": "Traductor de Perros - Mascota",
+  "seller": "riza erdi karakus",
+  "genre": "Education",
+  "released": "2025-05-20",
+  "updated": "2026-11-03",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 7,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#15"
+   ],
+   "es": [
+    "adiestramiento perros#14"
+   ]
+  }
+ },
+ {
+  "id": 6752218690,
+  "name": "Ruffy: Entrenamiento de Perros",
+  "seller": "Oscar Puerma",
+  "genre": "Education",
+  "released": "2026-04-10",
+  "updated": "2026-11-16",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#16"
+   ]
+  }
+ },
+ {
+  "id": 6807570370,
+  "name": "Mimo: Traductor Perros y Gatos",
+  "seller": "Romain Minetto",
+  "genre": "Lifestyle",
+  "released": "2026-09-24",
+  "updated": "2026-11-17",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#20",
+    "traductor perro#19"
+   ]
+  }
+ },
+ {
+  "id": 6748873988,
+  "name": "DogHelp:Calendario para Perros",
+  "seller": "Maxim Styazhkin",
+  "genre": "Lifestyle",
+  "released": "2025-08-13",
+  "updated": "2026-10-21",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#21"
+   ]
+  }
+ },
+ {
+  "id": 6749248199,
+  "name": "Traductor de Perros con IA",
+  "seller": "OneRack",
+  "genre": "Entertainment",
+  "released": "2025-07-30",
+  "updated": "2026-09-01",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#22"
+   ],
+   "es": [
+    "adiestramiento perros#24"
+   ]
+  }
+ },
+ {
+  "id": 6759445318,
+  "name": "WoofVox: Traductor Perros Voz",
+  "seller": "STEPAN YESAYAN",
+  "genre": "Productivity",
+  "released": "2026-04-09",
+  "updated": "2026-04-23",
+  "rating": 4.28571,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 14
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#23",
+    "traductor perro#22"
+   ]
+  }
+ },
+ {
+  "id": 6789560816,
+  "name": "Paw Clicker: Adiestra Perros",
+  "seller": "Ibrahim Metehan Ariman",
+  "genre": "Lifestyle",
+  "released": "2026-07-16",
+  "updated": "2026-11-15",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0,
+   "es": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#24"
+   ],
+   "es": [
+    "adiestramiento perros#15"
+   ]
+  }
+ },
+ {
+  "id": 6796830148,
+  "name": "Huellitas: perros y gatos",
+  "seller": "Adriel Kornschuh",
+  "genre": "Lifestyle",
+  "released": "2026-08-18",
+  "updated": "2026-11-12",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "adiestramiento perros#25"
+   ]
+  }
+ },
+ {
+  "id": 6736762673,
+  "name": "Traductor de Perros: DogTalk",
+  "seller": "Appki Limited",
+  "genre": "Entertainment",
+  "released": "2024-11-07",
+  "updated": "2025-08-18",
+  "rating": 4.7344,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 753
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#6"
+   ]
+  }
+ },
+ {
+  "id": 6739787972,
+  "name": "Traductor de Perros - Habla",
+  "seller": "Muhammed Deniz",
+  "genre": "Entertainment",
+  "released": "2024-12-27",
+  "updated": "2026-06-29",
+  "rating": 4.46666,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 15
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#7"
+   ]
+  }
+ },
+ {
+  "id": 6758817392,
+  "name": "PawTok: Traductor de perros IA",
+  "seller": "Guangzhou Chiyuetong Trading Sales Co., Ltd.",
+  "genre": "Entertainment",
+  "released": "2026-02-24",
+  "updated": "2026-09-30",
+  "rating": 4.625,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 80
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#8"
+   ]
+  }
+ },
+ {
+  "id": 6443804216,
+  "name": "Traductor Perros, Gatos:Humano",
+  "seller": "Duong Vu",
+  "genre": "Entertainment",
+  "released": "2022-10-20",
+  "updated": "2026-11-08",
+  "rating": 4.50685,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 73,
+   "es": 25
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#9"
+   ],
+   "es": [
+    "adiestramiento perros#20"
+   ]
+  }
+ },
+ {
+  "id": 6812650197,
+  "name": "PetDuo-Traductor de Maullidos",
+  "seller": "HK FLYBULL TECHNOLOGY CO., LIMITED",
+  "genre": "Utilities",
+  "released": "2026-10-10",
+  "updated": "2026-11-05",
+  "rating": 4.36842,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 19
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#10"
+   ]
+  }
+ },
+ {
+  "id": 6757875245,
+  "name": "Traductor de Perros IA",
+  "seller": "Iterica B.V.",
+  "genre": "Entertainment",
+  "released": "2026-01-31",
+  "updated": "2026-09-30",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 1
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#11"
+   ]
+  }
+ },
+ {
+  "id": 6741954501,
+  "name": "Nuzzle: Gato & Perro",
+  "seller": "KVIDU PTE. LTD.",
+  "genre": "Lifestyle",
+  "released": "2025-04-05",
+  "updated": "2026-11-16",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#12"
+   ]
+  }
+ },
+ {
+  "id": 6758412974,
+  "name": "Habla con tu perro: Woof AI",
+  "seller": "Francesco Paciello",
+  "genre": "Education",
+  "released": "2026-01-29",
+  "updated": "2026-01-29",
+  "rating": 4,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 3
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#14"
+   ]
+  }
+ },
+ {
+  "id": 6749574170,
+  "name": "Traductor de Perros +",
+  "seller": "SUSANNAH BANANA BAKED GOOD LLC",
+  "genre": "Games",
+  "released": "2026-07-25",
+  "updated": "2026-08-07",
+  "rating": 4,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 4
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#16"
+   ]
+  }
+ },
+ {
+  "id": 6761099548,
+  "name": "Entrenar perro - 101 Paws",
+  "seller": "DPM APPS LP",
+  "genre": "Lifestyle",
+  "released": "2026-04-29",
+  "updated": "2026-11-16",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 6,
+   "es": 1
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#17"
+   ],
+   "es": [
+    "adiestramiento perros#23"
+   ]
+  }
+ },
+ {
+  "id": 6786338606,
+  "name": "Traductor de Perros y Perrito",
+  "seller": "Andrey Dolzhenko",
+  "genre": "Entertainment",
+  "released": "2026-09-21",
+  "updated": "2026-10-05",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "mx": 0
+  },
+  "hits": {
+   "mx": [
+    "traductor perro#24"
+   ]
+  }
+ },
+ {
+  "id": 6739944436,
+  "name": "4Pets - Cuidado de mascotas",
+  "seller": "Vet4pets Consulting S.L.",
+  "genre": "Utilities",
+  "released": "2025-04-15",
+  "updated": "2026-10-08",
+  "rating": 4.69388,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 49
+  },
+  "hits": {
+   "es": [
+    "cuidado de mascotas#3"
+   ]
+  }
+ },
+ {
+  "id": 6754036375,
+  "name": "Pettify: Salud de Mascotas",
+  "seller": "Aliaksei Matsesha",
+  "genre": "Lifestyle",
+  "released": "2025-12-29",
+  "updated": "2026-11-11",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1
+  },
+  "hits": {
+   "es": [
+    "cuidado de mascotas#8",
+    "diario mascota#16"
+   ]
+  }
+ },
+ {
+  "id": 6783338389,
+  "name": "Holidog",
+  "seller": "Gardicanin",
+  "genre": "Lifestyle",
+  "released": "2026-08-25",
+  "updated": "2026-11-04",
+  "rating": 3,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 4
+  },
+  "hits": {
+   "es": [
+    "cuidado de mascotas#19"
+   ]
+  }
+ },
+ {
+  "id": 6812447568,
+  "name": "popópo | caca, juego y perros",
+  "seller": "Mario Montesinos Rodriguez",
+  "genre": "Social Networking",
+  "released": "2026-09-20",
+  "updated": "2026-11-13",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 4
+  },
+  "hits": {
+   "es": [
+    "salud perro#9"
+   ]
+  }
+ },
+ {
+  "id": 6755713202,
+  "name": "Agenda mascota salud: Faunio",
+  "seller": "Marwen Haouacine",
+  "genre": "Lifestyle",
+  "released": "2026-03-18",
+  "updated": "2026-10-21",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1
+  },
+  "hits": {
+   "es": [
+    "salud perro#10",
+    "diario mascota#6"
+   ]
+  }
+ },
+ {
+  "id": 6752301827,
+  "name": "Milo - Seguro para perros",
+  "seller": "Milo Correduria de Seguros Digital S L",
+  "genre": "Finance",
+  "released": "2025-10-20",
+  "updated": "2026-10-06",
+  "rating": 4.27273,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 11
+  },
+  "hits": {
+   "es": [
+    "salud perro#14",
+    "app para perros#24"
+   ]
+  }
+ },
+ {
+  "id": 6826395984,
+  "name": "PupMemo: Diario de tu perro",
+  "seller": "HONG CHANG",
+  "genre": "Lifestyle",
+  "released": "2026-11-10",
+  "updated": "2026-11-11",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "salud perro#19"
+   ]
+  }
+ },
+ {
+  "id": 6745689460,
+  "name": "VetPassport · Salud Mascota",
+  "seller": "Elizaveta Shcherbakova",
+  "genre": "Lifestyle",
+  "released": "2025-10-29",
+  "updated": "2026-11-06",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2,
+   "us": 1
+  },
+  "hits": {
+   "es": [
+    "salud perro#20"
+   ],
+   "us": [
+    "pet vaccine reminder#22"
+   ]
+  }
+ },
+ {
+  "id": 6745893320,
+  "name": "Guaumigo: Paseadores de Perros",
+  "seller": "Guaumigo, S.L.",
+  "genre": "Travel",
+  "released": "2025-08-28",
+  "updated": "2026-11-03",
+  "rating": 4.4,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 10
+  },
+  "hits": {
+   "es": [
+    "salud perro#21"
+   ]
+  }
+ },
+ {
+  "id": 6757797785,
+  "name": "PetNid: Salud para Mascotas",
+  "seller": "Petsense Digital LTD",
+  "genre": "Lifestyle",
+  "released": "2026-03-24",
+  "updated": "2026-11-09",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1,
+   "us": 2
+  },
+  "hits": {
+   "es": [
+    "salud perro#22"
+   ],
+   "us": [
+    "pet health tracker#12"
+   ]
+  }
+ },
+ {
+  "id": 6832737013,
+  "name": "CARAPAW: Salud de mascotas",
+  "seller": "ERKAN KOSEOGLU",
+  "genre": "Lifestyle",
+  "released": "2026-11-11",
+  "updated": "2026-11-16",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "salud perro#24"
+   ]
+  }
+ },
+ {
+  "id": 6443554800,
+  "name": "DoggyApp - Identifica Perros",
+  "seller": "Edgar Zuniga",
+  "genre": "Utilities",
+  "released": "2022-10-06",
+  "updated": "2024-08-04",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 1
+  },
+  "hits": {
+   "es": [
+    "app para perros#20"
+   ]
+  }
+ },
+ {
+  "id": 6748307230,
+  "name": "Juegos para Gatosㅤ",
+  "seller": "Ruth Wood",
+  "genre": "Games",
+  "released": "2025-10-27",
+  "updated": "2026-11-03",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "app para gatos#14"
+   ]
+  }
+ },
+ {
+  "id": 6743428613,
+  "name": "Juego Para Gatos Y Mascotas",
+  "seller": "KidloLand Kids & Toddler Games",
+  "genre": "Games",
+  "released": "2025-07-29",
+  "updated": "2026-10-27",
+  "rating": 3.5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 4
+  },
+  "hits": {
+   "es": [
+    "app para gatos#19"
+   ]
+  }
+ },
+ {
+  "id": 6477835868,
+  "name": "juego para gatos : cat games",
+  "seller": "BENALALM Yahia",
+  "genre": "Games",
+  "released": "2024-02-13",
+  "updated": "2025-10-27",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "app para gatos#20"
+   ]
+  }
+ },
+ {
+  "id": 6815307148,
+  "name": "Wurfy: Cuida de tu Mascota",
+  "seller": "Carlos Pereira Varela",
+  "genre": "Health & Fitness",
+  "released": "2026-09-29",
+  "updated": "2026-10-05",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "diario mascota#9"
+   ]
+  }
+ },
+ {
+  "id": 6753342711,
+  "name": "Caelia: Diario y Motivación",
+  "seller": "False Peak",
+  "genre": "Health & Fitness",
+  "released": "2025-11-04",
+  "updated": "2026-10-18",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2
+  },
+  "hits": {
+   "es": [
+    "diario mascota#10"
+   ]
+  }
+ },
+ {
+  "id": 6760776848,
+  "name": "Fed? Comida y Cuidado Mascota",
+  "seller": "Smart Kiitos Oy",
+  "genre": "Lifestyle",
+  "released": "2026-03-30",
+  "updated": "2026-11-02",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "diario mascota#20"
+   ]
+  }
+ },
+ {
+  "id": 6759716582,
+  "name": "Pet Garden: Mascota en Pareja",
+  "seller": "BARTU CAKIR",
+  "genre": "Entertainment",
+  "released": "2026-04-03",
+  "updated": "2026-10-18",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "diario mascota#21"
+   ]
+  }
+ },
+ {
+  "id": 6760433022,
+  "name": "PupSavvy: Diario del Perro",
+  "seller": "Thomas Gandale",
+  "genre": "Lifestyle",
+  "released": "2026-03-25",
+  "updated": "2026-11-15",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "diario mascota#22"
+   ]
+  }
+ },
+ {
+  "id": 6821783881,
+  "name": "Clickaroo: Clicker para perros",
+  "seller": "胜荇 杨",
+  "genre": "Lifestyle",
+  "released": "2026-10-14",
+  "updated": "2026-10-14",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#9"
+   ]
+  }
+ },
+ {
+  "id": 6813969387,
+  "name": "Silbato Perros: Entrenamiento",
+  "seller": "Ángel Cilleruelo Rodríguez",
+  "genre": "Utilities",
+  "released": "2026-09-22",
+  "updated": "2026-10-02",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#11"
+   ]
+  }
+ },
+ {
+  "id": 6798717258,
+  "name": "DogQuiet: Silbato para perros",
+  "seller": "Cold Start Ventures Limited",
+  "genre": "Lifestyle",
+  "released": "2026-08-25",
+  "updated": "2026-11-18",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#16"
+   ]
+  }
+ },
+ {
+  "id": 6816749085,
+  "name": "Fluier: Silbato para perros",
+  "seller": "Glory Mae Dagapioso",
+  "genre": "Lifestyle",
+  "released": "2026-10-01",
+  "updated": "2026-11-15",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#18"
+   ]
+  }
+ },
+ {
+  "id": 6798565012,
+  "name": "Sentido Animal · Educar perros",
+  "seller": "Sentido Animal SL",
+  "genre": "Education",
+  "released": "2026-08-25",
+  "updated": "2026-10-08",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 2
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#19"
+   ]
+  }
+ },
+ {
+  "id": 6476311871,
+  "name": "DogTok",
+  "seller": "PARTYGAME LTD",
+  "genre": "Entertainment",
+  "released": "2024-02-14",
+  "updated": "2026-10-30",
+  "rating": 3.89474,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 190
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#21"
+   ]
+  }
+ },
+ {
+  "id": 6760407916,
+  "name": "AI traductor de perros",
+  "seller": "Aplexity Limited",
+  "genre": "Lifestyle",
+  "released": "2026-04-24",
+  "updated": "2026-05-19",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "es": 0
+  },
+  "hits": {
+   "es": [
+    "adiestramiento perros#22"
+   ]
+  }
+ },
+ {
+  "id": 6737822424,
+  "name": "AllTails Care: Pet Log Tracker",
+  "seller": "Valykhan",
+  "genre": "Lifestyle",
+  "released": "2025-01-08",
+  "updated": "2026-11-07",
+  "rating": 4.76667,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 30
+  },
+  "hits": {
+   "us": [
+    "pet care#5",
+    "pet health tracker#5"
+   ]
+  }
+ },
+ {
+  "id": 6751099569,
+  "name": "Pet Care - Animal Tracker",
+  "seller": "My Pet Care Limited",
+  "genre": "Lifestyle",
+  "released": "2025-08-21",
+  "updated": "2025-12-16",
+  "rating": 4.7,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 10
+  },
+  "hits": {
+   "us": [
+    "pet care#6"
+   ]
+  }
+ },
+ {
+  "id": 6764039165,
+  "name": "Daypaw: Pet Care Tracker",
+  "seller": "Anar Askarova",
+  "genre": "Lifestyle",
+  "released": "2026-05-13",
+  "updated": "2026-10-19",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "pet care#8"
+   ]
+  }
+ },
+ {
+  "id": 6471319447,
+  "name": "Pet Health Tracker: Petfetti",
+  "seller": "pulsify.io LTD",
+  "genre": "Health & Fitness",
+  "released": "2024-11-25",
+  "updated": "2026-10-28",
+  "rating": 4.72727,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 33
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#1"
+   ]
+  }
+ },
+ {
+  "id": 6788731523,
+  "name": "Pet Day Tracker: Pet Health",
+  "seller": "Wiktor Koscielny",
+  "genre": "Lifestyle",
+  "released": "2026-07-21",
+  "updated": "2026-11-07",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#4"
+   ]
+  }
+ },
+ {
+  "id": 6783571196,
+  "name": "PetCard: Pet Health Tracker",
+  "seller": "Atakan Apan",
+  "genre": "Health & Fitness",
+  "released": "2026-07-02",
+  "updated": "2026-07-23",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#9"
+   ]
+  }
+ },
+ {
+  "id": 6757742202,
+  "name": "Pet Health Journal",
+  "seller": "GAZIYAV ISKHAKOV",
+  "genre": "Health & Fitness",
+  "released": "2026-01-20",
+  "updated": "2026-03-07",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#10"
+   ]
+  }
+ },
+ {
+  "id": 6779350381,
+  "name": "Vetbit: Pet Health Tracker",
+  "seller": "SUMMITVIEW LAND HOLDINGS, LLC",
+  "genre": "Health & Fitness",
+  "released": "2026-06-18",
+  "updated": "2026-08-06",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#11"
+   ]
+  }
+ },
+ {
+  "id": 6760215207,
+  "name": "Pet Health Tracker - Pawport",
+  "seller": "Lutfil Hakim",
+  "genre": "Health & Fitness",
+  "released": "2026-04-03",
+  "updated": "2026-06-02",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#13"
+   ]
+  }
+ },
+ {
+  "id": 6462903750,
+  "name": "Pet Healthٞ",
+  "seller": "Adam Cziko",
+  "genre": "Lifestyle",
+  "released": "2023-09-28",
+  "updated": "2025-05-15",
+  "rating": 4.525,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 80
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#15"
+   ]
+  }
+ },
+ {
+  "id": 6747903892,
+  "name": "Pet Health Tracker: VUS",
+  "seller": "Ruslan Filistovich",
+  "genre": "Health & Fitness",
+  "released": "2025-08-20",
+  "updated": "2026-08-10",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#16"
+   ]
+  }
+ },
+ {
+  "id": 6742343477,
+  "name": "Snoutly: AI Pet Health Tracker",
+  "seller": "TAILWISE SOLUTIONS YAZILIM HIZMETLERI LIMITED SIRKETI",
+  "genre": "Health & Fitness",
+  "released": "2025-04-09",
+  "updated": "2025-10-13",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 3
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#17"
+   ]
+  }
+ },
+ {
+  "id": 6450726111,
+  "name": "Cub: Self Care Pet & Focus",
+  "seller": "Offbeat Apps LLC",
+  "genre": "Health & Fitness",
+  "released": "2023-08-04",
+  "updated": "2026-07-18",
+  "rating": 4.68299,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 3227
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#18"
+   ]
+  }
+ },
+ {
+  "id": 6757897604,
+  "name": "Hubert: Pet Health Tracker",
+  "seller": "GETHUBERT PTE. LTD.",
+  "genre": "Lifestyle",
+  "released": "2026-02-26",
+  "updated": "2026-08-16",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#20"
+   ]
+  }
+ },
+ {
+  "id": 6744717070,
+  "name": "TadaPal: Health Tracker & Pet",
+  "seller": "AILIFE TECHNOLOGY PTE. LTD.",
+  "genre": "Health & Fitness",
+  "released": "2025-04-29",
+  "updated": "2026-11-13",
+  "rating": 4.83251,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1636
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#21"
+   ]
+  }
+ },
+ {
+  "id": 6787262395,
+  "name": "WagWatch: Pet Health Tracker",
+  "seller": "JOSEPH CHAPMAN",
+  "genre": "Productivity",
+  "released": "2026-08-22",
+  "updated": "2026-11-12",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 12
+  },
+  "hits": {
+   "us": [
+    "pet health tracker#22"
+   ]
+  }
+ },
+ {
+  "id": 6670435183,
+  "name": "Poopi: Dog Health Journal",
+  "seller": "Matthew Rayes",
+  "genre": "Health & Fitness",
+  "released": "2024-10-30",
+  "updated": "2025-08-01",
+  "rating": 4.72727,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 11
+  },
+  "hits": {
+   "us": [
+    "dog health#2"
+   ]
+  }
+ },
+ {
+  "id": 6760972616,
+  "name": "WoofLog: Dog Health Diary",
+  "seller": "Vitalii Nechypor",
+  "genre": "Lifestyle",
+  "released": "2026-05-31",
+  "updated": "2026-06-05",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "dog health#5"
+   ]
+  }
+ },
+ {
+  "id": 6776749315,
+  "name": "PupLog - Dog Health Tracker",
+  "seller": "DALTON JAMES BRIDGE",
+  "genre": "Health & Fitness",
+  "released": "2026-06-15",
+  "updated": "2026-08-28",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "dog health#7"
+   ]
+  }
+ },
+ {
+  "id": 6764790348,
+  "name": "PupGut — Dog Health",
+  "seller": "Axis Data Systems, L.L.C.",
+  "genre": "Health & Fitness",
+  "released": "2026-05-22",
+  "updated": "2026-06-08",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "dog health#8"
+   ]
+  }
+ },
+ {
+  "id": 6762710320,
+  "name": "FurScore: Dog Health Tracker",
+  "seller": "Kedar Kodgire",
+  "genre": "Lifestyle",
+  "released": "2026-04-28",
+  "updated": "2026-07-19",
+  "rating": 4.5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "dog health#10"
+   ]
+  }
+ },
+ {
+  "id": 6749858925,
+  "name": "Hauva, dog health & routines",
+  "seller": "Antero Hanhirova",
+  "genre": "Lifestyle",
+  "released": "2026-03-22",
+  "updated": "2026-10-29",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "dog health#11"
+   ]
+  }
+ },
+ {
+  "id": 6782015126,
+  "name": "Pawsy: AI Dog Health & Vet",
+  "seller": "Timur iuldashevi",
+  "genre": "Health & Fitness",
+  "released": "2026-07-14",
+  "updated": "2026-07-15",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "dog health#15"
+   ]
+  }
+ },
+ {
+  "id": 6757300467,
+  "name": "PawIQ: Dog Health & AI Scanner",
+  "seller": "modeleven IT GmbH",
+  "genre": "Lifestyle",
+  "released": "2026-01-16",
+  "updated": "2026-04-02",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "dog health#16"
+   ]
+  }
+ },
+ {
+  "id": 6749225257,
+  "name": "PetsyDNA: Dog Health",
+  "seller": "PetsyDNA LLC",
+  "genre": "Reference",
+  "released": "2025-07-29",
+  "updated": "2026-10-31",
+  "rating": 3.33333,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 3
+  },
+  "hits": {
+   "us": [
+    "dog health#18"
+   ]
+  }
+ },
+ {
+  "id": 6758557020,
+  "name": "Padr: Cat Health Tracker",
+  "seller": "Sloth Precision LLC",
+  "genre": "Health & Fitness",
+  "released": "2026-03-03",
+  "updated": "2026-08-14",
+  "rating": 4.76471,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 17
+  },
+  "hits": {
+   "us": [
+    "cat health#1"
+   ]
+  }
+ },
+ {
+  "id": 6760662096,
+  "name": "Cat Tracker - Pet Health Diary",
+  "seller": "ODISSEYA, TOO",
+  "genre": "Health & Fitness",
+  "released": "2026-03-23",
+  "updated": "2026-03-23",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "cat health#3"
+   ]
+  }
+ },
+ {
+  "id": 6701986806,
+  "name": "iKnowMyCat: Cat Health Tracker",
+  "seller": "SaguaroBytes LLC",
+  "genre": "Medical",
+  "released": "2024-10-08",
+  "updated": "2026-10-15",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "cat health#4"
+   ]
+  }
+ },
+ {
+  "id": 6767412699,
+  "name": "WhiskerWatch: Cat Health Care",
+  "seller": "Casey Millstein",
+  "genre": "Lifestyle",
+  "released": "2026-05-15",
+  "updated": "2026-05-15",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "cat health#5"
+   ]
+  }
+ },
+ {
+  "id": 6753718987,
+  "name": "NineLives - Cat Health Tracker",
+  "seller": "BUILT BY FOUNDRY, INC.",
+  "genre": "Health & Fitness",
+  "released": "2025-10-22",
+  "updated": "2026-06-04",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 6
+  },
+  "hits": {
+   "us": [
+    "cat health#7"
+   ]
+  }
+ },
+ {
+  "id": 6763074878,
+  "name": "Everfur: Dog & Cat Health",
+  "seller": "Strand Health Inc.",
+  "genre": "Health & Fitness",
+  "released": "2026-05-11",
+  "updated": "2026-10-29",
+  "rating": 4.51999,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 25
+  },
+  "hits": {
+   "us": [
+    "cat health#8"
+   ]
+  }
+ },
+ {
+  "id": 6765758058,
+  "name": "PurrTrack: Cat Health Tracker",
+  "seller": "Jazzy Management, LLC",
+  "genre": "Lifestyle",
+  "released": "2026-05-07",
+  "updated": "2026-11-05",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "cat health#9"
+   ]
+  }
+ },
+ {
+  "id": 6478842291,
+  "name": "CatsMe: Cat Pain & Health AI",
+  "seller": "Carelogy Inc.",
+  "genre": "Lifestyle",
+  "released": "2025-01-08",
+  "updated": "2026-11-08",
+  "rating": 3.83333,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 6
+  },
+  "hits": {
+   "us": [
+    "cat health#10",
+    "cat pain scan#10"
+   ]
+  }
+ },
+ {
+  "id": 6756233956,
+  "name": "Hugging Cat",
+  "seller": "Majjako Tech",
+  "genre": "Medical",
+  "released": "2026-01-18",
+  "updated": "2026-11-03",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "cat health#11"
+   ]
+  }
+ },
+ {
+  "id": 6503908960,
+  "name": "Meowz: Cat Training, Pet Care",
+  "seller": "nove8 LTD",
+  "genre": "Lifestyle",
+  "released": "2024-08-21",
+  "updated": "2026-07-01",
+  "rating": 4.33399,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 997
+  },
+  "hits": {
+   "us": [
+    "cat health#15",
+    "cat pain scan#8"
+   ]
+  }
+ },
+ {
+  "id": 6738285664,
+  "name": "Cat Breath Monitor",
+  "seller": "Vanessa Pesch",
+  "genre": "Health & Fitness",
+  "released": "2024-12-05",
+  "updated": "2026-10-19",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "cat health#16"
+   ]
+  }
+ },
+ {
+  "id": 6791877239,
+  "name": "Purrmed: Cat Health Diary",
+  "seller": "Arslan Ahmad",
+  "genre": "Lifestyle",
+  "released": "2026-07-23",
+  "updated": "2026-07-23",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "cat health#17"
+   ]
+  }
+ },
+ {
+  "id": 6759465992,
+  "name": "Pawli: Cat Health & Food Scan",
+  "seller": "NOUR OUADDI",
+  "genre": "Lifestyle",
+  "released": "2026-04-02",
+  "updated": "2026-05-21",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "cat health#18"
+   ]
+  }
+ },
+ {
+  "id": 6744916647,
+  "name": "Pet Care Tracker App - FLUTO",
+  "seller": "Mclansys Solutions Private Limited",
+  "genre": "Lifestyle",
+  "released": "2026-03-09",
+  "updated": "2026-11-07",
+  "rating": 3.69231,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 13
+  },
+  "hits": {
+   "us": [
+    "cat health#20"
+   ]
+  }
+ },
+ {
+  "id": 6803552541,
+  "name": "CatPeePoop – Cat Health Log",
+  "seller": "SEUNGBEOM HAN",
+  "genre": "Lifestyle",
+  "released": "2026-09-17",
+  "updated": "2026-10-13",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "cat health#22"
+   ]
+  }
+ },
+ {
+  "id": 6790418078,
+  "name": "Purrsuit: Cat Health & Care",
+  "seller": "BRIGHTLEAP INC",
+  "genre": "Health & Fitness",
+  "released": "2026-08-21",
+  "updated": "2026-10-14",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "cat health#25"
+   ]
+  }
+ },
+ {
+  "id": 6797280576,
+  "name": "PetLife: Pet Vaccine Reminder",
+  "seller": "Ali Goktas",
+  "genre": "Lifestyle",
+  "released": "2026-08-06",
+  "updated": "2026-08-08",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#1"
+   ]
+  }
+ },
+ {
+  "id": 6760741400,
+  "name": "Vettie: Pet Vaccine Reminder",
+  "seller": "UFUK OZDEMIR",
+  "genre": "Health & Fitness",
+  "released": "2026-03-28",
+  "updated": "2026-09-05",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#2"
+   ]
+  }
+ },
+ {
+  "id": 6760370601,
+  "name": "PetVax: Pet Vaccine Tracker",
+  "seller": "Devskin Desenvolvimento de Softwares ltda",
+  "genre": "Utilities",
+  "released": "2026-05-20",
+  "updated": "2026-09-05",
+  "rating": 0,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#6"
+   ]
+  }
+ },
+ {
+  "id": 6775067128,
+  "name": "PawProof: Pet Vaccine Tracker",
+  "seller": "Golfsum PLLC",
+  "genre": "Lifestyle",
+  "released": "2026-06-10",
+  "updated": "2026-07-10",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#7"
+   ]
+  }
+ },
+ {
+  "id": 6447440095,
+  "name": "PetOne Vet",
+  "seller": "National Veterinary Associates Inc.",
+  "genre": "Medical",
+  "released": "2023-10-04",
+  "updated": "2026-11-09",
+  "rating": 4.85438,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2740
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#11"
+   ]
+  }
+ },
+ {
+  "id": 6758048262,
+  "name": "Pet Health Tracker Reminder",
+  "seller": "Filip Stojanovic",
+  "genre": "Lifestyle",
+  "released": "2026-03-04",
+  "updated": "2026-10-11",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#16"
+   ]
+  }
+ },
+ {
+  "id": 6737255725,
+  "name": "Pet App: Tracker & Care",
+  "seller": "Huy Nguyen",
+  "genre": "Utilities",
+  "released": "2024-11-02",
+  "updated": "2025-12-26",
+  "rating": 4.5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 18
+  },
+  "hits": {
+   "us": [
+    "pet vaccine reminder#19"
+   ]
+  }
+ },
+ {
+  "id": 6738891859,
+  "name": "DogSmart - Puppy Training App",
+  "seller": "Farhan Saqib",
+  "genre": "Lifestyle",
+  "released": "2024-12-03",
+  "updated": "2026-10-01",
+  "rating": 3.83333,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 12
+  },
+  "hits": {
+   "us": [
+    "dog training#9"
+   ]
+  }
+ },
+ {
+  "id": 6720756579,
+  "name": "K9W Dog Training",
+  "seller": "K9WDogTrainingLLC",
+  "genre": "Business",
+  "released": "2024-09-27",
+  "updated": "2026-10-06",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "dog training#10"
+   ]
+  }
+ },
+ {
+  "id": 6759794143,
+  "name": "Dog Training: by NS Apps",
+  "seller": "Xeniya Bykhova",
+  "genre": "Lifestyle",
+  "released": "2026-03-11",
+  "updated": "2026-06-30",
+  "rating": 4,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "dog training#13"
+   ]
+  }
+ },
+ {
+  "id": 6748264403,
+  "name": "Dog Clicker - Puppy Trainer",
+  "seller": "Aivana LLC",
+  "genre": "Lifestyle",
+  "released": "2025-07-11",
+  "updated": "2025-07-11",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "dog training#14"
+   ]
+  }
+ },
+ {
+  "id": 6746564921,
+  "name": "Dog Training Elite - DTE",
+  "seller": "DOG TRAINING ELITE FRANCHISING, LLC",
+  "genre": "Business",
+  "released": "2025-05-31",
+  "updated": "2026-10-07",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "dog training#21"
+   ]
+  }
+ },
+ {
+  "id": 6777040855,
+  "name": "Fido: Dog Training & Clicker",
+  "seller": "Maciej Bajko",
+  "genre": "Education",
+  "released": "2026-07-02",
+  "updated": "2026-11-13",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 3
+  },
+  "hits": {
+   "us": [
+    "dog training#22"
+   ]
+  }
+ },
+ {
+  "id": 6757766151,
+  "name": "VetGPT AI Pet Health Assistant",
+  "seller": "JOSHUA STRANGE",
+  "genre": "Medical",
+  "released": "2026-03-10",
+  "updated": "2026-11-16",
+  "rating": 4.76667,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 30
+  },
+  "hits": {
+   "us": [
+    "ai vet#1"
+   ]
+  }
+ },
+ {
+  "id": 6759861108,
+  "name": "Vetly - Your AI Vet Assistant",
+  "seller": "进 徐",
+  "genre": "Utilities",
+  "released": "2026-03-16",
+  "updated": "2026-03-16",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "ai vet#2"
+   ]
+  }
+ },
+ {
+  "id": 6748588390,
+  "name": "Voyage: AI Vet for Dogs & Cats",
+  "seller": "Voyage Health Inc",
+  "genre": "Medical",
+  "released": "2025-08-13",
+  "updated": "2026-11-02",
+  "rating": 4.85185,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 27
+  },
+  "hits": {
+   "us": [
+    "ai vet#4"
+   ]
+  }
+ },
+ {
+  "id": 6474273908,
+  "name": "CoVet - Veterinary CoPilot",
+  "seller": "CoVetAI Inc.",
+  "genre": "Productivity",
+  "released": "2023-12-25",
+  "updated": "2026-11-17",
+  "rating": 4.68627,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 51
+  },
+  "hits": {
+   "us": [
+    "ai vet#6"
+   ]
+  }
+ },
+ {
+  "id": 6461720107,
+  "name": "ScribbleVet – the AI Scribe",
+  "seller": "Kairo Care, Inc.",
+  "genre": "Medical",
+  "released": "2023-09-22",
+  "updated": "2026-09-14",
+  "rating": 4.56667,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 30
+  },
+  "hits": {
+   "us": [
+    "ai vet#7"
+   ]
+  }
+ },
+ {
+  "id": 6755063080,
+  "name": "ChatVET AI",
+  "seller": "ChatVET LLC",
+  "genre": "Medical",
+  "released": "2026-05-15",
+  "updated": "2026-11-16",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "ai vet#8"
+   ]
+  }
+ },
+ {
+  "id": 6745177293,
+  "name": "Vet AI",
+  "seller": "Paw Bridge z.s.",
+  "genre": "Utilities",
+  "released": "2025-05-13",
+  "updated": "2025-05-13",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "ai vet#9"
+   ]
+  }
+ },
+ {
+  "id": 6739838484,
+  "name": "Vetspire AI",
+  "seller": "PATHWAY PARTNERS VET MANAGEMENT COMPANY LLC",
+  "genre": "Medical",
+  "released": "2025-04-07",
+  "updated": "2026-11-13",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 2
+  },
+  "hits": {
+   "us": [
+    "ai vet#10"
+   ]
+  }
+ },
+ {
+  "id": 6723895180,
+  "name": "Pet Oracle - AI Vet 24/7 Care",
+  "seller": "J LABS TEKNOLOJI ANONIM SIRKETI",
+  "genre": "Lifestyle",
+  "released": "2024-12-02",
+  "updated": "2025-05-26",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "ai vet#11"
+   ]
+  }
+ },
+ {
+  "id": 6760271092,
+  "name": "Vet Drug Dose Calculator",
+  "seller": "Emrah Korkmaz",
+  "genre": "Medical",
+  "released": "2026-03-18",
+  "updated": "2026-08-07",
+  "rating": 2,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "ai vet#12"
+   ]
+  }
+ },
+ {
+  "id": 6743011008,
+  "name": "Eko Vet+",
+  "seller": "Eko Health, Inc.",
+  "genre": "Medical",
+  "released": "2026-04-28",
+  "updated": "2026-10-27",
+  "rating": 4.8,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 20
+  },
+  "hits": {
+   "us": [
+    "ai vet#13"
+   ]
+  }
+ },
+ {
+  "id": 6451038161,
+  "name": "Kindroid: Your Personal AI",
+  "seller": "Beautifully Incorporated",
+  "genre": "Entertainment",
+  "released": "2023-08-02",
+  "updated": "2026-10-28",
+  "rating": 4.73621,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 11255
+  },
+  "hits": {
+   "us": [
+    "ai vet#14"
+   ]
+  }
+ },
+ {
+  "id": 6761402569,
+  "name": "Oral Chart: AI Vet Scribe",
+  "seller": "WeiTa (Wuhan) Technology Co., Ltd.",
+  "genre": "Productivity",
+  "released": "2026-05-29",
+  "updated": "2026-05-30",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "ai vet#15"
+   ]
+  }
+ },
+ {
+  "id": 6757500248,
+  "name": "WisePaws: AI Vet Scribe",
+  "seller": "WISEPAWS LTD",
+  "genre": "Medical",
+  "released": "2026-04-27",
+  "updated": "2026-10-14",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "ai vet#16"
+   ]
+  }
+ },
+ {
+  "id": 6814645122,
+  "name": "Veterans Hub",
+  "seller": "KAVOD AI LLC",
+  "genre": "Lifestyle",
+  "released": "2026-11-11",
+  "updated": "2026-11-12",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "ai vet#17"
+   ]
+  }
+ },
+ {
+  "id": 6468961703,
+  "name": "PupPilot - Your AI Co-Pilot",
+  "seller": "PupPilot, Corp.",
+  "genre": "Medical",
+  "released": "2024-04-20",
+  "updated": "2024-12-03",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 4
+  },
+  "hits": {
+   "us": [
+    "ai vet#18"
+   ]
+  }
+ },
+ {
+  "id": 6443737787,
+  "name": "Artist.ai - AI Art Generator",
+  "seller": "Livintis W.L.L.",
+  "genre": "Graphics & Design",
+  "released": "2022-10-28",
+  "updated": "2026-06-10",
+  "rating": 4.57193,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 13792
+  },
+  "hits": {
+   "us": [
+    "ai vet#19"
+   ]
+  }
+ },
+ {
+  "id": 6736607576,
+  "name": "VetNotes - AI Scribe for Vets",
+  "seller": "VETNOTES PTY LTD",
+  "genre": "Productivity",
+  "released": "2024-10-14",
+  "updated": "2026-10-07",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "ai vet#20"
+   ]
+  }
+ },
+ {
+  "id": 6739554054,
+  "name": "Genspark AI Workspace",
+  "seller": "genspark inc",
+  "genre": "Productivity",
+  "released": "2025-02-28",
+  "updated": "2026-11-17",
+  "rating": 4.70571,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 4499
+  },
+  "hits": {
+   "us": [
+    "ai vet#21"
+   ]
+  }
+ },
+ {
+  "id": 6756787485,
+  "name": "Vetbook AI",
+  "seller": "EVET ARASTIRMA GELISTIRME MUHENDISLIK YAZILIM SISTEMLERI MED DANISMANLIK VET LTD STI",
+  "genre": "Medical",
+  "released": "2026-01-27",
+  "updated": "2026-11-17",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "ai vet#22"
+   ]
+  }
+ },
+ {
+  "id": 6741888140,
+  "name": "WagRead: AI Vet & Mood Reader",
+  "seller": "AlphaKernel Development Inc.",
+  "genre": "Medical",
+  "released": "2025-02-26",
+  "updated": "2026-10-16",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 1
+  },
+  "hits": {
+   "us": [
+    "ai vet#23"
+   ]
+  }
+ },
+ {
+  "id": 6765955053,
+  "name": "SoulPal: AI Social Media",
+  "seller": "Yasin Simsek",
+  "genre": "Entertainment",
+  "released": "2026-05-28",
+  "updated": "2026-10-13",
+  "rating": 4.40909,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 44
+  },
+  "hits": {
+   "us": [
+    "ai vet#24"
+   ]
+  }
+ },
+ {
+  "id": 6745743559,
+  "name": "Cat Pain Scan & Food Scanner",
+  "seller": "Appnord AS",
+  "genre": "Lifestyle",
+  "released": "2025-06-07",
+  "updated": "2026-06-01",
+  "rating": 4.33333,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 6
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#1"
+   ]
+  }
+ },
+ {
+  "id": 6751270706,
+  "name": "Helpurr - Cat Vitals Scanner",
+  "seller": "Helpurr Limited",
+  "genre": "Lifestyle",
+  "released": "2025-09-24",
+  "updated": "2026-05-22",
+  "rating": 0,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 0
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#4"
+   ]
+  }
+ },
+ {
+  "id": 6758533689,
+  "name": "Cat Pain Check AI",
+  "seller": "Inyeon LLC",
+  "genre": "Lifestyle",
+  "released": "2026-02-12",
+  "updated": "2026-09-08",
+  "rating": 5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 3
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#5"
+   ]
+  }
+ },
+ {
+  "id": 6747179357,
+  "name": "Cat Food Scanner - Leo",
+  "seller": "Alpay Vodenicharov",
+  "genre": "Lifestyle",
+  "released": "2025-07-08",
+  "updated": "2026-11-06",
+  "rating": 4.62842,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 183
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#11"
+   ]
+  }
+ },
+ {
+  "id": 6755060185,
+  "name": "Cat Food Scanner - Yucat",
+  "seller": "Adam Ayuda-Djezzar",
+  "genre": "Lifestyle",
+  "released": "2025-12-13",
+  "updated": "2026-09-15",
+  "rating": 5,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 5
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#13"
+   ]
+  }
+ },
+ {
+  "id": 6764501721,
+  "name": "Kitty Stack: Cat Raising",
+  "seller": "HK GANGXING TECHNOLOGY LIMITED",
+  "genre": "Games",
+  "released": "2026-05-06",
+  "updated": "2026-07-31",
+  "rating": 4.5,
+  "es": true,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 12
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#20"
+   ]
+  }
+ },
+ {
+  "id": 6807520624,
+  "name": "Cat Translator: Meowly",
+  "seller": "Blacke Teknoloji Sanayi Ve Ticaret Limited Sirketi",
+  "genre": "Entertainment",
+  "released": "2026-10-26",
+  "updated": "2026-11-11",
+  "rating": 4.59999,
+  "es": false,
+  "iap": null,
+  "price": 0,
+  "ratings": {
+   "us": 5
+  },
+  "hits": {
+   "us": [
+    "cat pain scan#24"
+   ]
+  }
+ }
+]

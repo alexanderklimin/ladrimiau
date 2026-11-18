@@ -1,0 +1,185 @@
+---
+import Base from '../layouts/Base.astro';
+
+interface Props { species: 'dog' | 'cat' }
+const { species } = Astro.props;
+
+const copy = {
+  dog: {
+    path: '/calculadoras/embarazo-perra/',
+    crumb: 'Embarazo de la perra',
+    title: 'Cuánto dura el embarazo de una perra: calculadora de fecha de parto',
+    description: 'El embarazo de una perra dura unos 63 días. Calcula la fecha probable de parto y el rango de días a partir de la monta o de la ovulación.',
+    h1: '¿Cuánto dura el embarazo de una perra?',
+    answer: 'Dura unos 63 días desde la monta, aunque el parto puede llegar entre los días 58 y 72. Si el veterinario ha determinado la ovulación, la estimación es más precisa: entre 64 y 66 días.',
+    otherHref: '/calculadoras/embarazo-gata/',
+    otherLabel: 'Calculadora de embarazo de la gata',
+    rows: [
+      ['Desde la primera monta', '58 a 72 días', '63 días'],
+      ['Desde la ovulación o el pico de LH', '64 a 66 días', '65 días'],
+    ],
+    why: 'La fecha de la monta no coincide necesariamente con la de la concepción, porque los espermatozoides pueden sobrevivir varios días. Por eso el rango desde la monta es tan amplio.',
+  },
+  cat: {
+    path: '/calculadoras/embarazo-gata/',
+    crumb: 'Embarazo de la gata',
+    title: 'Cuánto dura el embarazo de una gata: calculadora de fecha de parto',
+    description: 'El embarazo de una gata dura unos 65 días. Calcula la fecha probable de parto y el rango de días a partir de la monta.',
+    h1: '¿Cuánto dura el embarazo de una gata?',
+    answer: 'Dura unos 65 días desde la monta, normalmente entre 63 y 67 días.',
+    otherHref: '/calculadoras/embarazo-perra/',
+    otherLabel: 'Calculadora de embarazo de la perra',
+    rows: [['Desde la monta', '63 a 67 días', '65 días']],
+    why: 'En la gata, la ovulación se produce como respuesta a la monta. Si hubo varias montas en días distintos, usa la primera fecha y ten en cuenta que el parto puede retrasarse respecto a la estimación.',
+  },
+}[species];
+
+const faq = [
+  {
+    q: '¿La fecha de parto es exacta?',
+    a: 'No. Es una estimación: el parto puede adelantarse o retrasarse dentro del rango indicado. Tu veterinario puede confirmar la gestación y afinar la fecha.',
+  },
+  {
+    q: '¿Cuándo debo llamar al veterinario?',
+    a: 'Llama si se supera la fecha máxima sin parto, si hay contracciones intensas sin que nazca ninguna cría, si aparece sangrado o flujo de mal olor, o si la madre está muy decaída o tiene dolor.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: copy.crumb,
+    url: new URL(copy.path, Astro.site).href,
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Any',
+    inLanguage: 'es',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  },
+];
+---
+<Base
+  title={copy.title}
+  description={copy.description}
+  jsonLd={jsonLd}
+  crumbs={[{ name: 'Inicio', path: '/' }, { name: copy.crumb, path: copy.path }]}
+>
+  <h1>{copy.h1}</h1>
+  <p class="lead">{copy.answer}</p>
+
+  <form class="card" data-pregnancy-calculator data-species={species} novalidate>
+    {species === 'dog' && (
+      <fieldset class="field">
+        <legend>¿Qué fecha conoces?</legend>
+        <label class="choice"><input type="radio" name="basis" value="mating" checked /> Primera monta</label>
+        <label class="choice"><input type="radio" name="basis" value="ovulation" /> Ovulación confirmada por el veterinario</label>
+      </fieldset>
+    )}
+    <div class="field">
+      <label for="date">{species === 'dog' ? 'Fecha' : 'Fecha de la monta'}</label>
+      <input id="date" name="date" type="date" required />
+    </div>
+    <button type="submit">Calcular fecha de parto</button>
+    <p class="error" data-error role="alert"></p>
+    <div class="result" data-result aria-live="polite" hidden>
+      <span class="big" data-likely></span>
+      <p data-range></p>
+      <p data-progress></p>
+    </div>
+  </form>
+
+  <div class="notice">
+    <p><strong>Acude al veterinario</strong> si se supera la fecha máxima, si hay contracciones intensas sin que nazca ninguna cría, sangrado, flujo de mal olor o gran decaimiento.</p>
+  </div>
+
+  <h2>Duración de la gestación</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th scope="col">Punto de partida</th><th scope="col">Rango</th><th scope="col">Fecha usada como probable</th></tr></thead>
+      <tbody>
+        {copy.rows.map(([from, range, likely]) => <tr><td>{from}</td><td>{range}</td><td>{likely}</td></tr>)}
+      </tbody>
+    </table>
+  </div>
+  <p>{copy.why}</p>
+
+  <h2>Preguntas frecuentes</h2>
+  {faq.map(({ q, a }) => (
+    <>
+      <h3>{q}</h3>
+      <p>{a}</p>
+    </>
+  ))}
+
+  <p><a href={copy.otherHref}>{copy.otherLabel}</a></p>
+
+  <section class="sources" aria-label="Fuentes">
+    <h2>Fuentes</h2>
+    <ul>
+      <li><a href="https://www.merckvetmanual.com/management-and-nutrition/management-of-reproduction-dogs-and-cats/whelping-and-queening-in-bitches-and-queens" rel="noopener">Merck Veterinary Manual: Whelping and Queening in Bitches and Queens</a></li>
+    </ul>
+    <p>Revisado el 18 de noviembre de 2026.</p>
+  </section>
+</Base>
+
+<script>
+  import { estimateDueDate, daysSince } from '../lib/pregnancy.js';
+
+  const form = document.querySelector<HTMLFormElement>('[data-pregnancy-calculator]');
+  if (form) {
+    const species = form.dataset.species as string;
+    const error = form.querySelector<HTMLElement>('[data-error]')!;
+    const result = form.querySelector<HTMLElement>('[data-result]')!;
+    const likely = form.querySelector<HTMLElement>('[data-likely]')!;
+    const range = form.querySelector<HTMLElement>('[data-range]')!;
+    const progress = form.querySelector<HTMLElement>('[data-progress]')!;
+    const formatter = new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+    const format = (iso: string) => formatter.format(new Date(`${iso}T00:00:00Z`));
+    const localToday = () => {
+      const now = new Date();
+      const pad = (value: number) => String(value).padStart(2, '0');
+      return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+    };
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      error.textContent = '';
+      result.hidden = true;
+
+      const data = new FormData(form);
+      const date = String(data.get('date') ?? '');
+      const basis = String(data.get('basis') ?? 'mating');
+      if (!date) {
+        error.textContent = 'Selecciona una fecha.';
+        return;
+      }
+
+      try {
+        const due = estimateDueDate({ species, basis, date });
+        const today = localToday();
+        const elapsed = daysSince(date, today);
+        likely.textContent = `Fecha probable: ${format(due.likely)}`;
+        range.textContent = `Rango posible: del ${format(due.earliest)} al ${format(due.latest)}.`;
+        if (elapsed < 0) {
+          progress.textContent = 'La fecha indicada todavía no ha llegado.';
+        } else if (today > due.latest) {
+          progress.textContent = 'El rango estimado ya ha pasado. Si el parto no se ha producido, contacta con tu veterinario.';
+        } else {
+          progress.textContent = `Han pasado ${elapsed} ${elapsed === 1 ? 'día' : 'días'} desde la fecha indicada.`;
+        }
+        result.hidden = false;
+      } catch {
+        error.textContent = 'Revisa la fecha introducida.';
+      }
+    });
+  }
+</script>

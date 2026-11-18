@@ -1,0 +1,868 @@
+wave,topic,format,url,query,best,volume,variants,gate
+1,calculadoras,page,/nombres/generador/,nombres para perros,109500,109500,1,
+1,calculadoras,page,/calculadoras/embarazo-perra/,cuanto dura el embarazo de una perra,18100,18100,1,
+1,calculadoras,page,/calculadoras/embarazo-gata/,cuanto dura el embarazo de una gata,5400,5400,1,
+1,calculadoras,page,/calculadoras/peso-ideal-perro/,peso ideal perro,320,320,1,
+1,calculadoras,page,/calculadoras/comida-gato/,cuanto debe comer un gato,260,260,1,
+1,calculadoras,page,/calculadoras/comida-perro/,cuanto debe comer un perro,170,170,1,
+1,calculadoras,page,/calculadoras/barf/,calculadora dieta barf,110,110,1,
+1,calculadoras,page,/calculadoras/peso-cachorro/,calculadora peso perro cachorro,100,100,1,
+1,calculadoras,page,/calculadoras/edad-perro/,edad perro,0,0,1,
+1,calculadoras,page,/calculadoras/edad-gato/,edad gato,0,0,1,
+1,puede-comer,page,/perros/pueden-comer/fresa/,los perros pueden comer fresas,18300,38310,3,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/platano/,los perros pueden comer platano,18100,41600,3,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/sandia/,los perros pueden comer sandia,18100,36200,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/uva/,los perros pueden comer uvas,14800,14800,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/mango/,los perros pueden comer mango,14800,14800,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/manzana/,los perros pueden comer manzana,12100,24200,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/melon/,los perros pueden comer melon,12100,12100,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/aguacate/,los perros pueden comer aguacate,12100,14000,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/mandarina/,los perros pueden comer mandarina,9900,9900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/tomate/,los perros pueden comer tomate,9900,9900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pepino/,los perros pueden comer pepino,9900,9900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/papa/,los perros pueden comer papa,9900,10780,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pera/,los perros pueden comer pera,8100,15720,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/papaya/,los perros pueden comer papaya,8100,8100,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/nuez/,los perros pueden comer nueces,8100,8100,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/huevo/,los perros pueden comer huevo,6600,13200,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/naranja/,los perros pueden comer naranja,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/arandano/,los perros pueden comer arandanos,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/coco/,los perros pueden comer coco,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/zanahoria/,los perros pueden comer zanahoria,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/brocoli/,los perros pueden comer brocoli,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/atun/,los perros pueden comer atun,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pescado/,los perros pueden comer pescado,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/queso/,los perros pueden comer queso,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/cacahuate/,los perros pueden comer cacahuates,6600,10200,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/almendra/,los perros pueden comer almendras,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/huevo/,los gatos pueden comer huevo,6600,6600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/durazno/,los perros pueden comer durazno,5400,7000,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/calabaza/,los perros pueden comer calabaza,5400,5990,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/calabacin/,los perros pueden comer calabacin,5400,5400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/lenteja/,los perros pueden comer lentejas,5400,5400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/frijol/,los perros pueden comer frijoles,5400,5400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/camaron/,los perros pueden comer camarones,5400,6120,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/arroz/,los perros pueden comer arroz,4400,8800,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/kiwi/,los perros pueden comer kiwi,4400,4400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/guayaba/,los perros pueden comer guayaba,4400,4400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/espinaca/,los perros pueden comer espinacas,4400,4400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/lechuga/,los perros pueden comer lechuga,4400,4400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/cebolla/,los perros pueden comer cebolla,4400,4400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/champinones/,los perros pueden comer champiñones,4400,4790,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/sandia/,los gatos pueden comer sandia,4400,4400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/apio/,los perros pueden comer apio,3600,3600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pan/,los perros pueden comer pan,3600,3600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/garbanzo/,los perros pueden comer garbanzos,3600,3600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/chocolate/,los perros pueden comer chocolate,3600,3600,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/fresa/,los gatos pueden comer fresas,3600,3600,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/platano/,los gatos pueden comer platano,3600,5500,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/manzana/,los gatos pueden comer manzana,3600,3600,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/mango/,los gatos pueden comer mango,3600,3600,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/aguacate/,los gatos pueden comer aguacate,3600,4480,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/cereza/,los perros pueden comer cerezas,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/ciruela/,los perros pueden comer ciruelas,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/coliflor/,los perros pueden comer coliflor,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/ajo/,los perros pueden comer ajo,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/avena/,los perros pueden comer avena,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pistachos/,los perros pueden comer pistachos,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/canela/,los perros pueden comer canela,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/palomitas/,los perros pueden comer palomitas,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/zanahoria/,los gatos pueden comer zanahoria,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/arroz/,los gatos pueden comer arroz,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/queso/,los gatos pueden comer queso,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/chocolate/,los gatos pueden comer chocolate,2900,2900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pimiento/,los perros pueden comer pimiento,2400,2400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/maiz/,los perros pueden comer elote,2400,4700,3,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/remolacha/,los perros pueden comer remolacha,2400,4300,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/miel/,los perros pueden comer miel,2400,2400,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/uva/,los gatos pueden comer uvas,2400,2400,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/papa/,los gatos pueden comer papa,2400,2660,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pan/,los gatos pueden comer pan,2400,2400,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/limon/,los perros pueden comer limon,1900,1900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/salchichas/,los perros pueden comer salchichas,1900,1900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/gelatina/,los perros pueden comer gelatina,1900,1900,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/melon/,los gatos pueden comer melon,1900,1900,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/papaya/,los gatos pueden comer papaya,1900,1900,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/tomate/,los gatos pueden comer tomate,1900,1900,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/frambuesa/,los perros pueden comer frambuesas,1600,1600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/granada/,los perros pueden comer granada,1600,1600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/higos/,los perros pueden comer higos,1600,1600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/col/,los perros pueden comer repollo,1600,2480,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/judias-verdes/,los perros pueden comer ejotes,1600,2190,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/camote/,los perros pueden comer camote,1600,3600,3,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/salmon/,los perros pueden comer salmon,1600,1600,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/sardinas/,los perros pueden comer sardinas,1600,1600,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/brocoli/,los gatos pueden comer brocoli,1600,1600,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/camaron/,los gatos pueden comer camarones,1600,1770,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/atun/,los gatos pueden comer atun,1300,2600,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pasa/,los perros pueden comer pasas,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/moras/,los perros pueden comer moras,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/guisantes/,los perros pueden comer guisantes,1300,2600,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pasta/,los perros pueden comer pasta,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/jamon/,los perros pueden comer jamon,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/crema-de-cacahuate/,los perros pueden comer crema de cacahuate,1300,2090,3,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pepino/,los gatos pueden comer pepino,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/lechuga/,los gatos pueden comer lechuga,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/frijol/,los gatos pueden comer frijoles,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/jamon/,los gatos pueden comer jamon,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/salchichas/,los gatos pueden comer salchichas,1300,1300,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/quinoa/,los perros pueden comer quinoa,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/tortilla/,los perros pueden comer tortilla,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/carne-de-cerdo/,los perros pueden comer carne de cerdo,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/cerdo/,los perros pueden comer cerdo,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/yogur/,los perros pueden comer yogur,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/arandano/,los gatos pueden comer arandanos,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/coco/,los gatos pueden comer coco,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/calabaza/,los gatos pueden comer calabaza,1000,1320,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/calabacin/,los gatos pueden comer calabacin,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/lenteja/,los gatos pueden comer lentejas,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pescado/,los gatos pueden comer pescado,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/nuez/,los gatos pueden comer nueces,1000,1000,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/yuca/,los perros pueden comer yuca,880,880,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/higado/,los perros pueden comer higado,880,880,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/chorizo/,los perros pueden comer chorizo,880,880,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/helado/,los perros pueden comer helado,880,880,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/sal/,los perros pueden comer sal,880,880,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/perejil/,los perros pueden comer perejil,880,880,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pera/,los gatos pueden comer pera,880,880,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/mandarina/,los gatos pueden comer mandarina,880,880,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/espinaca/,los gatos pueden comer espinacas,880,880,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/cebolla/,los gatos pueden comer cebolla,880,880,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/maiz/,los gatos pueden comer elote,880,1860,3,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/avena/,los gatos pueden comer avena,880,880,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/cacahuate/,los gatos pueden comer mani,880,1470,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pollo/,los gatos pueden comer pollo,720,1440,2,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/puerro/,los perros pueden comer puerro,720,720,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/mariscos/,los perros pueden comer mariscos,720,720,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/huesos/,los perros pueden comer huesos,720,720,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/aceite-de-oliva/,los perros pueden comer aceite de oliva,720,720,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/curcuma/,los perros pueden comer curcuma,720,720,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pizza/,los perros pueden comer pizza,720,720,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/naranja/,los gatos pueden comer naranja,720,720,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/durazno/,los gatos pueden comer durazno,720,750,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/miel/,los gatos pueden comer miel,720,720,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pollo/,los perros pueden comer pollo,590,590,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/comida-de-gato/,los perros pueden comer comida de gato,590,590,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/kiwi/,los gatos pueden comer kiwi,590,590,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/champinones/,los gatos pueden comer champiñones,590,640,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/sardinas/,los gatos pueden comer sardinas,590,590,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/yogur/,los gatos pueden comer yogur,590,590,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/palomitas/,los gatos pueden comer palomitas,590,590,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/gelatina/,los gatos pueden comer gelatina,590,590,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/fideos/,los perros pueden comer fideos,480,480,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/mantequilla/,los perros pueden comer mantequilla,480,480,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/azucar/,los perros pueden comer azucar,480,480,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/aceite-de-coco/,los perros pueden comer aceite de coco,480,480,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/jengibre/,los perros pueden comer jengibre,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/apio/,los gatos pueden comer apio,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/ajo/,los gatos pueden comer ajo,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/tortilla/,los gatos pueden comer tortilla,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/garbanzo/,los gatos pueden comer garbanzos,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/cerdo/,los gatos pueden comer cerdo,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/higado/,los gatos pueden comer higado,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/helado/,los gatos pueden comer helado,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/almendra/,los gatos pueden comer almendras,480,480,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/comida-de-perro/,los gatos pueden comer comida de perro,480,480,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/tocino/,los perros pueden comer tocino,390,390,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/leche/,los perros pueden comer leche,390,390,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/avellanas/,los perros pueden comer avellanas,390,390,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/galleta/,los perros pueden comer galletas,390,390,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/limon/,los gatos pueden comer limon,390,390,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/cereza/,los gatos pueden comer cerezas,390,390,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/guayaba/,los gatos pueden comer guayaba,390,390,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/remolacha/,los gatos pueden comer remolacha,390,650,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/carne-de-cerdo/,los gatos pueden comer carne de cerdo,390,390,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/canela/,los gatos pueden comer canela,390,390,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/maracuya/,los perros pueden comer maracuya,320,320,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pavo/,los perros pueden comer pavo,320,320,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/ciruela/,los gatos pueden comer ciruelas,320,320,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/coliflor/,los gatos pueden comer coliflor,320,320,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/camote/,los gatos pueden comer camote,320,630,3,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/chorizo/,los gatos pueden comer chorizo,320,320,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/salmon/,los gatos pueden comer salmon,320,320,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/crema-de-cacahuate/,los gatos pueden comer crema de cacahuate,320,540,3,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pistachos/,los gatos pueden comer pistachos,320,320,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/perejil/,los gatos pueden comer perejil,320,320,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/menta/,los perros pueden comer menta,260,260,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/carne-de-res/,los gatos pueden comer carne de res,260,260,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/aceite-de-oliva/,los gatos pueden comer aceite de oliva,260,260,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/soja/,los perros pueden comer soja,210,210,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/carne-de-res/,los perros pueden comer carne de res,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pasa/,los gatos pueden comer pasas,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/frambuesa/,los gatos pueden comer frambuesas,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/moras/,los gatos pueden comer moras,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/granada/,los gatos pueden comer granada,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pimiento/,los gatos pueden comer pimiento,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pasta/,los gatos pueden comer pasta,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/fideos/,los gatos pueden comer fideos,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/azucar/,los gatos pueden comer azucar,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/aceite-de-coco/,los gatos pueden comer aceite de coco,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/sal/,los gatos pueden comer sal,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/galleta/,los gatos pueden comer galletas,210,210,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pizza/,los gatos pueden comer pizza,210,210,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/pina/,los perros pueden comer pina,170,170,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/higos/,los gatos pueden comer higos,170,170,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/col/,los gatos pueden comer repollo,170,260,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/guisantes/,los gatos pueden comer guisantes,170,310,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/tocino/,los gatos pueden comer tocino,170,170,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/huesos/,los gatos pueden comer huesos,170,170,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/leche/,los gatos pueden comer leche,170,170,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/cafe/,los perros pueden comer cafe,140,140,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/judias-verdes/,los gatos pueden comer ejotes,140,170,2,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/mantequilla/,los gatos pueden comer mantequilla,140,140,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/semillas-de-chia/,los perros pueden comer semillas de chia,110,110,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pavo/,los gatos pueden comer pavo,110,110,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/cordero/,los perros pueden comer cordero,90,90,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/quinoa/,los gatos pueden comer quinoa,90,90,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/mariscos/,los gatos pueden comer mariscos,90,90,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/curcuma/,los gatos pueden comer curcuma,90,90,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/menta/,los gatos pueden comer menta,90,90,1,fuente veterinaria
+1,puede-comer,page,/perros/pueden-comer/conejo/,los perros pueden comer conejo,70,70,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/puerro/,los gatos pueden comer puerro,70,70,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/yuca/,los gatos pueden comer yuca,70,70,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/jengibre/,los gatos pueden comer jengibre,70,70,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/maracuya/,los gatos pueden comer maracuya,50,50,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/soja/,los gatos pueden comer soja,40,40,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/cordero/,los gatos pueden comer cordero,30,30,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/semillas-de-chia/,los gatos pueden comer semillas de chia,30,30,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/conejo/,los gatos pueden comer conejo,20,20,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/avellanas/,los gatos pueden comer avellanas,20,20,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/cafe/,los gatos pueden comer cafe,20,20,1,fuente veterinaria
+1,puede-comer,page,/gatos/pueden-comer/pina/,los gatos pueden comer pina,10,10,1,fuente veterinaria
+1,puede-comer,faq-or-table,/perros/pueden-comer/te/,los perros pueden comer te,0,0,1,fuente veterinaria
+1,puede-comer,faq-or-table,/perros/pueden-comer/comida-de-perro/,los perros pueden comer comida de perro,0,0,1,fuente veterinaria
+1,puede-comer,faq-or-table,/gatos/pueden-comer/te/,los gatos pueden comer te,0,0,1,fuente veterinaria
+1,puede-comer,faq-or-table,/gatos/pueden-comer/comida-de-gato/,los gatos pueden comer comida de gato,0,0,1,fuente veterinaria
+2,razas,page,/razas/perros/pomerania/,pomerania,422500,422500,1,
+2,razas,page,/razas/perros/bulldog-frances/,bulldog frances,329000,329000,1,
+2,razas,page,/razas/gatos/persa/,gato persa,233100,233100,1,
+2,razas,page,/razas/perros/pastor-aleman/,pastor aleman,222600,222600,1,
+2,razas,page,/razas/perros/dogo-argentino/,dogo argentino,183700,183700,1,
+2,razas,page,/razas/perros/gran-danes/,gran danes,183700,183700,1,
+2,razas,page,/razas/perros/bulldog-ingles/,bulldog ingles,168000,168000,1,
+2,razas,page,/razas/perros/bichon-maltes/,bichon maltes,150500,150500,1,
+2,razas,page,/razas/perros/galgo/,galgo,145600,145600,1,
+2,razas,page,/razas/perros/pastor-australiano/,pastor australiano,143300,143300,1,
+2,razas,page,/razas/perros/pastor-belga-malinois/,pastor belga malinois,138800,138800,1,
+2,razas,page,/razas/gatos/siames/,gato siames,123000,123000,1,
+2,razas,page,/razas/perros/xoloitzcuintle/,xoloitzcuintle,106100,106100,1,
+2,razas,page,/razas/perros/caniche/,caniche,103800,103800,1,
+2,razas,page,/razas/perros/mastin-tibetano/,mastin tibetano,100500,100500,1,
+2,razas,page,/razas/perros/pitbull/,pitbull,85600,85600,1,
+2,razas,page,/razas/gatos/bengali/,gato bengali,78900,78900,1,
+2,razas,page,/razas/perros/samoyedo/,samoyedo,77300,77300,1,
+2,razas,page,/razas/perros/mastin-napolitano/,mastin napolitano,74000,74000,1,
+2,razas,page,/razas/gatos/maine-coon/,maine coon,59900,59900,1,
+2,razas,page,/razas/gatos/angora/,gato angora,59900,59900,1,
+2,razas,page,/razas/perros/golden-retriever/,golden retriever,57200,57200,1,
+2,razas,page,/razas/perros/doberman/,doberman,45300,45300,1,
+2,razas,page,/razas/perros/podenco/,podenco,43820,43820,1,
+2,razas,page,/razas/perros/mastin/,mastin,43300,43300,1,
+2,razas,page,/razas/perros/bull-terrier/,bull terrier,43100,43100,1,
+2,razas,page,/razas/gatos/esfinge/,gato esfinge,43100,43100,1,
+2,razas,page,/razas/perros/schnauzer/,schnauzer,42700,42700,1,
+2,razas,page,/razas/perros/shar-pei/,shar pei,33000,33000,1,
+2,razas,page,/razas/gatos/siberiano/,gato siberiano,30800,30800,1,
+2,razas,page,/razas/perros/cocker-spaniel/,cocker spaniel,30400,30400,1,
+2,razas,page,/razas/gatos/munchkin/,munchkin,27200,27200,1,
+2,razas,page,/razas/perros/mini-pincher/,mini pincher,21800,21800,1,
+2,razas,page,/razas/perros/teckel/,teckel,21180,21180,1,
+2,razas,page,/razas/gatos/ragdoll/,ragdoll,20700,20700,1,
+2,razas,page,/razas/perros/rottweiler/,rottweiler,18300,18300,1,
+2,razas,page,/razas/perros/bichon-frise/,bichon frise,16800,16800,1,
+2,razas,page,/razas/perros/beagle/,beagle,14300,14300,1,
+2,razas,page,/razas/perros/cane-corso/,cane corso,13600,13600,1,
+2,razas,page,/razas/gatos/savannah/,savannah,13600,13600,1,
+2,razas,page,/razas/gatos/azul-ruso/,azul ruso,12300,12300,1,
+2,razas,page,/razas/gatos/oriental/,oriental,12200,12200,1,
+2,razas,page,/razas/gatos/himalayo/,himalayo,12100,12100,1,
+2,razas,page,/razas/gatos/angora-turco/,angora turco,11100,11100,1,
+2,razas,page,/razas/perros/shih-tzu/,shih tzu,10020,10020,1,
+2,razas,page,/razas/gatos/bosque-de-noruega/,bosque de noruega,9400,9400,1,
+2,razas,page,/razas/gatos/abisinio/,abisinio,9400,9400,1,
+2,razas,page,/razas/perros/labrador/,labrador,9100,9100,1,
+2,razas,page,/razas/perros/jack-russell/,jack russell,6800,6800,1,
+2,razas,page,/razas/perros/border-collie/,border collie,6180,6180,1,
+2,razas,page,/razas/perros/san-bernardo/,san bernardo,5700,5700,1,
+2,razas,page,/razas/gatos/birmano/,birmano,5100,5100,1,
+2,razas,page,/razas/perros/maltipoo/,maltipoo,4800,4800,1,
+2,razas,page,/razas/gatos/british-shorthair/,british shorthair,4580,4580,1,
+2,razas,page,/razas/perros/husky-siberiano/,husky siberiano,4560,4560,1,
+2,razas,page,/razas/perros/carlino/,carlino,4070,4070,1,
+2,razas,page,/razas/perros/chihuahua/,chihuahua,3910,3910,1,
+2,razas,page,/razas/perros/terranova/,terranova,3770,3770,1,
+2,razas,page,/razas/perros/pug/,pug,2870,2870,1,
+2,razas,page,/razas/perros/boxer/,boxer,2830,2830,1,
+2,razas,page,/razas/perros/corgi/,corgi,2600,2600,1,
+2,razas,page,/razas/gatos/burmes/,burmes,2000,2000,1,
+2,razas,page,/razas/perros/chow-chow/,chow chow,1940,1940,1,
+2,razas,page,/razas/perros/weimaraner/,weimaraner,1810,1810,1,
+2,razas,page,/razas/perros/shiba-inu/,shiba inu,1600,1600,1,
+2,razas,page,/razas/perros/labradoodle/,labradoodle,1570,1570,1,
+2,razas,page,/razas/perros/poodle/,poodle,1260,1260,1,
+2,razas,page,/razas/gatos/chartreux/,chartreux,1090,1090,1,
+2,razas,page,/razas/gatos/cornish-rex/,cornish rex,1030,1030,1,
+2,razas,page,/razas/gatos/balines/,balines,960,960,1,
+2,razas,page,/razas/perros/bernes-de-la-montana/,bernes de la montana,930,930,1,
+2,razas,page,/razas/perros/basset-hound/,basset hound,870,870,1,
+2,razas,page,/razas/perros/salchicha/,salchicha,700,700,1,
+2,razas,page,/razas/perros/american-bully/,american bully,360,360,1,
+2,razas,page,/razas/gatos/sphynx/,sphynx,240,240,1,
+2,razas,page,/razas/perros/fox-terrier/,fox terrier,160,160,1,
+2,razas,faq-or-table,/razas/perros/akita-inu/,akita inu,70,70,1,
+2,razas,faq-or-table,/razas/gatos/bombay/,bombay,50,50,1,
+2,razas,faq-or-table,/razas/perros/yorkshire-terrier/,yorkshire terrier,40,40,1,
+2,razas,faq-or-table,/razas/perros/pekines/,pekines,10,10,1,
+2,razas,faq-or-table,/razas/perros/staffordshire/,staffordshire,0,0,1,
+2,razas,faq-or-table,/razas/perros/presa-canario/,presa canario,0,0,1,
+2,razas,faq-or-table,/razas/perros/dalmata/,dalmata,0,0,1,
+2,razas,faq-or-table,/razas/perros/setter-irlandes/,setter irlandes,0,0,1,
+2,razas,faq-or-table,/razas/perros/vizsla/,vizsla,0,0,1,
+2,razas,faq-or-table,/razas/perros/pastor-de-shetland/,pastor de shetland,0,0,1,
+2,razas,faq-or-table,/razas/perros/pastor-suizo/,pastor suizo,0,0,1,
+2,razas,faq-or-table,/razas/perros/alaskan-malamute/,alaskan malamute,0,0,1,
+2,razas,faq-or-table,/razas/perros/lhasa-apso/,lhasa apso,0,0,1,
+2,razas,faq-or-table,/razas/perros/boston-terrier/,boston terrier,0,0,1,
+2,razas,faq-or-table,/razas/perros/west-highland-terrier/,west highland terrier,0,0,1,
+2,razas,faq-or-table,/razas/perros/cavalier-king-charles/,cavalier king charles,0,0,1,
+2,razas,faq-or-table,/razas/perros/bloodhound/,bloodhound,0,0,1,
+2,razas,faq-or-table,/razas/perros/cockapoo/,cockapoo,0,0,1,
+2,razas,faq-or-table,/razas/perros/goldendoodle/,goldendoodle,0,0,1,
+2,razas,faq-or-table,/razas/gatos/scottish-fold/,scottish fold,0,0,1,
+2,razas,faq-or-table,/razas/gatos/exotico/,gato exotico,0,0,1,
+2,razas,faq-or-table,/razas/gatos/comun-europeo/,gato comun europeo,0,0,1,
+2,razas,faq-or-table,/razas/gatos/carey/,gato carey,0,0,1,
+2,razas,faq-or-table,/razas/gatos/calico/,gato calico,0,0,1,
+2,razas,faq-or-table,/razas/gatos/naranja/,gato naranja,0,0,1,
+2,razas,faq-or-table,/razas/gatos/american-shorthair/,american shorthair,0,0,1,
+2,razas,faq-or-table,/razas/gatos/devon-rex/,devon rex,0,0,1,
+2,razas,faq-or-table,/razas/gatos/tonkines/,tonkines,0,0,1,
+2,razas,faq-or-table,/razas/gatos/ocicat/,ocicat,0,0,1,
+2,razas,faq-or-table,/razas/gatos/manx/,manx,0,0,1,
+2,razas,faq-or-table,/razas/gatos/sagrado-de-birmania/,sagrado de birmania,0,0,1,
+3,nombres,page,/nombres/perros/,nombres para perros,109500,202180,15,
+3,nombres,page,/nombres/gatos/,nombres para gatos,65100,111320,10,
+3,nombres,page,/nombres/perros/macho/,nombres de perros machos,51700,159200,7,
+3,nombres,page,/nombres/gatos/macho/,nombres para gatos machos,40900,80850,5,
+3,nombres,page,/nombres/gatos/hembra/,nombres para gatos hembra,15960,29700,5,
+3,nombres,page,/nombres/perros/hembra/,nombres para perros hembras,10920,33400,7,
+3,nombres,page,/nombres/gatos/negro/,nombres para gatos negros,9610,9660,2,
+3,nombres,page,/nombres/perros/machos-pequenos/,nombres para perros machos pequeños,7480,13600,2,
+3,nombres,page,/nombres/gatos/grises/,nombres para gatos grises,4990,6910,3,
+3,nombres,page,/nombres/gatos/blanco/,nombres para gatos blancos,4810,4880,2,
+3,nombres,page,/nombres/perros/pequeno/,nombres de perros pequeños,4650,9560,3,
+3,nombres,page,/nombres/perros/chihuahua/,nombres para perros chihuahua,4120,4210,3,
+3,nombres,page,/nombres/gatos/tiernas/,nombres para gatitas tiernas,3530,3530,1,
+3,nombres,page,/nombres/perros/chiquitas/,nombres para perritas chiquitas,2850,2850,1,
+3,nombres,page,/nombres/perros/significado-bonito/,nombre para perritas con significado bonito,2810,2810,1,
+3,nombres,page,/nombres/perros/chiquitos/,nombres para perritos chiquitos,2810,2850,2,
+3,nombres,page,/nombres/perros/blanco/,nombres para perros blancos,2580,2580,1,
+3,nombres,page,/nombres/perros/pitbull/,nombres para perros pitbull,2340,4390,5,
+3,nombres,page,/nombres/perros/grande/,nombres para perros grandes,2210,2210,1,
+3,nombres,page,/nombres/perros/negra/,nombres para perritas negras,2070,2750,2,
+3,nombres,page,/nombres/perros/machos-con-significado/,100 nombres para perros machos con significado,1980,1980,1,
+3,nombres,page,/nombres/gatos/amarillos/,nombres para gatos amarillos,1750,2210,2,
+3,nombres,page,/nombres/gatos/elegantes/,nombres para gatas elegantes,1590,1590,1,
+3,nombres,page,/nombres/perros/salchichas/,nombres para perros salchichas,1310,1310,1,
+3,nombres,page,/nombres/gatos/famosos/,nombres de gatos famosos,1300,1300,1,
+3,nombres,page,/nombres/gatos/machos-originales/,nombres para gatos machos originales,1280,1280,1,
+3,nombres,page,/nombres/perros/famosas/,nombre de perritas famosas,1050,1050,1,
+3,nombres,page,/nombres/perros/chihuahua-hembra/,50 nombres para perros chihuahua hembra,1000,1000,1,
+3,nombres,page,/nombres/gatos/su-significado/,nombres para gatos y su significado,930,930,1,
+3,nombres,page,/nombres/perros/hembras-con-significado/,100 nombres para perros hembras con significado,790,790,1,
+3,nombres,page,/nombres/perros/significado/,nombres para perritas con significado,720,780,2,
+3,nombres,page,/nombres/perros/varones/,nombre de perros varones,370,370,1,
+3,nombres,page,/nombres/perros/pug/,100 nombres para perritas pug,310,310,1,
+3,nombres,page,/nombres/perros/hembras-en-ingles/,100 nombres para perros hembras en inglés,240,240,1,
+3,nombres,page,/nombres/gatos/machos-amarillos/,1000 nombres para gatos machos amarillos,230,230,1,
+3,nombres,page,/nombres/perros/hembras-border-collie/,100 nombres para perros hembras border collie,180,180,1,
+3,nombres,page,/nombres/gatos/varones/,nombres para gatos varones,180,350,2,
+3,nombres,page,/nombres/gatos/machos-blancos/,1000 nombres para gatos machos blancos,160,160,1,
+3,nombres,page,/nombres/gatos/machos-grises/,1000 nombres para gatos machos grises,110,110,1,
+3,nombres,page,/nombres/perros/hembras-bulldog-frances/,100 nombres para perros hembras bulldog francés,90,90,1,
+3,nombres,page,/nombres/perros/hembras-dogo-argentino/,100 nombres para perros hembras dogo argentino,90,90,1,
+3,nombres,page,/nombres/perros/macho-japones/,50 nombres para perros macho japonés,90,90,1,
+3,nombres,page,/nombres/perros/hembras-pug/,100 nombres para perros hembras pug,80,80,1,
+3,nombres,page,/nombres/perros/machos-dogo-argentino/,100 nombres para perros machos dogo argentino,70,70,1,
+3,nombres,page,/nombres/perros/machos-grandes/,100 nombres para perros machos grandes,70,70,1,
+3,nombres,page,/nombres/gatos/machos-naranjas/,1000 nombres para gatos machos naranjas,70,70,1,
+3,nombres,page,/nombres/perros/hembras-beagle/,100 nombres para perros hembras beagle,60,60,1,
+3,nombres,page,/nombres/perros/hembras-negras/,100 nombres para perros hembras negras,60,60,1,
+3,nombres,page,/nombres/perros/machos-beagle/,100 nombres para perros machos beagle,60,60,1,
+3,nombres,page,/nombres/perros/2022/,nombres para perritas 2022,50,50,1,
+3,nombres,page,/nombres/perros/hembras-maltes/,100 nombres para perros hembras maltés,50,50,1,
+3,nombres,page,/nombres/perros/hembras-pitbull/,100 nombres para perros hembras pitbull,50,50,1,
+3,nombres,page,/nombres/perros/machos-pitbull/,100 nombres para perros machos pitbull,50,50,1,
+3,nombres,faq-or-table,/nombres/perros/macho-pitbull/,50 nombres para perros macho pitbull,40,40,1,
+3,nombres,faq-or-table,/nombres/perros/hembras-pincher/,100 nombres para perros hembras pincher,30,30,1,
+3,nombres,faq-or-table,/nombres/perros/machos-ingles/,100 nombres para perros machos inglés,30,30,1,
+3,nombres,faq-or-table,/nombres/perros/labradores/,50 nombres para perros labradores,30,50,2,
+3,nombres,faq-or-table,/nombres/perros/macho-blanco/,50 nombres para perros macho blanco,30,30,1,
+3,nombres,faq-or-table,/nombres/perros/hembras-marrones/,100 nombres para perros hembras marrones,20,20,1,
+3,nombres,faq-or-table,/nombres/perros/rudos/,100 nombres para perros rudos,20,20,1,
+3,nombres,faq-or-table,/nombres/perros/bonito/,50 nombres para perros bonitos,20,20,1,
+3,nombres,faq-or-table,/nombres/perros/chihuahuas/,5 nombres de perros chihuahuas,10,10,1,
+3,nombres,faq-or-table,/nombres/perros/boxer/,8 nombres para perros bóxer,10,10,1,
+3,nombres,faq-or-table,/nombres/perros/chiquitos-machos/,50 nombres para perros chiquitos machos,10,10,1,
+3,nombres,faq-or-table,/nombres/perros/2021/,50 nombres para perros 2021,0,0,1,
+4,alimentacion,page,/guias/alimentacion/comida-casera-para-perros/,comida casera para perros,1990,7150,94,
+4,alimentacion,page,/guias/alimentacion/comida-casera-para-gatos/,comida casera para gatos,1490,2660,21,
+4,alimentacion,page,/guias/alimentacion/cuantas-veces-debe-comer-un-perro/,cuantas veces debe comer un perro,1250,11360,98,
+4,alimentacion,page,/guias/alimentacion/recetas-para-perros/,recetas para perros,800,2270,8,
+4,alimentacion,page,/guias/alimentacion/25-recetas-caseras-para-tu-perro-pdf/,25 recetas caseras para tu perro pdf,360,360,1,
+4,alimentacion,page,/guias/alimentacion/cuanto-debe-comer-un-gato-al-dia/,cuanto debe comer un gato al dia,340,3210,40,
+4,alimentacion,page,/guias/alimentacion/cuanto-come-un-gato-al-dia/,cuanto come un gato al dia,330,2010,24,
+4,alimentacion,page,/guias/alimentacion/cuanto-debe-comer-un-cachorro-de-2-meses/,cuanto debe comer un cachorro de 2 meses,210,2110,36,
+4,alimentacion,page,/guias/alimentacion/comida-casera-para-perra-recien-parida/,comida casera para perra recién parida,200,220,2,
+4,alimentacion,page,/guias/alimentacion/cada-cuanto-come-un-cachorro-de-2-meses/,cada cuanto come un cachorro de 2 meses,180,600,5,
+4,alimentacion,page,/guias/alimentacion/comida-casera-para-cachorros-de-2-meses/,comida casera para cachorros de 2 meses,170,310,4,
+4,alimentacion,page,/guias/alimentacion/cuanto-debe-comer-un-perro/,cuanto debe comer un perro,170,4390,82,
+4,alimentacion,page,/guias/alimentacion/comida-casera-para-chihuahua/,comida casera para chihuahua,130,180,2,
+4,alimentacion,page,/guias/alimentacion/cada-cuanto-come-un-cachorro-de-1-mes/,cada cuanto come un cachorro de 1 mes,130,450,7,
+4,alimentacion,page,/guias/alimentacion/comida-casera-para-perra-en-lactancia/,comida casera para perra en lactancia,130,170,2,
+4,alimentacion,page,/guias/alimentacion/comida-casera-para-gatas-lactantes/,comida casera para gatas lactantes,120,120,1,
+4,alimentacion,page,/guias/alimentacion/cantidad-de-comida-casera-para-perros-segun-peso/,cantidad de comida casera para perros segun peso,110,110,1,
+4,alimentacion,page,/guias/alimentacion/dieta-barf-perros-recetas/,dieta barf para perros recetas,110,430,6,
+4,alimentacion,page,/guias/alimentacion/cada-cuanto-come-un-perro/,cada cuanto come un perro,100,540,10,
+4,alimentacion,page,/guias/alimentacion/cachorros-cada-cuanto-comen/,cada cuanto comen los cachorros,100,460,8,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-yorkshire/,comida casera para yorkshire,90,130,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-shih-tzu/,comida casera para shih tzu,90,90,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-dar-de-comer-a-un-gato/,cuantas veces dar de comer a un gato,80,830,15,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-comen-los-gatos/,cuanto comen los gatos,80,270,5,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-bulldog-frances/,comida casera para bulldog francés,80,130,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-cachorro/,cuanto come un cachorro,70,400,8,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-tiene-q-comer-un-cachorro/,cuantas veces tiene q comer un cachorro,70,530,13,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-gatito-de-4-meses/,cuanto debe comer un gatito de 4 meses,70,410,8,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-pug-adulto/,cuanto debe comer un pug adulto,70,880,19,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-caniches/,comida casera para caniches,70,70,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/croquetas-caseras-para-perro/,croquetas caseras para perro,70,70,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-bichon-maltes/,comida casera para bichon maltes,60,60,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-pastor-aleman/,comida casera para pastor alemán,60,100,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-cachorro-de-1-mes/,cuanto debe comer un cachorro de 1 mes,60,190,4,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-comen-los-gatos-de-2-meses/,cada cuanto comen los gatos de 2 meses,60,110,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-bulldog-ingles/,cuanto debe comer un bulldog ingles,60,190,4,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-chihuahua-de-3-meses/,cuanto debe comer un chihuahua de 3 meses,60,480,10,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-pastor-belga-adulto/,cuanto debe comer un pastor belga adulto,60,230,5,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-pomerania/,comida casera para pomerania,60,60,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-barf-para-gatos-recetas/,comida barf para gatos recetas,60,160,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-dogo-argentino/,comida casera para dogo argentino,60,60,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cachorro-labrador-cuanto-debe-comer/,cachorro labrador cuanto debe comer,50,540,16,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-come-un-cachorro-de-20-dias/,cada cuanto come un cachorro de 20 dias,50,90,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-come-un-cachorro-de-3-semanas/,cada cuanto come un cachorro de 3 semanas,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-come-un-gatito-de-un-mes/,cada cuanto come un gatito de un mes,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-come-un-gato-de-dos-meses/,cada cuanto come un gato de dos meses,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-comen-los-perros-adultos/,cada cuanto comen los perros adultos,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-debe-comer-un-gatito-bebe/,cada cuanto debe comer un gatito bebe,50,100,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cada-cuanto-debe-comer-un-gatito-recien-nacido/,cada cuanto debe comer un gatito recien nacido,50,150,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-un-bulldog-frances/,cuantas veces debe comer un bulldog frances,50,100,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-un-chihuahua-adulto/,cuantas veces debe comer un chihuahua adulto,50,160,4,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-un-golden-retriever/,cuantas veces debe comer un golden retriever,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-un-pastor-aleman/,cuantas veces debe comer un pastor aleman,50,120,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-una-gata-embarazada/,cuantas veces debe comer una gata embarazada,50,100,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-una-perra-lactante/,cuantas veces debe comer una perra lactante,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-labrador-adulto/,cuanto come un labrador adulto,50,100,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-perro-de-4-meses/,cuanto come un perro de 4 meses,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-perro-san-bernardo/,cuanto come un perro san bernardo,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-san-bernardo-de-2-meses/,cuanto come un san bernardo de 2 meses,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-mi-perro-segun-su-peso/,cuanto debe comer mi perro segun su peso,50,240,5,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-american-bully/,cuanto debe comer un american bully,50,170,4,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-basset-hound/,cuanto debe comer un basset hound,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-beagle/,cuanto debe comer un beagle,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-border-collie/,cuanto debe comer un border collie,50,90,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-cachorro-bulldog-frances/,cuanto debe comer un cachorro bulldog frances,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-cachorro-de-3-kilos/,cuanto debe comer un cachorro de 3 kilos,50,220,5,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-cachorro-de-pastor-aleman/,cuanto debe comer un cachorro de pastor aleman,50,200,4,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-cachorro-de-raza-mediana/,cuanto debe comer un cachorro de raza mediana,50,130,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-chihuahua-de-1-ano/,cuanto debe comer un chihuahua de 1 año,50,110,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-doberman-de-6-meses/,cuanto debe comer un doberman de 6 meses,50,210,5,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-dogo-argentino/,cuanto debe comer un dogo argentino,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-golden-retriever/,cuanto debe comer un golden retriever,50,100,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-gran-danes/,cuanto debe comer un gran danes,50,80,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-jack-russell/,cuanto debe comer un jack russell,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-perro-adulto-raza-mediana/,cuanto debe comer un perro adulto raza mediana,50,100,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-perro-pastor-aleman-adulto/,cuanto debe comer un perro pastor aleman adulto,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-pitbull/,cuanto debe comer un pitbull,50,140,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-pomerania/,cuanto debe comer un pomerania,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-rottweiler/,cuanto debe comer un rottweiler,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-san-bernardo/,cuanto debe comer un san bernardo,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-schnauzer-mediano/,cuanto debe comer un schnauzer mediano,50,120,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-shih-tzu/,cuanto debe comer un shih tzu,50,140,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-yorkshire/,cuanto debe comer un yorkshire,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-una-gata-adulta/,cuanto debe comer una gata adulta,50,150,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-una-perra-embarazada/,cuanto debe comer una perra embarazada,50,140,3,
+4,alimentacion,faq-or-table,/guias/alimentacion/mi-perro-pesa-20-kilos-cuanto-debe-comer/,mi perro pesa 20 kilos cuanto debe comer,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/recetas-barf/,recetas barf,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-american-bully/,comida casera para american bully,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-beagles/,comida casera para beagles,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-chow-chow/,comida casera para chow chow,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-doberman/,comida casera para doberman,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-cachorros-de-1-mes/,comida casera para cachorros de 1 mes,50,50,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-pastor-belga-malinois/,comida casera para pastor belga malinois,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-perra-despues-del-parto/,comida casera para perra después del parto,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-pinscher-miniatura/,comida casera para pinscher miniatura,50,50,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-un-cachorro-shih-tzu/,cuantas veces debe comer un cachorro shih tzu,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuantas-veces-debe-comer-un-gato-recien-nacido/,cuantas veces debe comer un gato recien nacido,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-perro-de-30-kilos/,cuanto come un perro de 30 kilos,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-boxer/,cuanto debe comer un boxer,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-cachorro-de-45-dias/,cuanto debe comer un cachorro de 45 dias,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-husky/,cuanto debe comer un husky,40,80,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-labrador-de-5-meses/,cuanto debe comer un labrador de 5 meses,40,70,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-perro-cachorro-raza-grande/,cuanto debe comer un perro cachorro raza grande,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/royal-canin-cuanto-debe-comer/,royal canin cuanto debe comer,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-border-collie/,comida casera para border collie,40,80,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-husky-siberiano/,comida casera para husky siberiano,40,140,4,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-bull-terrier/,cuanto debe comer un bull terrier,40,80,2,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-poodle-toy/,cuanto debe comer un poodle toy,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-bull-terrier/,comida casera para bull terrier,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-pitbull-cachorro/,comida casera para pitbull cachorro,40,210,6,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-galgos/,comida casera para galgos,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-jack-russell/,comida casera para jack russell,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-mascotas/,comida casera para mascotas,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-perros-viejos-sin-dientes/,comida casera para perros viejos sin dientes,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-pug/,comida casera para pug,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-rottweiler/,comida casera para rottweiler,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-schnauzer-mediano/,comida casera para schnauzer mediano,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-shar-pei/,comida casera para shar pei,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-natural-para-perros-recetas/,comida natural para perros recetas,40,40,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-labrador-de-6-meses/,cuanto come un labrador de 6 meses,30,30,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-cachorro-pastor-belga-malinois/,cuanto debe comer un cachorro pastor belga malinois,30,30,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-cachorros-recien-nacidos/,comida casera para cachorros recién nacidos,30,30,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-pug-de-2-meses/,cuanto come un pug de 2 meses,30,30,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-san-bernardo/,comida casera para san bernardo,30,30,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-yorkies/,comida casera para yorkies,30,30,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-caniche/,cuanto debe comer un caniche,20,20,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-galgo/,cuanto debe comer un galgo,20,20,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-pekines/,cuanto debe comer un pekinés,20,20,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-viejo-pastor-ingles-cachorro/,cuanto debe comer un viejo pastor inglés cachorro,20,20,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/croquetas-caseras-para-gatos/,croquetas caseras para gatos,20,20,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-gran-danes/,comida casera para gran danés,20,20,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-come-un-american-stanford-de-2-meses/,cuanto come un american stanford de 2 meses,10,10,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-fox-terrier-chileno/,cuanto debe comer un fox terrier chileno,10,10,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-ovejero-aleman-adulto/,cuanto debe comer un ovejero aleman adulto,10,10,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/cuanto-debe-comer-un-shar-pei-cachorro/,cuanto debe comer un shar pei cachorro,10,10,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-mi-perrita-embarazada/,comida casera para mi perrita embarazada,10,10,1,
+4,alimentacion,faq-or-table,/guias/alimentacion/comida-casera-para-westy/,comida casera para westy,0,0,1,
+4,barf,page,/guias/barf/dieta-barf/,dieta barf,6330,23390,81,
+4,barf,page,/guias/barf/comida-barf/,comida barf,3040,12420,25,
+4,barf,page,/guias/barf/alimento-barf/,alimento barf,3040,6760,12,
+4,barf,page,/guias/barf/barf-perros/,barf perros,2230,5150,23,
+4,barf,page,/guias/barf/natuka-barf/,natuka barf,1910,1960,3,
+4,barf,page,/guias/barf/barf-gatos/,barf gatos,620,1600,12,
+4,barf,page,/guias/barf/alimentacion-barf/,alimentacion barf,370,890,6,
+4,barf,page,/guias/barf/comida-natural-para-perros-barf/,comida natural para perros barf,260,760,10,
+4,barf,page,/guias/barf/nutricione-barf/,nutricione barf,250,250,1,
+4,barf,page,/guias/barf/barf-que-es/,barf que es,250,250,1,
+4,barf,page,/guias/barf/canino-barf/,canino barf,250,500,2,
+4,barf,page,/guias/barf/barf-fiel/,barf fiel,200,200,1,
+4,barf,page,/guias/barf/naturcanin-barf/,naturcanin barf,180,180,1,
+4,barf,page,/guias/barf/barf-origenes/,barf orígenes,130,130,1,
+4,barf,page,/guias/barf/dieta-barf-perros-recetas/,dieta barf para perros recetas,110,1070,20,
+4,barf,page,/guias/barf/barf-congelado/,barf congelado,100,100,1,
+4,barf,page,/guias/barf/carne-barf/,carne barf,100,100,1,
+4,barf,faq-or-table,/guias/barf/tribu-barf/,tribu barf,80,80,1,
+4,barf,faq-or-table,/guias/barf/barf-que-significa/,barf que significa,80,80,1,
+4,barf,faq-or-table,/guias/barf/cual-es-la-dieta-barf/,cuál es la dieta barf,80,120,3,
+4,barf,faq-or-table,/guias/barf/precio-dieta-barf-mensual/,precio dieta barf mensual,70,70,1,
+4,barf,faq-or-table,/guias/barf/barf-croquetas/,croquetas barf,60,140,4,
+4,barf,faq-or-table,/guias/barf/comida-barf-para-gatos-recetas/,comida barf para gatos recetas,60,60,1,
+4,barf,faq-or-table,/guias/barf/calcular-racion-barf/,calcular racion barf,50,50,1,
+4,barf,faq-or-table,/guias/barf/como-calcular-dieta-barf-para-mi-perro/,como calcular dieta barf para mi perro,50,110,3,
+4,barf,faq-or-table,/guias/barf/barf-a-domicilio/,barf a domicilio,50,50,1,
+4,barf,faq-or-table,/guias/barf/barf-para-cachorros/,barf para cachorros,50,130,3,
+4,barf,faq-or-table,/guias/barf/marcas-barf/,marcas barf,50,50,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-bulldog-frances/,dieta barf bulldog frances,50,220,7,
+4,barf,faq-or-table,/guias/barf/recetas-barf/,recetas barf,50,50,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-cane-corso/,dieta barf cane corso,50,50,1,
+4,barf,faq-or-table,/guias/barf/barf-de-pollo/,barf de pollo,50,100,2,
+4,barf,faq-or-table,/guias/barf/barf-porcentajes/,barf porcentajes,50,50,1,
+4,barf,faq-or-table,/guias/barf/barf-precio/,barf precio,50,50,1,
+4,barf,faq-or-table,/guias/barf/puromenu-barf/,puromenu barf,40,40,1,
+4,barf,faq-or-table,/guias/barf/calcular-cantidad-dieta-barf/,calcular cantidad dieta barf,40,40,1,
+4,barf,faq-or-table,/guias/barf/barf-cocinado/,barf cocinado,40,40,1,
+4,barf,faq-or-table,/guias/barf/barf-deshidratado/,barf deshidratado,40,40,1,
+4,barf,faq-or-table,/guias/barf/pienso-barf/,pienso barf,40,40,1,
+4,barf,faq-or-table,/guias/barf/barf-comercial/,barf comercial,40,40,1,
+4,barf,faq-or-table,/guias/barf/dietas-barf-y-cocidas-para-tu-perro-pdf/,dietas barf y cocidas para tu perro pdf,40,40,1,
+4,barf,faq-or-table,/guias/barf/metodo-barf/,metodo barf,40,40,1,
+4,barf,faq-or-table,/guias/barf/barf-huesos-carnosos/,barf huesos carnosos,40,60,2,
+4,barf,faq-or-table,/guias/barf/barf-para-pitbull/,barf para pitbull,40,40,1,
+4,barf,faq-or-table,/guias/barf/comida-barf-como-preparar/,comida barf como preparar,40,100,3,
+4,barf,faq-or-table,/guias/barf/comida-barf-para-american-bully/,comida barf para american bully,40,80,3,
+4,barf,faq-or-table,/guias/barf/barf-preparada/,barf preparada,30,30,1,
+4,barf,faq-or-table,/guias/barf/barf-cantidades/,barf cantidades,30,30,1,
+4,barf,faq-or-table,/guias/barf/kiwoko-barf/,kiwoko barf,20,30,2,
+4,barf,faq-or-table,/guias/barf/crudo-barf/,crudo barf,20,20,1,
+4,barf,faq-or-table,/guias/barf/cuanta-comida-barf-debe-comer-mi-perro/,cuanta comida barf debe comer mi perro,20,30,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-alimentos-permitidos/,dieta barf alimentos permitidos,20,20,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-bichon-maltes/,dieta barf para bichon maltes,20,30,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-border-collie/,dieta barf border collie,20,40,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-bull-terrier/,dieta barf para bull terrier,20,30,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-como-hacerla/,dieta barf como hacerla,20,20,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-cuantas-veces-al-dia/,dieta barf cuantas veces al dia,20,20,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-cuanto-debe-comer-mi-perro/,dieta barf cuanto debe comer mi perro,20,20,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-gatos-casera/,dieta barf gatos casera,20,120,7,
+4,barf,faq-or-table,/guias/barf/dieta-barf-gatos-con-problemas-renales/,dieta barf gatos con problemas renales,20,40,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-golden-retriever/,dieta barf golden retriever,20,40,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-insuficiencia-renal/,dieta barf insuficiencia renal,20,40,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-mejores-marcas/,dieta barf mejores marcas,20,20,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-cachorros-american-bully/,dieta barf para cachorros american bully,20,20,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-cachorros-de-2-meses/,dieta barf para cachorros de 2 meses,20,20,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-cachorros-pitbull/,dieta barf para cachorros pitbull,20,20,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-dogo-argentino/,dieta barf para dogo argentino,20,20,1,
+4,barf,faq-or-table,/guias/barf/barf-y-concentrado/,barf y concentrado,10,20,2,
+4,barf,faq-or-table,/guias/barf/dieta-barf-articulos-cientificos/,dieta barf artículos científicos,10,10,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-cocker-spaniel/,dieta barf para cocker spaniel,10,10,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-gran-danes/,dieta barf para gran danes,10,10,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-husky-siberiano/,dieta barf para husky siberiano,10,10,1,
+4,barf,faq-or-table,/guias/barf/dieta-barf-para-pastor-aleman/,dieta barf para pastor aleman,10,10,1,
+4,cuidados,page,/guias/cuidados/cuanto-vive-un-gato/,cuanto vive un gato,18100,18100,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cuanto-dura-el-embarazo-de-una-perra/,cuanto dura el embarazo de una perra,18100,24500,3,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacunas-perros/,vacunas para perros,7980,31850,43,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cuanto-vive-un-perro/,cuanto vive un perro,6600,6600,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-puppy/,vacuna puppy,3600,4630,2,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-contra-la-rabia/,vacuna contra la rabia,2950,7750,6,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-bordetella/,vacuna bordetella,2840,2930,2,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-parvovirus/,vacuna parvovirus,2420,6420,4,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-quintuple/,vacuna quintuple,2370,2370,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-sextuple/,vacuna sextuple,1590,1590,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacunas-cachorros/,vacunas para cachorros,1320,5850,16,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacunas-gatos-precios/,vacunas gatos precios,1150,1150,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/primera-vacuna-para-cachorros-precio/,primera vacuna para cachorros precio,1140,1290,2,fuente veterinaria
+4,cuidados,page,/guias/cuidados/a-cuantos-meses-se-vacuna-un-cachorro/,a los cuántos meses se vacuna un cachorro,1080,2600,9,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-rabia-perros-precio/,vacuna rabia perros precio,1010,2790,12,fuente veterinaria
+4,cuidados,page,/guias/cuidados/como-banar-a-un-perro/,como bañar a un perro,980,7380,132,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-leishmania-precio/,vacuna leishmania precio,900,900,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuanto-se-desparasitan-los-perros/,cada cuanto se desparasitan los perros,740,5890,45,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacunas-para-gatos-gratis/,vacunas para gatos gratis,550,550,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/calendario-de-vacunacion-de-un-perro/,calendario de vacunación de un perro,540,570,2,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cuadro-de-vacunas-para-perros-cachorros/,cuadro de vacunas para perros cachorros,400,460,2,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-leishmaniosis/,vacuna leishmaniosis,330,330,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuanto-hay-q-desparasitar-a-un-perro/,cada cuanto hay q desparasitar a un perro,330,1480,15,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuanto-tiempo-se-desparasita-un-perro/,cada cuanto tiempo se desparasita un perro,320,1680,21,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacunas-gatos-calendario/,calendario de vacunas para gatos,310,430,2,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuanto-come-un-gato/,cada cuánto come un gato,250,910,9,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuanto-se-desparasita-a-un-cachorro/,cada cuanto se desparasita un cachorro,230,1280,22,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-para-garrapatas/,vacuna para garrapatas,210,210,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuanto-come-un-cachorro-de-2-meses/,cada cuanto come un cachorro de 2 meses,180,380,3,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuando-se-vacuna-a-un-perro/,cada cuando se vacuna un perro,160,280,3,fuente veterinaria
+4,cuidados,page,/guias/cuidados/calendario-de-vacunacion-de-gatos/,calendario de vacunacion de gatos,150,150,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/vacuna-antipulgas/,vacuna antipulgas,140,140,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/cada-cuanto-come-un-cachorro-de-1-mes/,cada cuanto come un cachorro de 1 mes,130,400,6,fuente veterinaria
+4,cuidados,page,/guias/cuidados/como-banar-a-un-cachorro/,como bañar a un cachorro,120,1240,29,fuente veterinaria
+4,cuidados,page,/guias/cuidados/a-las-cuantas-semanas-se-vacuna-un-cachorro/,a las cuantas semanas se vacuna un cachorro,110,110,1,fuente veterinaria
+4,cuidados,page,/guias/cuidados/como-banar-a-un-pug/,como bañar a un pug,110,300,4,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/calendario-de-vacunacion-cachorros/,calendario de vacunacion cachorros,90,140,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuando-se-pone-la-vacuna-antirrabica/,cada cuando se pone la vacuna antirrabica,90,120,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-mi-chihuahua/,como bañar a un chihuahua,80,230,5,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/vacunas-para-perros-near-me/,vacunas para perros near me,80,210,4,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-deben-comer-los-gatos/,cada cuanto deben comer los gatos,70,440,8,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-mi-shih-tzu/,como bañar a un shih tzu,70,310,6,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-husky/,como bañar a un husky,70,210,4,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-comen-los-gatos-de-2-meses/,cada cuanto comen los gatos de 2 meses,60,110,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/vacunas-para-puppies/,vacunas para puppies,60,60,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/a-las-cuantas-vacunas-puede-salir-un-perro/,a las cuantas vacunas puede salir un perro,60,60,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuando-es-la-vacuna-de-la-rabia/,cada cuando es la vacuna de la rabia,60,60,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/calendario-de-vacunacion-canina/,calendario de vacunacion canina,60,60,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-gato-con-pulgas/,como bañar a un gato con pulgas,60,60,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-pomerania/,como bañar a un pomerania,60,160,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/desparasitacion-interna-perros-cada-cuanto/,desparasitacion interna perros cada cuanto,50,160,5,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-come-un-cachorro-de-20-dias/,cada cuanto come un cachorro de 20 dias,50,90,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-come-un-cachorro-de-3-semanas/,cada cuanto come un cachorro de 3 semanas,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-come-un-cachorro-de-perro/,cada cuanto come un cachorro de perro,50,330,7,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-come-un-gatito-de-un-mes/,cada cuanto come un gatito de un mes,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-come-un-perro-de-3-meses/,cada cuanto come un perro de 3 meses,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-comen-los-cachorros-de-un-mes/,cada cuanto comen los cachorros de un mes,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-comen-los-perros-adultos/,cada cuanto comen los perros adultos,50,150,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-dar-de-comer-a-un-cachorro/,cada cuanto dar de comer a un cachorro,50,100,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-debe-comer-un-gatito-bebe/,cada cuanto debe comer un gatito bebe,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-debe-comer-un-gatito-recien-nacido/,cada cuanto debe comer un gatito recien nacido,50,190,4,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-debo-alimentar-a-mi-gato/,cada cuanto debo alimentar a mi gato,50,120,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-debo-darle-comida-a-mi-gato/,cada cuanto debo darle comida a mi gato,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-tiempo-debe-comer-un-gato-bebe/,cada cuanto tiempo debe comer un gato bebe,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-tienen-que-comer-los-perros/,cada cuanto tienen que comer los perros,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/a-los-cuantos-dias-se-vacuna-un-perro/,a los cuantos dias se vacuna un perro,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/antirrabica-vacuna-precio/,antirrabica vacuna precio,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/boehringer-ingelheim-vacunas-perros/,boehringer ingelheim vacunas perros,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-dar-antiparasitario-a-un-perro/,cada cuanto dar antiparasitario a un perro,50,130,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-se-puede-desparasitar-un-cachorro/,cada cuanto se puede desparasitar un cachorro,50,80,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-tiempo-se-desparasitan-los-cachorros/,cada cuanto tiempo se desparasitan los cachorros,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-tiempo-se-puede-desparasitar-un-perro/,cada cuanto tiempo se puede desparasitar un perro,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-se-pone-la-vacuna-del-moquillo/,cada cuánto se pone la vacuna del moquillo,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-mi-bichon-maltes/,como bañar a un bichon maltes,50,150,4,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-mi-bulldog-frances/,como bañar a mi bulldog frances,50,380,8,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-mi-caniche/,como bañar a un caniche,50,340,11,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-border-collie/,como bañar a un border collie,50,140,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-bull-terrier/,como bañar a un bull terrier,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-chow-chow/,como bañar un chow chow,50,90,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-gato-con-shampoo-seco/,como bañar a un gato con shampoo seco,50,90,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-golden-retriever/,como bañar a un golden retriever,50,150,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-labrador/,como bañar a un labrador,50,100,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-pastor-aleman/,como bañar a un pastor aleman,50,100,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-pitbull/,como bañar a un pitbull,50,90,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-poodle/,como bañar a un poodle,50,110,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-samoyedo/,como bañar a un samoyedo,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-san-bernardo/,como bañar a un san bernardo,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-yorkie/,como bañar a un yorkie,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-una-perra-embarazada/,como bañar a una perra embarazada,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-un-schnauzer/,como bañar un schnauzer,50,50,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-darle-comida-a-un-cachorro/,cada cuanto darle comida a un cachorro,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-se-da-el-antiparasitario/,cada cuanto se da el antiparasitario,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cada-cuanto-se-puede-purgar-un-perro/,cada cuanto se puede purgar un perro,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/calendario-vacuna-antirrabica/,calendario vacuna antirrabica,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-akita-americano/,como bañar a un akita americano,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-cocker/,como bañar a un cocker,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-pinscher/,como bañar a un pinscher,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cuanta-vacunas-se-pone-perro/,cuanta vacunas se pone perro,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-mi-perro-si-hace-frio/,como bañar a mi perro si hace frio,40,60,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-xoloitzcuintle/,como bañar a un xoloitzcuintle,40,40,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/emancipet-vacunas-gratis-para-perros/,emancipet vacunas gratis para perros,40,60,4,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/calculadora-gestacion-perra/,calculadora gestacion perra,30,30,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/cachorro-como-educar-a-un-perro/,cachorro como educar a un perro,30,30,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-galgo/,como bañar a un galgo,30,30,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-shar-pei/,como bañar a un shar pei,30,60,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-perritos-recien-nacidos/,como bañar perritos recien nacidos,30,30,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/vacuna-octuple/,vacuna octuple,30,40,2,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/antiparasitario-interno-para-perros-cada-cuanto-tiempo/,antiparasitario interno para perros cada cuanto tiempo,20,60,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-perrito-de-1-mes/,como bañar a un perrito de 1 mes,20,20,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/canisan-f-cada-cuanto-se-toma/,canisan f cada cuanto se toma,20,20,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/desparasitacion-cada-cuanto-tiempo/,desparasitacion cada cuanto tiempo,10,10,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/calendario-de-vacunas-para-perros-en-usa/,calendario de vacunas para perros en usa,10,10,3,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/centro-de-salud-vacunas-para-perros/,centro de salud vacunas para perros,10,10,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/como-banar-a-un-perro-sin-shampoo-especial/,como bañar a un perro sin shampoo especial,10,10,1,fuente veterinaria
+4,cuidados,faq-or-table,/guias/cuidados/calendario-de-vacunacion-san-bernardo/,calendario de vacunacion san bernardo,0,0,1,fuente veterinaria
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-croquetas-para-perros/,mejor croquetas para perros,3820,10050,3,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-alimento-para-gatos/,mejor alimento para gatos,2700,3030,4,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-alimento-para-perros/,mejor alimento para perros,2690,4350,12,
+4,mejores-alimentos,page,/guias/mejores-alimentos/los-10-mejores-alimentos-para-perros/,los 10 mejores alimentos para perros,2480,4300,13,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejores-croquetas-para-gato/,mejores croquetas para gato,1990,2710,3,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-comida-para-gatos/,mejor comida para gatos,1880,4430,16,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejores-comidas-para-perro/,mejores comidas para perro,1340,2040,5,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejores-marcas-de-croquetas-para-perro/,mejores marcas de croquetas para perro,940,2400,9,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-pienso-para-perros/,mejor pienso para perros,920,4170,50,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-pienso-para-gatos/,mejor pienso para gatos,760,2060,16,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejores-croquetas-para-cachorro/,mejores croquetas para cachorro,640,920,3,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejores-marcas-de-comida-para-gatos/,mejores marcas de comida para gatos,550,1600,8,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-alimento-para-cachorro/,mejor alimento para cachorro,340,690,3,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejores-piensos-para-perros-ocu/,mejores piensos para perros ocu,320,1190,11,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-pienso-para-cachorros/,mejor pienso para cachorros,300,760,10,
+4,mejores-alimentos,page,/guias/mejores-alimentos/cual-es-la-mejor-comida-para-perros/,cuál es la mejor comida para perros,220,520,6,
+4,mejores-alimentos,page,/guias/mejores-alimentos/cuales-son-los-mejores-alimentos-para-perro/,cuáles son los mejores alimentos para perro,220,240,2,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejores-croquetas-para-perro-raza-pequena/,mejores croquetas para perro raza pequeña,160,160,1,
+4,mejores-alimentos,page,/guias/mejores-alimentos/los-mejores-alimentos-para-gatos/,los mejores alimentos para gatos,150,190,2,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-comida-para-cachorros/,mejor comida para cachorros,130,530,6,
+4,mejores-alimentos,page,/guias/mejores-alimentos/los-mejores-piensos-para-gatos/,los mejores piensos para gatos,110,290,5,
+4,mejores-alimentos,page,/guias/mejores-alimentos/mejor-comida-barf-para-perros/,mejor comida barf para perros,110,500,7,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-alimento-para-bulldog-frances/,mejor alimento para bulldog frances,90,140,3,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/la-mejor-croqueta-para-cachorro/,la mejor croqueta para cachorro,90,170,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-caniche-toy/,mejor pienso para caniche toy,80,80,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-piensos-sin-cereales-para-perros-baratos/,mejores piensos sin cereales para perros baratos,70,110,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-croquetas-para-husky/,mejores croquetas para husky,70,70,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-chihuahua/,mejor pienso para chihuahua,60,60,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-pastor-aleman/,mejor pienso para pastor aleman,60,70,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-alimentos-para-cachorros-raza-grande/,mejores alimentos para cachorros raza grande,60,100,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-razas-pequenas/,mejor pienso razas pequeñas,50,50,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-teckel/,mejor pienso para teckel,50,50,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-bichon-maltes/,mejor pienso para bichon maltes,50,60,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-yorkshire-adulto/,mejor pienso para yorkshire adulto,50,90,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-comida-para-perros-calidad-precio/,mejor comida para perros calidad precio,50,50,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-comida-para-perros-shih-tzu/,mejor comida para perros shih tzu,50,50,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-comida-para-pomerania/,mejor comida para pomerania,50,50,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-galgos/,mejor pienso para galgos,40,40,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-perros-calidad-precio-ocu/,mejor pienso perros calidad precio ocu,40,80,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-border-collie/,mejor pienso para border collie,40,70,3,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-american-bully/,mejor pienso para american bully,40,50,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/los-mejores-piensos-para-cachorros/,los mejores piensos para cachorros,30,30,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-con-condroprotectores/,mejor pienso con condroprotectores,30,30,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-marcas-pienso-prensado-en-frio/,mejores marcas pienso prensado en frío,30,30,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/cual-es-el-mejor-alimento-para-perros-ancianos/,cuál es el mejor alimento para perros ancianos,30,50,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-golden-retriever/,mejor pienso para golden retriever,20,40,2,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-piensos-hidrolizados/,mejores piensos hidrolizados,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-perra-esterilizada/,mejor pienso para perra esterilizada,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-labrador/,mejor pienso para labrador,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-pomerania/,mejor pienso para pomerania,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-pastor-belga-malinois/,mejor pienso para pastor belga malinois,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-piensos-para-perros-con-problemas-digestivos/,mejores piensos para perros con problemas digestivos,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-para-husky/,mejor pienso para husky,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/cual-es-la-mejor-marca-de-croquetas/,cuál es la mejor marca de croquetas,20,20,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-piensos-light-para-perros-pequenos/,mejores piensos light para perros pequeños,10,10,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejor-pienso-senior-calidad-precio/,mejor pienso senior calidad precio,10,10,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-piensos-con-condroprotectores/,mejores piensos con condroprotectores,10,10,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/mejores-croquetas-para-perro-profeco-2022/,mejores croquetas para perro profeco 2022,10,10,1,
+4,mejores-alimentos,faq-or-table,/guias/mejores-alimentos/cuales-son-las-mejores-croquetas-para-perro-cachorro/,cuáles son las mejores croquetas para perro cachorro,10,10,2,
+5,sintomas-conducta,page,/perros/mi-perro-vomita-amarillo/,mi perro vomita amarillo,4060,7730,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-no-quiere-comer/,mi perro no quiere comer,3310,6610,3,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-estornuda-mucho/,mi gato estornuda mucho,2730,4010,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-se-lame-mucho-las-patas/,mi perro se lame mucho las patas,2300,2300,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-me-muerde/,porque mi gato me muerde,1960,2350,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-vomita-espuma-blanca/,mi perro vomita espuma blanca,1910,3450,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-estornuda-mucho/,mi perro estornuda mucho,1800,2680,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-se-rasca-mucho/,mi perro se rasca mucho,1460,2560,4,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-no-quiere-comer/,mi gato no quiere comer,1410,1410,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-me-lame/,porque mi perro me lame,1240,1240,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-vomita-amarillo/,mi gato vomita amarillo,1230,1230,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-vomita-espuma-blanca/,mi gato vomita espuma blanca,950,950,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-no-puede-orinar/,mi gato no puede orinar,930,930,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-vomita-espuma/,mi perro vomita espuma,790,790,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-maulla-mucho/,mi gato maulla mucho,750,1280,2,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-estornuda/,mi gato estornuda,740,1050,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-me-lame-mucho/,mi perro me lame mucho,680,680,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-vomita/,mi gato vomita,620,620,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-maulla-tanto/,porque mi gato maulla tanto,580,580,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-tiene-diarrea/,porque mi gato tiene diarrea,560,560,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-vomita-mucho/,mi gato vomita mucho,520,520,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-vomita-y-tiene-diarrea/,mi perro vomita y tiene diarrea,520,520,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-tiene-diarrea/,porque mi perro tiene diarrea,470,470,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-se-muerde-las-patas/,mi perro se muerde las patas,440,440,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-no-para-de-maullar/,mi gato no para de maullar,430,430,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-vomita/,mi perro vomita,420,420,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-no-come/,mi gato no come,400,400,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-no-come/,mi perro no come,380,430,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-se-come-su-caca/,porque mi perro se come su caca,370,480,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-se-come-la-caca/,mi perro se come la caca,350,350,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-me-amasa/,mi gato me amasa,290,290,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-ladra-mucho/,mi perro ladra mucho,260,260,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-vomita-y-no-quiere-comer/,mi perro vomita y no quiere comer,260,260,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-orina-mucho/,mi perro orina mucho,230,230,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-tose-mucho/,mi perro tose mucho,230,230,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-no-come-y-vomita/,mi gato no come y vomita,230,230,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-come-y-vomita/,mi gato come y vomita,210,210,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-estornuda/,mi perro estornuda,200,200,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-pierde-mucho-pelo/,mi gato pierde mucho pelo,190,190,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-llora-mucho/,mi gato llora mucho,190,190,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-muerde-mucho/,mi cachorro muerde mucho,180,180,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-muerde-mucho/,mi gato muerde mucho,180,180,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-pierde-mucho-pelo/,mi perro pierde mucho pelo,180,180,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-no-come-y-vomita/,mi perro no come y vomita,160,160,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-se-mea-fuera-del-arenero/,mi gato se mea fuera del arenero,150,260,2,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-vomita-todos-los-dias/,mi gato vomita todos los días,150,150,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-maulla-por-la-noche/,mi gato maulla por la noche,150,150,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-suelta-mucho-pelo/,mi perro suelta mucho pelo,140,140,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-cojea/,mi perro cojea,130,130,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-vomita-mucho/,mi perro vomita mucho,130,130,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-tira-mucho-pelo/,mi perro tira mucho pelo,130,130,1,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-no-para-de-rascarse/,mi perro no para de rascarse,120,120,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-se-mea-en-mi-cama/,porque mi gato se mea en mi cama,120,120,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-mea-fuera-del-arenero/,mi gato mea fuera del arenero,110,200,2,revision veterinaria
+5,sintomas-conducta,page,/perros/mi-perro-ladra-a-otros-perros/,mi perro ladra a otros perros,110,110,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-me-muerde-fuerte/,porque mi gato me muerde fuerte,110,110,1,revision veterinaria
+5,sintomas-conducta,page,/gatos/mi-gato-orina-fuera-del-arenero/,mi gato orina fuera del arenero,100,100,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/gatos/mi-gato-vomita-el-pienso/,mi gato vomita el pienso,90,90,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-me-muerde-mucho/,mi cachorro me muerde mucho,90,90,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-me-muerde/,mi perro me muerde,80,150,2,revision veterinaria
+5,sintomas-conducta,faq-or-table,/gatos/mi-gato-va-mucho-al-arenero/,mi gato va mucho al arenero,80,80,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/gatos/mi-gato-no-orina/,mi gato no orina,80,80,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-come-barf/,mi perro come barf,70,70,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-muerde-y-grune/,mi cachorro muerde y gruñe,70,70,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/gatos/mi-gato-muerde/,mi gato muerde,70,70,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-llora-por-la-noche/,mi perro llora por la noche,70,70,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-no-deja-de-rascarse/,mi perro no deja de rascarse,70,70,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/gatos/mi-gato-llora-por-las-noches/,mi gato llora por las noches,60,60,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-no-orina/,mi perro no orina,60,60,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/gatos/mi-gato-mea-por-toda-la-casa/,mi gato mea por toda la casa,60,60,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-se-rasca/,mi perro se rasca,60,60,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-llora-mucho/,mi cachorro llora mucho,60,60,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-cada-cuanto-debe-comer/,un cachorro cada cuanto debe comer,50,50,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-cuantas-veces-al-dia-come/,un cachorro cuantas veces al dia come,50,50,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-adulto-cuantas-veces-debe-comer/,un perro adulto cuantas veces debe comer,50,50,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-llora-por-las-noches/,mi cachorro llora por las noches,40,40,1,revision veterinaria
+5,sintomas-conducta,faq-or-table,/perros/mi-perro-se-come-sus-cacas/,mi perro se come sus cacas,30,30,1,revision veterinaria

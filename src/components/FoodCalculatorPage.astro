@@ -1,0 +1,209 @@
+---
+import Base from '../layouts/Base.astro';
+import { FACTORS } from '../lib/energy.js';
+
+interface Props { species: 'dog' | 'cat' }
+const { species } = Astro.props;
+
+const copy = {
+  dog: {
+    path: '/calculadoras/comida-perro/',
+    crumb: 'Comida para perros',
+    title: 'Cuánto debe comer un perro: calculadora de ración diaria',
+    description: 'Calcula cuántas calorías y gramos de alimento necesita tu perro al día según su peso y etapa de vida. Resultado orientativo, con la fórmula explicada.',
+    h1: '¿Cuánto debe comer un perro al día?',
+    lead: 'Indica el peso y la etapa de vida de tu perro para obtener una ración diaria orientativa en calorías y gramos.',
+    animal: 'perro',
+    weightHint: 'Usa su peso ideal si tiene sobrepeso o está demasiado delgado.',
+    defaultStage: 'neutered',
+    stages: {
+      neutered: 'Adulto esterilizado',
+      intact: 'Adulto sin esterilizar',
+      inactive: 'Adulto poco activo',
+      puppyUnder4m: 'Cachorro menor de 4 meses',
+      puppyOver4m: 'Cachorro de 4 meses o más',
+    },
+    otherHref: '/calculadoras/comida-gato/',
+    otherLabel: 'Calculadora de comida para gatos',
+    special: 'Perras gestantes o en lactancia, perros de trabajo, y animales con enfermedades o bajo una dieta para adelgazar necesitan un plan individual de su veterinario.',
+  },
+  cat: {
+    path: '/calculadoras/comida-gato/',
+    crumb: 'Comida para gatos',
+    title: 'Cuánto debe comer un gato: calculadora de ración diaria',
+    description: 'Calcula cuántas calorías y gramos de alimento necesita tu gato al día según su peso y etapa de vida. Resultado orientativo, con la fórmula explicada.',
+    h1: '¿Cuánto debe comer un gato al día?',
+    lead: 'Indica el peso y la etapa de vida de tu gato para obtener una ración diaria orientativa en calorías y gramos.',
+    animal: 'gato',
+    weightHint: 'Usa su peso ideal si tiene sobrepeso o está demasiado delgado.',
+    defaultStage: 'neutered',
+    stages: {
+      neutered: 'Adulto esterilizado',
+      intact: 'Adulto sin esterilizar',
+      inactive: 'Adulto poco activo',
+      kitten: 'Gatito en crecimiento',
+    },
+    otherHref: '/calculadoras/comida-perro/',
+    otherLabel: 'Calculadora de comida para perros',
+    special: 'Gatas gestantes o en lactancia, y gatos con enfermedades o bajo una dieta para adelgazar necesitan un plan individual de su veterinario. Un gato que deja de comer debe ser valorado por un veterinario cuanto antes.',
+  },
+}[species];
+
+const factorText = ([min, max]: readonly number[]) =>
+  (min === max ? `${min}` : `${min} a ${max}`).replaceAll('.', ',');
+
+const faq = [
+  {
+    q: `¿Cómo se calcula la comida de un ${copy.animal}?`,
+    a: 'Primero se estima la energía en reposo con la fórmula 70 × peso en kg elevado a 0,75. Después se multiplica por un factor según la etapa de vida. Por último, las calorías se convierten en gramos con la energía que indica el envase del alimento.',
+  },
+  {
+    q: '¿Dónde encuentro las calorías de su alimento?',
+    a: 'Suelen aparecer en el envase o en la web del fabricante como kcal por 100 g o kcal por kg. Si el dato está en kcal por kg, divídelo entre 10 para obtener las kcal por 100 g.',
+  },
+  {
+    q: '¿Debo seguir la calculadora o la guía del envase?',
+    a: 'Da prioridad a la guía del fabricante y a las indicaciones de tu veterinario. Esta calculadora es un punto de partida: ajusta la ración según la evolución de su peso y su condición corporal.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: copy.crumb,
+    url: new URL(copy.path, Astro.site).href,
+    applicationCategory: 'UtilitiesApplication',
+    operatingSystem: 'Any',
+    inLanguage: 'es',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  },
+];
+---
+<Base
+  title={copy.title}
+  description={copy.description}
+  jsonLd={jsonLd}
+  crumbs={[{ name: 'Inicio', path: '/' }, { name: copy.crumb, path: copy.path }]}
+>
+  <h1>{copy.h1}</h1>
+  <p class="lead">{copy.lead}</p>
+
+  <form class="card" data-food-calculator data-species={species} novalidate>
+    <div class="field">
+      <label for="weight">Peso (kg)</label>
+      <input id="weight" name="weight" type="number" inputmode="decimal" min="0.1" step="0.1" required />
+      <small>{copy.weightHint}</small>
+    </div>
+    <div class="field">
+      <label for="stage">Etapa de vida</label>
+      <select id="stage" name="stage">
+        {Object.entries(copy.stages).map(([value, label]) => (
+          <option value={value} selected={value === copy.defaultStage}>{label}</option>
+        ))}
+      </select>
+    </div>
+    <div class="field">
+      <label for="density">Calorías del alimento (kcal por 100 g)</label>
+      <input id="density" name="density" type="number" inputmode="decimal" min="1" step="1" value="350" required />
+      <small>Cambia el valor por el que aparece en el envase. 350 es solo un ejemplo de alimento seco.</small>
+    </div>
+    <button type="submit">Calcular ración</button>
+    <p class="error" data-error role="alert"></p>
+    <div class="result" data-result aria-live="polite" hidden>
+      <span class="big" data-grams></span>
+      <p data-kcal></p>
+      <p>Repártelo en las comidas del día. Si le das premios u otros alimentos, descuéntalos de este total.</p>
+    </div>
+  </form>
+
+  <div class="notice">
+    <p><strong>Es una estimación.</strong> Cada animal es distinto: sigue la guía del envase y consulta a tu veterinario antes de hacer cambios importantes en su dieta.</p>
+  </div>
+
+  <h2>Factores que usa la calculadora</h2>
+  <p>La energía en reposo (RER) se calcula como <strong>70 × kg<sup>0,75</sup></strong> y se multiplica por el factor de cada etapa.</p>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th scope="col">Etapa de vida</th><th scope="col">Factor sobre RER</th></tr></thead>
+      <tbody>
+        {Object.entries(copy.stages).map(([value, label]) => (
+          <tr><td>{label}</td><td>{factorText(FACTORS[species][value])}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Cuándo pedir un plan al veterinario</h2>
+  <p>{copy.special}</p>
+
+  <h2>Preguntas frecuentes</h2>
+  {faq.map(({ q, a }) => (
+    <>
+      <h3>{q}</h3>
+      <p>{a}</p>
+    </>
+  ))}
+
+  <p><a href={copy.otherHref}>{copy.otherLabel}</a></p>
+
+  <section class="sources" aria-label="Fuentes">
+    <h2>Fuentes</h2>
+    <ul>
+      <li><a href="https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/weight-reduction-in-the-obese-pet/" rel="noopener">AAHA: 2021 Nutrition and Weight Management Guidelines</a></li>
+    </ul>
+    <p>Revisado el 18 de noviembre de 2026.</p>
+  </section>
+</Base>
+
+<script>
+  import { dailyEnergy, portionGrams } from '../lib/energy.js';
+
+  const form = document.querySelector<HTMLFormElement>('[data-food-calculator]');
+  if (form) {
+    const species = form.dataset.species as string;
+    const error = form.querySelector<HTMLElement>('[data-error]')!;
+    const result = form.querySelector<HTMLElement>('[data-result]')!;
+    const grams = form.querySelector<HTMLElement>('[data-grams]')!;
+    const kcal = form.querySelector<HTMLElement>('[data-kcal]')!;
+    const number = new Intl.NumberFormat('es');
+    const range = (min: number, max: number, unit: string) =>
+      min === max ? `${number.format(min)} ${unit}` : `${number.format(min)}–${number.format(max)} ${unit}`;
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      error.textContent = '';
+      result.hidden = true;
+
+      const data = new FormData(form);
+      const weightKg = Number(String(data.get('weight')).replace(',', '.'));
+      const density = Number(String(data.get('density')).replace(',', '.'));
+      if (!(weightKg > 0)) {
+        error.textContent = 'Introduce un peso válido en kilos.';
+        return;
+      }
+      if (!(density > 0)) {
+        error.textContent = 'Introduce las calorías del alimento por cada 100 g.';
+        return;
+      }
+
+      try {
+        const energy = dailyEnergy({ species, weightKg, stage: String(data.get('stage')) });
+        grams.textContent = `${range(portionGrams(energy.minKcal, density), portionGrams(energy.maxKcal, density), 'g')} al día`;
+        kcal.textContent = `Equivale a ${range(energy.minKcal, energy.maxKcal, 'kcal')} al día.`;
+        result.hidden = false;
+      } catch {
+        error.textContent = 'Revisa el peso: el valor no parece correcto para este animal.';
+      }
+    });
+  }
+</script>

@@ -1,0 +1,1562 @@
+[
+ {
+  "species": "perros",
+  "food": "fresas",
+  "query": "los perros pueden comer fresas",
+  "v": 18100
+ },
+ {
+  "species": "perros",
+  "food": "platano",
+  "query": "los perros pueden comer platano",
+  "v": 18100
+ },
+ {
+  "species": "perros",
+  "food": "banana",
+  "query": "los perros pueden comer banana",
+  "v": 5400
+ },
+ {
+  "species": "perros",
+  "food": "sandia",
+  "query": "los perros pueden comer sandia",
+  "v": 18100
+ },
+ {
+  "species": "perros",
+  "food": "melon",
+  "query": "los perros pueden comer melon",
+  "v": 12100
+ },
+ {
+  "species": "perros",
+  "food": "manzana",
+  "query": "los perros pueden comer manzana",
+  "v": 12100
+ },
+ {
+  "species": "perros",
+  "food": "pera",
+  "query": "los perros pueden comer pera",
+  "v": 8100
+ },
+ {
+  "species": "perros",
+  "food": "uvas",
+  "query": "los perros pueden comer uvas",
+  "v": 14800
+ },
+ {
+  "species": "perros",
+  "food": "pasas",
+  "query": "los perros pueden comer pasas",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "naranja",
+  "query": "los perros pueden comer naranja",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "mandarina",
+  "query": "los perros pueden comer mandarina",
+  "v": 9900
+ },
+ {
+  "species": "perros",
+  "food": "limon",
+  "query": "los perros pueden comer limon",
+  "v": 1900
+ },
+ {
+  "species": "perros",
+  "food": "pina",
+  "query": "los perros pueden comer pina",
+  "v": 170
+ },
+ {
+  "species": "perros",
+  "food": "mango",
+  "query": "los perros pueden comer mango",
+  "v": 14800
+ },
+ {
+  "species": "perros",
+  "food": "papaya",
+  "query": "los perros pueden comer papaya",
+  "v": 8100
+ },
+ {
+  "species": "perros",
+  "food": "kiwi",
+  "query": "los perros pueden comer kiwi",
+  "v": 4400
+ },
+ {
+  "species": "perros",
+  "food": "durazno",
+  "query": "los perros pueden comer durazno",
+  "v": 5400
+ },
+ {
+  "species": "perros",
+  "food": "melocoton",
+  "query": "los perros pueden comer melocoton",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "cerezas",
+  "query": "los perros pueden comer cerezas",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "ciruelas",
+  "query": "los perros pueden comer ciruelas",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "arandanos",
+  "query": "los perros pueden comer arandanos",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "frambuesas",
+  "query": "los perros pueden comer frambuesas",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "moras",
+  "query": "los perros pueden comer moras",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "coco",
+  "query": "los perros pueden comer coco",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "granada",
+  "query": "los perros pueden comer granada",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "higos",
+  "query": "los perros pueden comer higos",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "guayaba",
+  "query": "los perros pueden comer guayaba",
+  "v": 4400
+ },
+ {
+  "species": "perros",
+  "food": "maracuya",
+  "query": "los perros pueden comer maracuya",
+  "v": 320
+ },
+ {
+  "species": "perros",
+  "food": "aguacate",
+  "query": "los perros pueden comer aguacate",
+  "v": 12100
+ },
+ {
+  "species": "perros",
+  "food": "palta",
+  "query": "los perros pueden comer palta",
+  "v": 1900
+ },
+ {
+  "species": "perros",
+  "food": "tomate",
+  "query": "los perros pueden comer tomate",
+  "v": 9900
+ },
+ {
+  "species": "perros",
+  "food": "zanahoria",
+  "query": "los perros pueden comer zanahoria",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "pepino",
+  "query": "los perros pueden comer pepino",
+  "v": 9900
+ },
+ {
+  "species": "perros",
+  "food": "calabaza",
+  "query": "los perros pueden comer calabaza",
+  "v": 5400
+ },
+ {
+  "species": "perros",
+  "food": "calabacin",
+  "query": "los perros pueden comer calabacin",
+  "v": 5400
+ },
+ {
+  "species": "perros",
+  "food": "zapallo",
+  "query": "los perros pueden comer zapallo",
+  "v": 590
+ },
+ {
+  "species": "perros",
+  "food": "brocoli",
+  "query": "los perros pueden comer brocoli",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "coliflor",
+  "query": "los perros pueden comer coliflor",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "espinacas",
+  "query": "los perros pueden comer espinacas",
+  "v": 4400
+ },
+ {
+  "species": "perros",
+  "food": "lechuga",
+  "query": "los perros pueden comer lechuga",
+  "v": 4400
+ },
+ {
+  "species": "perros",
+  "food": "col",
+  "query": "los perros pueden comer col",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "repollo",
+  "query": "los perros pueden comer repollo",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "apio",
+  "query": "los perros pueden comer apio",
+  "v": 3600
+ },
+ {
+  "species": "perros",
+  "food": "pimiento",
+  "query": "los perros pueden comer pimiento",
+  "v": 2400
+ },
+ {
+  "species": "perros",
+  "food": "cebolla",
+  "query": "los perros pueden comer cebolla",
+  "v": 4400
+ },
+ {
+  "species": "perros",
+  "food": "ajo",
+  "query": "los perros pueden comer ajo",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "puerro",
+  "query": "los perros pueden comer puerro",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "champiñones",
+  "query": "los perros pueden comer champiñones",
+  "v": 4400
+ },
+ {
+  "species": "perros",
+  "food": "setas",
+  "query": "los perros pueden comer setas",
+  "v": 390
+ },
+ {
+  "species": "perros",
+  "food": "maiz",
+  "query": "los perros pueden comer maiz",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "elote",
+  "query": "los perros pueden comer elote",
+  "v": 2400
+ },
+ {
+  "species": "perros",
+  "food": "choclo",
+  "query": "los perros pueden comer choclo",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "guisantes",
+  "query": "los perros pueden comer guisantes",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "chicharos",
+  "query": "los perros pueden comer chicharos",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "ejotes",
+  "query": "los perros pueden comer ejotes",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "judias verdes",
+  "query": "los perros pueden comer judias verdes",
+  "v": 590
+ },
+ {
+  "species": "perros",
+  "food": "remolacha",
+  "query": "los perros pueden comer remolacha",
+  "v": 2400
+ },
+ {
+  "species": "perros",
+  "food": "betabel",
+  "query": "los perros pueden comer betabel",
+  "v": 1900
+ },
+ {
+  "species": "perros",
+  "food": "camote",
+  "query": "los perros pueden comer camote",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "batata",
+  "query": "los perros pueden comer batata",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "boniato",
+  "query": "los perros pueden comer boniato",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "papa",
+  "query": "los perros pueden comer papa",
+  "v": 9900
+ },
+ {
+  "species": "perros",
+  "food": "patata",
+  "query": "los perros pueden comer patata",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "yuca",
+  "query": "los perros pueden comer yuca",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "arroz",
+  "query": "los perros pueden comer arroz",
+  "v": 4400
+ },
+ {
+  "species": "perros",
+  "food": "pasta",
+  "query": "los perros pueden comer pasta",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "fideos",
+  "query": "los perros pueden comer fideos",
+  "v": 480
+ },
+ {
+  "species": "perros",
+  "food": "pan",
+  "query": "los perros pueden comer pan",
+  "v": 3600
+ },
+ {
+  "species": "perros",
+  "food": "avena",
+  "query": "los perros pueden comer avena",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "quinoa",
+  "query": "los perros pueden comer quinoa",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "tortilla",
+  "query": "los perros pueden comer tortilla",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "lentejas",
+  "query": "los perros pueden comer lentejas",
+  "v": 5400
+ },
+ {
+  "species": "perros",
+  "food": "frijoles",
+  "query": "los perros pueden comer frijoles",
+  "v": 5400
+ },
+ {
+  "species": "perros",
+  "food": "garbanzos",
+  "query": "los perros pueden comer garbanzos",
+  "v": 3600
+ },
+ {
+  "species": "perros",
+  "food": "soja",
+  "query": "los perros pueden comer soja",
+  "v": 210
+ },
+ {
+  "species": "perros",
+  "food": "huevo",
+  "query": "los perros pueden comer huevo",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "pollo",
+  "query": "los perros pueden comer pollo",
+  "v": 590
+ },
+ {
+  "species": "perros",
+  "food": "pavo",
+  "query": "los perros pueden comer pavo",
+  "v": 320
+ },
+ {
+  "species": "perros",
+  "food": "carne de res",
+  "query": "los perros pueden comer carne de res",
+  "v": 210
+ },
+ {
+  "species": "perros",
+  "food": "carne de cerdo",
+  "query": "los perros pueden comer carne de cerdo",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "cerdo",
+  "query": "los perros pueden comer cerdo",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "cordero",
+  "query": "los perros pueden comer cordero",
+  "v": 90
+ },
+ {
+  "species": "perros",
+  "food": "conejo",
+  "query": "los perros pueden comer conejo",
+  "v": 70
+ },
+ {
+  "species": "perros",
+  "food": "higado",
+  "query": "los perros pueden comer higado",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "jamon",
+  "query": "los perros pueden comer jamon",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "tocino",
+  "query": "los perros pueden comer tocino",
+  "v": 390
+ },
+ {
+  "species": "perros",
+  "food": "salchichas",
+  "query": "los perros pueden comer salchichas",
+  "v": 1900
+ },
+ {
+  "species": "perros",
+  "food": "chorizo",
+  "query": "los perros pueden comer chorizo",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "atun",
+  "query": "los perros pueden comer atun",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "salmon",
+  "query": "los perros pueden comer salmon",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "sardinas",
+  "query": "los perros pueden comer sardinas",
+  "v": 1600
+ },
+ {
+  "species": "perros",
+  "food": "pescado",
+  "query": "los perros pueden comer pescado",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "camarones",
+  "query": "los perros pueden comer camarones",
+  "v": 5400
+ },
+ {
+  "species": "perros",
+  "food": "gambas",
+  "query": "los perros pueden comer gambas",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "mariscos",
+  "query": "los perros pueden comer mariscos",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "huesos",
+  "query": "los perros pueden comer huesos",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "leche",
+  "query": "los perros pueden comer leche",
+  "v": 390
+ },
+ {
+  "species": "perros",
+  "food": "queso",
+  "query": "los perros pueden comer queso",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "yogur",
+  "query": "los perros pueden comer yogur",
+  "v": 1000
+ },
+ {
+  "species": "perros",
+  "food": "mantequilla",
+  "query": "los perros pueden comer mantequilla",
+  "v": 480
+ },
+ {
+  "species": "perros",
+  "food": "helado",
+  "query": "los perros pueden comer helado",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "crema de cacahuate",
+  "query": "los perros pueden comer crema de cacahuate",
+  "v": 1300
+ },
+ {
+  "species": "perros",
+  "food": "mantequilla de mani",
+  "query": "los perros pueden comer mantequilla de mani",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "mantequilla de cacahuete",
+  "query": "los perros pueden comer mantequilla de cacahuete",
+  "v": 70
+ },
+ {
+  "species": "perros",
+  "food": "cacahuates",
+  "query": "los perros pueden comer cacahuates",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "mani",
+  "query": "los perros pueden comer mani",
+  "v": 3600
+ },
+ {
+  "species": "perros",
+  "food": "almendras",
+  "query": "los perros pueden comer almendras",
+  "v": 6600
+ },
+ {
+  "species": "perros",
+  "food": "nueces",
+  "query": "los perros pueden comer nueces",
+  "v": 8100
+ },
+ {
+  "species": "perros",
+  "food": "pistachos",
+  "query": "los perros pueden comer pistachos",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "avellanas",
+  "query": "los perros pueden comer avellanas",
+  "v": 390
+ },
+ {
+  "species": "perros",
+  "food": "semillas de chia",
+  "query": "los perros pueden comer semillas de chia",
+  "v": 110
+ },
+ {
+  "species": "perros",
+  "food": "miel",
+  "query": "los perros pueden comer miel",
+  "v": 2400
+ },
+ {
+  "species": "perros",
+  "food": "azucar",
+  "query": "los perros pueden comer azucar",
+  "v": 480
+ },
+ {
+  "species": "perros",
+  "food": "chocolate",
+  "query": "los perros pueden comer chocolate",
+  "v": 3600
+ },
+ {
+  "species": "perros",
+  "food": "cafe",
+  "query": "los perros pueden comer cafe",
+  "v": 140
+ },
+ {
+  "species": "perros",
+  "food": "te",
+  "query": "los perros pueden comer te",
+  "v": 0
+ },
+ {
+  "species": "perros",
+  "food": "aceite de oliva",
+  "query": "los perros pueden comer aceite de oliva",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "aceite de coco",
+  "query": "los perros pueden comer aceite de coco",
+  "v": 480
+ },
+ {
+  "species": "perros",
+  "food": "sal",
+  "query": "los perros pueden comer sal",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "canela",
+  "query": "los perros pueden comer canela",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "curcuma",
+  "query": "los perros pueden comer curcuma",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "jengibre",
+  "query": "los perros pueden comer jengibre",
+  "v": 480
+ },
+ {
+  "species": "perros",
+  "food": "perejil",
+  "query": "los perros pueden comer perejil",
+  "v": 880
+ },
+ {
+  "species": "perros",
+  "food": "menta",
+  "query": "los perros pueden comer menta",
+  "v": 260
+ },
+ {
+  "species": "perros",
+  "food": "galletas",
+  "query": "los perros pueden comer galletas",
+  "v": 390
+ },
+ {
+  "species": "perros",
+  "food": "palomitas",
+  "query": "los perros pueden comer palomitas",
+  "v": 2900
+ },
+ {
+  "species": "perros",
+  "food": "gelatina",
+  "query": "los perros pueden comer gelatina",
+  "v": 1900
+ },
+ {
+  "species": "perros",
+  "food": "pizza",
+  "query": "los perros pueden comer pizza",
+  "v": 720
+ },
+ {
+  "species": "perros",
+  "food": "comida de gato",
+  "query": "los perros pueden comer comida de gato",
+  "v": 590
+ },
+ {
+  "species": "perros",
+  "food": "comida de perro",
+  "query": "los perros pueden comer comida de perro",
+  "v": 0
+ },
+ {
+  "species": "gatos",
+  "food": "fresas",
+  "query": "los gatos pueden comer fresas",
+  "v": 3600
+ },
+ {
+  "species": "gatos",
+  "food": "platano",
+  "query": "los gatos pueden comer platano",
+  "v": 3600
+ },
+ {
+  "species": "gatos",
+  "food": "banana",
+  "query": "los gatos pueden comer banana",
+  "v": 1900
+ },
+ {
+  "species": "gatos",
+  "food": "sandia",
+  "query": "los gatos pueden comer sandia",
+  "v": 4400
+ },
+ {
+  "species": "gatos",
+  "food": "melon",
+  "query": "los gatos pueden comer melon",
+  "v": 1900
+ },
+ {
+  "species": "gatos",
+  "food": "manzana",
+  "query": "los gatos pueden comer manzana",
+  "v": 3600
+ },
+ {
+  "species": "gatos",
+  "food": "pera",
+  "query": "los gatos pueden comer pera",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "uvas",
+  "query": "los gatos pueden comer uvas",
+  "v": 2400
+ },
+ {
+  "species": "gatos",
+  "food": "pasas",
+  "query": "los gatos pueden comer pasas",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "naranja",
+  "query": "los gatos pueden comer naranja",
+  "v": 720
+ },
+ {
+  "species": "gatos",
+  "food": "mandarina",
+  "query": "los gatos pueden comer mandarina",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "limon",
+  "query": "los gatos pueden comer limon",
+  "v": 390
+ },
+ {
+  "species": "gatos",
+  "food": "pina",
+  "query": "los gatos pueden comer pina",
+  "v": 10
+ },
+ {
+  "species": "gatos",
+  "food": "mango",
+  "query": "los gatos pueden comer mango",
+  "v": 3600
+ },
+ {
+  "species": "gatos",
+  "food": "papaya",
+  "query": "los gatos pueden comer papaya",
+  "v": 1900
+ },
+ {
+  "species": "gatos",
+  "food": "kiwi",
+  "query": "los gatos pueden comer kiwi",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "durazno",
+  "query": "los gatos pueden comer durazno",
+  "v": 720
+ },
+ {
+  "species": "gatos",
+  "food": "melocoton",
+  "query": "los gatos pueden comer melocoton",
+  "v": 30
+ },
+ {
+  "species": "gatos",
+  "food": "cerezas",
+  "query": "los gatos pueden comer cerezas",
+  "v": 390
+ },
+ {
+  "species": "gatos",
+  "food": "ciruelas",
+  "query": "los gatos pueden comer ciruelas",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "arandanos",
+  "query": "los gatos pueden comer arandanos",
+  "v": 1000
+ },
+ {
+  "species": "gatos",
+  "food": "frambuesas",
+  "query": "los gatos pueden comer frambuesas",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "moras",
+  "query": "los gatos pueden comer moras",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "coco",
+  "query": "los gatos pueden comer coco",
+  "v": 1000
+ },
+ {
+  "species": "gatos",
+  "food": "granada",
+  "query": "los gatos pueden comer granada",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "higos",
+  "query": "los gatos pueden comer higos",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "guayaba",
+  "query": "los gatos pueden comer guayaba",
+  "v": 390
+ },
+ {
+  "species": "gatos",
+  "food": "maracuya",
+  "query": "los gatos pueden comer maracuya",
+  "v": 50
+ },
+ {
+  "species": "gatos",
+  "food": "aguacate",
+  "query": "los gatos pueden comer aguacate",
+  "v": 3600
+ },
+ {
+  "species": "gatos",
+  "food": "palta",
+  "query": "los gatos pueden comer palta",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "tomate",
+  "query": "los gatos pueden comer tomate",
+  "v": 1900
+ },
+ {
+  "species": "gatos",
+  "food": "zanahoria",
+  "query": "los gatos pueden comer zanahoria",
+  "v": 2900
+ },
+ {
+  "species": "gatos",
+  "food": "pepino",
+  "query": "los gatos pueden comer pepino",
+  "v": 1300
+ },
+ {
+  "species": "gatos",
+  "food": "calabaza",
+  "query": "los gatos pueden comer calabaza",
+  "v": 1000
+ },
+ {
+  "species": "gatos",
+  "food": "calabacin",
+  "query": "los gatos pueden comer calabacin",
+  "v": 1000
+ },
+ {
+  "species": "gatos",
+  "food": "zapallo",
+  "query": "los gatos pueden comer zapallo",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "brocoli",
+  "query": "los gatos pueden comer brocoli",
+  "v": 1600
+ },
+ {
+  "species": "gatos",
+  "food": "coliflor",
+  "query": "los gatos pueden comer coliflor",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "espinacas",
+  "query": "los gatos pueden comer espinacas",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "lechuga",
+  "query": "los gatos pueden comer lechuga",
+  "v": 1300
+ },
+ {
+  "species": "gatos",
+  "food": "col",
+  "query": "los gatos pueden comer col",
+  "v": 90
+ },
+ {
+  "species": "gatos",
+  "food": "repollo",
+  "query": "los gatos pueden comer repollo",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "apio",
+  "query": "los gatos pueden comer apio",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "pimiento",
+  "query": "los gatos pueden comer pimiento",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "cebolla",
+  "query": "los gatos pueden comer cebolla",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "ajo",
+  "query": "los gatos pueden comer ajo",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "puerro",
+  "query": "los gatos pueden comer puerro",
+  "v": 70
+ },
+ {
+  "species": "gatos",
+  "food": "champiñones",
+  "query": "los gatos pueden comer champiñones",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "setas",
+  "query": "los gatos pueden comer setas",
+  "v": 50
+ },
+ {
+  "species": "gatos",
+  "food": "maiz",
+  "query": "los gatos pueden comer maiz",
+  "v": 390
+ },
+ {
+  "species": "gatos",
+  "food": "elote",
+  "query": "los gatos pueden comer elote",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "choclo",
+  "query": "los gatos pueden comer choclo",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "guisantes",
+  "query": "los gatos pueden comer guisantes",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "chicharos",
+  "query": "los gatos pueden comer chicharos",
+  "v": 140
+ },
+ {
+  "species": "gatos",
+  "food": "ejotes",
+  "query": "los gatos pueden comer ejotes",
+  "v": 140
+ },
+ {
+  "species": "gatos",
+  "food": "judias verdes",
+  "query": "los gatos pueden comer judias verdes",
+  "v": 30
+ },
+ {
+  "species": "gatos",
+  "food": "remolacha",
+  "query": "los gatos pueden comer remolacha",
+  "v": 390
+ },
+ {
+  "species": "gatos",
+  "food": "betabel",
+  "query": "los gatos pueden comer betabel",
+  "v": 260
+ },
+ {
+  "species": "gatos",
+  "food": "camote",
+  "query": "los gatos pueden comer camote",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "batata",
+  "query": "los gatos pueden comer batata",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "boniato",
+  "query": "los gatos pueden comer boniato",
+  "v": 140
+ },
+ {
+  "species": "gatos",
+  "food": "papa",
+  "query": "los gatos pueden comer papa",
+  "v": 2400
+ },
+ {
+  "species": "gatos",
+  "food": "patata",
+  "query": "los gatos pueden comer patata",
+  "v": 260
+ },
+ {
+  "species": "gatos",
+  "food": "yuca",
+  "query": "los gatos pueden comer yuca",
+  "v": 70
+ },
+ {
+  "species": "gatos",
+  "food": "arroz",
+  "query": "los gatos pueden comer arroz",
+  "v": 2900
+ },
+ {
+  "species": "gatos",
+  "food": "pasta",
+  "query": "los gatos pueden comer pasta",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "fideos",
+  "query": "los gatos pueden comer fideos",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "pan",
+  "query": "los gatos pueden comer pan",
+  "v": 2400
+ },
+ {
+  "species": "gatos",
+  "food": "avena",
+  "query": "los gatos pueden comer avena",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "quinoa",
+  "query": "los gatos pueden comer quinoa",
+  "v": 90
+ },
+ {
+  "species": "gatos",
+  "food": "tortilla",
+  "query": "los gatos pueden comer tortilla",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "lentejas",
+  "query": "los gatos pueden comer lentejas",
+  "v": 1000
+ },
+ {
+  "species": "gatos",
+  "food": "frijoles",
+  "query": "los gatos pueden comer frijoles",
+  "v": 1300
+ },
+ {
+  "species": "gatos",
+  "food": "garbanzos",
+  "query": "los gatos pueden comer garbanzos",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "soja",
+  "query": "los gatos pueden comer soja",
+  "v": 40
+ },
+ {
+  "species": "gatos",
+  "food": "huevo",
+  "query": "los gatos pueden comer huevo",
+  "v": 6600
+ },
+ {
+  "species": "gatos",
+  "food": "pollo",
+  "query": "los gatos pueden comer pollo",
+  "v": 720
+ },
+ {
+  "species": "gatos",
+  "food": "pavo",
+  "query": "los gatos pueden comer pavo",
+  "v": 110
+ },
+ {
+  "species": "gatos",
+  "food": "carne de res",
+  "query": "los gatos pueden comer carne de res",
+  "v": 260
+ },
+ {
+  "species": "gatos",
+  "food": "carne de cerdo",
+  "query": "los gatos pueden comer carne de cerdo",
+  "v": 390
+ },
+ {
+  "species": "gatos",
+  "food": "cerdo",
+  "query": "los gatos pueden comer cerdo",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "cordero",
+  "query": "los gatos pueden comer cordero",
+  "v": 30
+ },
+ {
+  "species": "gatos",
+  "food": "conejo",
+  "query": "los gatos pueden comer conejo",
+  "v": 20
+ },
+ {
+  "species": "gatos",
+  "food": "higado",
+  "query": "los gatos pueden comer higado",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "jamon",
+  "query": "los gatos pueden comer jamon",
+  "v": 1300
+ },
+ {
+  "species": "gatos",
+  "food": "tocino",
+  "query": "los gatos pueden comer tocino",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "salchichas",
+  "query": "los gatos pueden comer salchichas",
+  "v": 1300
+ },
+ {
+  "species": "gatos",
+  "food": "chorizo",
+  "query": "los gatos pueden comer chorizo",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "atun",
+  "query": "los gatos pueden comer atun",
+  "v": 1300
+ },
+ {
+  "species": "gatos",
+  "food": "salmon",
+  "query": "los gatos pueden comer salmon",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "sardinas",
+  "query": "los gatos pueden comer sardinas",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "pescado",
+  "query": "los gatos pueden comer pescado",
+  "v": 1000
+ },
+ {
+  "species": "gatos",
+  "food": "camarones",
+  "query": "los gatos pueden comer camarones",
+  "v": 1600
+ },
+ {
+  "species": "gatos",
+  "food": "gambas",
+  "query": "los gatos pueden comer gambas",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "mariscos",
+  "query": "los gatos pueden comer mariscos",
+  "v": 90
+ },
+ {
+  "species": "gatos",
+  "food": "huesos",
+  "query": "los gatos pueden comer huesos",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "leche",
+  "query": "los gatos pueden comer leche",
+  "v": 170
+ },
+ {
+  "species": "gatos",
+  "food": "queso",
+  "query": "los gatos pueden comer queso",
+  "v": 2900
+ },
+ {
+  "species": "gatos",
+  "food": "yogur",
+  "query": "los gatos pueden comer yogur",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "mantequilla",
+  "query": "los gatos pueden comer mantequilla",
+  "v": 140
+ },
+ {
+  "species": "gatos",
+  "food": "helado",
+  "query": "los gatos pueden comer helado",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "crema de cacahuate",
+  "query": "los gatos pueden comer crema de cacahuate",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "mantequilla de mani",
+  "query": "los gatos pueden comer mantequilla de mani",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "mantequilla de cacahuete",
+  "query": "los gatos pueden comer mantequilla de cacahuete",
+  "v": 10
+ },
+ {
+  "species": "gatos",
+  "food": "cacahuates",
+  "query": "los gatos pueden comer cacahuates",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "mani",
+  "query": "los gatos pueden comer mani",
+  "v": 880
+ },
+ {
+  "species": "gatos",
+  "food": "almendras",
+  "query": "los gatos pueden comer almendras",
+  "v": 480
+ },
+ {
+  "species": "gatos",
+  "food": "nueces",
+  "query": "los gatos pueden comer nueces",
+  "v": 1000
+ },
+ {
+  "species": "gatos",
+  "food": "pistachos",
+  "query": "los gatos pueden comer pistachos",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "avellanas",
+  "query": "los gatos pueden comer avellanas",
+  "v": 20
+ },
+ {
+  "species": "gatos",
+  "food": "semillas de chia",
+  "query": "los gatos pueden comer semillas de chia",
+  "v": 30
+ },
+ {
+  "species": "gatos",
+  "food": "miel",
+  "query": "los gatos pueden comer miel",
+  "v": 720
+ },
+ {
+  "species": "gatos",
+  "food": "azucar",
+  "query": "los gatos pueden comer azucar",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "chocolate",
+  "query": "los gatos pueden comer chocolate",
+  "v": 2900
+ },
+ {
+  "species": "gatos",
+  "food": "cafe",
+  "query": "los gatos pueden comer cafe",
+  "v": 20
+ },
+ {
+  "species": "gatos",
+  "food": "te",
+  "query": "los gatos pueden comer te",
+  "v": 0
+ },
+ {
+  "species": "gatos",
+  "food": "aceite de oliva",
+  "query": "los gatos pueden comer aceite de oliva",
+  "v": 260
+ },
+ {
+  "species": "gatos",
+  "food": "aceite de coco",
+  "query": "los gatos pueden comer aceite de coco",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "sal",
+  "query": "los gatos pueden comer sal",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "canela",
+  "query": "los gatos pueden comer canela",
+  "v": 390
+ },
+ {
+  "species": "gatos",
+  "food": "curcuma",
+  "query": "los gatos pueden comer curcuma",
+  "v": 90
+ },
+ {
+  "species": "gatos",
+  "food": "jengibre",
+  "query": "los gatos pueden comer jengibre",
+  "v": 70
+ },
+ {
+  "species": "gatos",
+  "food": "perejil",
+  "query": "los gatos pueden comer perejil",
+  "v": 320
+ },
+ {
+  "species": "gatos",
+  "food": "menta",
+  "query": "los gatos pueden comer menta",
+  "v": 90
+ },
+ {
+  "species": "gatos",
+  "food": "galletas",
+  "query": "los gatos pueden comer galletas",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "palomitas",
+  "query": "los gatos pueden comer palomitas",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "gelatina",
+  "query": "los gatos pueden comer gelatina",
+  "v": 590
+ },
+ {
+  "species": "gatos",
+  "food": "pizza",
+  "query": "los gatos pueden comer pizza",
+  "v": 210
+ },
+ {
+  "species": "gatos",
+  "food": "comida de gato",
+  "query": "los gatos pueden comer comida de gato",
+  "v": 0
+ },
+ {
+  "species": "gatos",
+  "food": "comida de perro",
+  "query": "los gatos pueden comer comida de perro",
+  "v": 480
+ }
+]

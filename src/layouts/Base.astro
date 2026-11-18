@@ -1,0 +1,177 @@
+---
+interface Crumb { name: string; path: string }
+interface Props {
+  title: string;
+  description: string;
+  crumbs?: Crumb[];
+  jsonLd?: Record<string, unknown>[];
+  noindex?: boolean;
+}
+
+const { title, description, crumbs = [], jsonLd = [], noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const absolute = (path: string) => new URL(path, Astro.site).href;
+
+const schemas = [...jsonLd];
+if (crumbs.length) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: absolute(crumb.path),
+    })),
+  });
+}
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ladrimiau" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {schemas.map((schema) => (
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+    ))}
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="/">Ladrimiau</a>
+        <nav aria-label="Principal">
+          <a href="/calculadoras/comida-perro/">Comida</a>
+          <a href="/calculadoras/embarazo-perra/">Embarazo</a>
+        </nav>
+      </div>
+    </header>
+    <main id="contenido" class="wrap">
+      {crumbs.length > 1 && (
+        <nav class="crumbs" aria-label="Ruta de navegación">
+          <ol>
+            {crumbs.map((crumb, index) => (
+              <li>
+                {index < crumbs.length - 1
+                  ? <a href={crumb.path}>{crumb.name}</a>
+                  : <span aria-current="page">{crumb.name}</span>}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )}
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Ladrimiau ofrece información general y no sustituye la consulta veterinaria.
+          Ante una urgencia, contacta de inmediato con tu veterinario.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color-scheme: light;
+    --bg: #fbf7f0;
+    --surface: #ffffff;
+    --ink: #2c2420;
+    --muted: #65584f;
+    --line: #e6dccf;
+    --brand: #a34a24;
+    --brand-dark: #7f3817;
+    --soft: #f6e8da;
+    --alert-bg: #fdf0e3;
+    --alert-line: #d98a3d;
+    --radius: 14px;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 1.0625rem/1.65 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+  .wrap { width: min(100%, 46rem); margin-inline: auto; padding-inline: 1rem; }
+  a { color: var(--brand-dark); text-underline-offset: 0.15em; }
+  h1, h2, h3 { line-height: 1.2; letter-spacing: -0.01em; }
+  h1 { font-size: clamp(1.75rem, 5.5vw, 2.5rem); margin: 0.5rem 0 0.75rem; }
+  h2 { font-size: 1.4rem; margin: 2.25rem 0 0.6rem; }
+  h3 { font-size: 1.1rem; margin: 1.25rem 0 0.25rem; }
+  .lead { font-size: 1.15rem; color: var(--muted); margin-top: 0; }
+  .skip { position: absolute; left: -999px; }
+  .skip:focus { left: 1rem; top: 0.5rem; background: var(--surface); padding: 0.5rem 0.75rem; z-index: 10; }
+  .site-header { background: var(--surface); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 3.5rem; }
+  .brand { font-weight: 800; font-size: 1.25rem; color: var(--brand); text-decoration: none; }
+  .bar nav { display: flex; gap: 1rem; }
+  .bar nav a { text-decoration: none; font-weight: 600; font-size: 0.975rem; padding-block: 0.6rem; }
+  .bar nav a:hover { text-decoration: underline; }
+  main { padding-block: 1rem 3rem; }
+  .crumbs ol { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; list-style: none; margin: 0; padding: 0; font-size: 0.875rem; color: var(--muted); }
+  .crumbs li + li::before { content: '/'; margin-right: 0.5rem; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem; margin-block: 1.25rem; }
+  .field { margin-bottom: 1rem; }
+  .field label, .field legend { display: block; font-weight: 650; margin-bottom: 0.3rem; padding: 0; }
+  .field small { display: block; color: var(--muted); margin-top: 0.25rem; font-size: 0.875rem; line-height: 1.4; }
+  fieldset.field { border: 0; margin-inline: 0; padding: 0; }
+  .choice { display: flex; gap: 0.5rem; align-items: center; font-weight: 400 !important; min-height: 2.25rem; }
+  input[type='number'], input[type='date'], select {
+    width: 100%;
+    min-height: 2.9rem;
+    padding: 0.55rem 0.7rem;
+    border: 1px solid #b9aa9a;
+    border-radius: 10px;
+    background: #fff;
+    color: var(--ink);
+    font: inherit;
+  }
+  :focus-visible { outline: 3px solid #d98a3d; outline-offset: 2px; }
+  button {
+    width: 100%;
+    min-height: 3rem;
+    border: 0;
+    border-radius: 10px;
+    background: var(--brand);
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  button:hover { background: var(--brand-dark); }
+  .result { margin-top: 1.25rem; padding: 1rem; border-radius: 10px; background: var(--soft); }
+  .result[hidden] { display: none; }
+  .result .big { display: block; font-size: 1.6rem; font-weight: 800; line-height: 1.25; color: var(--brand-dark); }
+  .result p { margin: 0.4rem 0 0; }
+  .error { color: #a32020; font-weight: 600; margin: 0.75rem 0 0; }
+  .error:empty { display: none; }
+  .notice { background: var(--alert-bg); border-left: 4px solid var(--alert-line); border-radius: 8px; padding: 0.85rem 1rem; margin-block: 1.25rem; }
+  .notice p { margin: 0; }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); font-size: 0.975rem; }
+  th, td { text-align: left; padding: 0.6rem 0.7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--soft); }
+  .tools { display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); padding: 0; list-style: none; }
+  .tools a { display: block; height: 100%; padding: 1rem 1.1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; color: var(--ink); }
+  .tools a:hover { border-color: var(--brand); }
+  .tools strong { display: block; color: var(--brand-dark); font-size: 1.075rem; }
+  .tools span { color: var(--muted); font-size: 0.95rem; }
+  .sources { font-size: 0.925rem; color: var(--muted); }
+  .sources ul { padding-left: 1.2rem; margin: 0.4rem 0; }
+  .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; padding-block: 1rem; }
+</style>

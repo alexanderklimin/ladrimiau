@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+
+const tools = [
+  { href: '/calculadoras/comida-perro/', name: 'Comida para perros', text: 'Calorías y gramos al día según su peso y etapa de vida.' },
+  { href: '/calculadoras/comida-gato/', name: 'Comida para gatos', text: 'Una ración orientativa adaptada a tu gato.' },
+  { href: '/calculadoras/embarazo-perra/', name: 'Embarazo de la perra', text: 'Fecha probable de parto y rango de días.' },
+  { href: '/calculadoras/embarazo-gata/', name: 'Embarazo de la gata', text: 'Calcula cuándo pueden nacer los gatitos.' },
+];
+
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Ladrimiau',
+  url: Astro.site?.href,
+  inLanguage: 'es',
+}];
+---
+<Base
+  title="Ladrimiau: calculadoras y guías para perros y gatos"
+  description="Herramientas gratuitas para cuidar a tu perro o tu gato: ración diaria de comida y fecha probable de parto, con fuentes veterinarias."
+  jsonLd={jsonLd}
+>
+  <h1>Cuida mejor a tu perro y a tu gato</h1>
+  <p class="lead">Calculadoras gratuitas y claras, basadas en fuentes veterinarias.</p>
+  <h2>Calculadoras</h2>
+  <ul class="tools">
+    {tools.map((tool) => (
+      <li><a href={tool.href}><strong>{tool.name}</strong><span>{tool.text}</span></a></li>
+    ))}
+  </ul>
+</Base>
