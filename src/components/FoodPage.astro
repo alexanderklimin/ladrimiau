@@ -10,8 +10,8 @@ const { species, slug } = Astro.props;
 const item = findFood(species, slug)!;
 
 const copy = {
-  dog: { folder: 'perros', animal: 'perro', plural: 'perros', article: 'tu perro', calc: '/calculadoras/comida-perro/', calcLabel: 'Calcula su ración diaria', tone: 'coral' },
-  cat: { folder: 'gatos', animal: 'gato', plural: 'gatos', article: 'tu gato', calc: '/calculadoras/comida-gato/', calcLabel: 'Calcula su ración diaria', tone: 'teal' },
+  dog: { folder: 'perros', animal: 'perro', plural: 'perros', article: 'tu perro', calc: '/calculadoras/comida-perro/', calcLabel: 'Calcula su ración diaria', tone: 'teal' },
+  cat: { folder: 'gatos', animal: 'gato', plural: 'gatos', article: 'tu gato', calc: '/calculadoras/comida-gato/', calcLabel: 'Calcula su ración diaria', tone: 'coral' },
 }[species];
 
 const verdict = VERDICTS[item.verdict];
@@ -99,7 +99,7 @@ const jsonLd = [
     {counterpart && (
       <li>
         <a class="tool" href={`/${counterpartFolder}/pueden-comer/${counterpart.slug}/`}>
-          <span class="tool-icon soft-teal"><Icon name={species === 'dog' ? 'cat' : 'dog'} /></span>
+          <span class:list={['tool-icon', species === 'dog' ? 'soft-coral' : 'soft-teal']}><Icon name={species === 'dog' ? 'cat' : 'dog'} /></span>
           <span><strong>¿Y los {counterpartFolder}?</strong><span class="text">Consulta la respuesta para {counterpartFolder}.</span></span>
         </a>
       </li>

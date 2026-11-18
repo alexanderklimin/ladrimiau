@@ -9,8 +9,8 @@ interface Props { species: 'dog' | 'cat' }
 const { species } = Astro.props;
 
 const copy = {
-  dog: { folder: 'perros', animal: 'perro', plural: 'perros', crumb: 'Qué pueden comer los perros', tone: 'coral' },
-  cat: { folder: 'gatos', animal: 'gato', plural: 'gatos', crumb: 'Qué pueden comer los gatos', tone: 'teal' },
+  dog: { folder: 'perros', animal: 'perro', plural: 'perros', crumb: 'Qué pueden comer los perros', tone: 'teal' },
+  cat: { folder: 'gatos', animal: 'gato', plural: 'gatos', crumb: 'Qué pueden comer los gatos', tone: 'coral' },
 }[species];
 
 const path = `/${copy.folder}/pueden-comer/`;
