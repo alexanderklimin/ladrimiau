@@ -1,0 +1,311 @@
+// Extended, sourced guidance for the most searched dog foods. Framework-free for app reuse.
+// Portions come from veterinarian-reviewed PetMD tables, converted from pounds and inches.
+// When sources disagree on an amount or frequency, the entry keeps the more cautious one.
+
+const links = (petmd, akc = petmd) => [
+  { name: `PetMD: guía veterinaria sobre ${petmd.label}`, url: `https://www.petmd.com/dog/nutrition/can-dogs-eat-${petmd.slug}` },
+  { name: `American Kennel Club: guía sobre ${akc.label}`, url: `https://www.akc.org/expert-advice/nutrition/can-dogs-eat-${akc.slug}/` },
+];
+const ref = (slug, label) => ({ slug, label });
+
+const SIZES_A = ['1 a 4 kg', '5 a 9 kg', '10 a 23 kg', '23 a 41 kg', 'Más de 41 kg'];
+const SIZES_B = ['1 a 9 kg', '10 a 14 kg', '14 a 23 kg', '23 a 41 kg', 'Más de 41 kg'];
+const table = (sizes, amounts) => sizes.map((size, index) => [size, amounts[index]]);
+
+export const FOOD_DETAILS = Object.freeze({
+  fresa: {
+    benefit: 'Las fresas aportan fibra, vitamina C y antioxidantes. Son un premio: no sustituyen a su alimento completo.',
+    portions: { rows: table(SIZES_B, ['1 a 2 rodajas', '2 a 3 rodajas', '5 a 6 rodajas', 'Un puñado de rodajas', 'Un puñado grande de rodajas']), note: 'Rodajas de unos 0,5 cm de grosor.' },
+    forms: [
+      ['si', 'Frescas y en trozos', 'Lávalas, quita las hojas y córtalas pequeñas.'],
+      ['si', 'Congeladas', 'Córtalas antes y deja que se ablanden un poco.'],
+      ['no', 'En almíbar o en conserva', 'Llevan demasiado azúcar y pueden contener xilitol.'],
+      ['no', 'Yogur de fresa', 'Suele tener azúcar añadido o xilitol.'],
+      ['no', 'Helado de fresa', 'Tiene más azúcar y puede contener xilitol.'],
+    ],
+    caution: ['Perros con diabetes o sobrepeso: consulta antes al veterinario.', 'Perros con estómago sensible: empieza con muy poca cantidad.', 'Perros con alergias: vigila si aparecen picor o hinchazón.'],
+    ifTitle: 'Si ha comido demasiadas',
+    ifEaten: 'Puede tener heces blandas o diarrea. Deja de dárselas y llama al veterinario si notas falta de apetito o decaimiento. Acude de urgencia si hay vómitos, diarrea intensa, sangre, debilidad o colapso.',
+    faq: [
+      ['¿Puede comer las hojas de la fresa?', 'Es mejor quitarlas. Las hojas y los tallos no son tóxicos, pero pueden sentarle mal y provocar atragantamiento.'],
+      ['¿Puede comer fresas todos los días?', 'La mayoría de los perros sanos pueden tomar cantidades pequeñas con regularidad, siempre que los premios no superen el 10 % de sus calorías diarias.'],
+      ['¿Los cachorros pueden comer fresas?', 'Sí, con moderación, bien lavadas y en trozos muy pequeños.'],
+    ],
+    links: links(ref('strawberries', 'las fresas')),
+  },
+  platano: {
+    benefit: 'El plátano aporta potasio, vitamina B6, vitamina C, magnesio y fibra, pero también mucho azúcar.',
+    portions: { rows: table(SIZES_A, ['1 a 2 rodajas', '2 a 3 rodajas', '3 a 6 rodajas', 'Un puñado de rodajas', 'Hasta medio plátano']), note: 'Rodajas de unos 0,5 cm de grosor. Un plátano entero suele ser demasiado para la mayoría de los perros.' },
+    forms: [
+      ['si', 'Fresco en rodajas', 'Siempre sin cáscara.'],
+      ['si', 'Machacado y congelado', 'Mejor que un plátano entero congelado, que es demasiado grande.'],
+      ['no', 'Chips y plátano deshidratado', 'Pueden hincharse en el intestino y llevar azúcar o sal.'],
+      ['no', 'Pan de plátano', 'Puede contener pasas, xilitol o nuez moscada.'],
+      ['no', 'Cáscara', 'Se digiere mal y puede causar una obstrucción.'],
+    ],
+    caution: ['Perros con sobrepeso o diabetes: evítalo salvo que lo apruebe el veterinario.', 'Razas muy pequeñas: ofrece solo cantidades mínimas.'],
+    ifTitle: 'Si se ha comido la cáscara',
+    ifEaten: 'Vigila si aparecen vómitos, falta de apetito, dolor abdominal, debilidad, diarrea o estreñimiento. Si sospechas una obstrucción, acude a urgencias veterinarias de inmediato.',
+    faq: [
+      ['¿El plátano sirve para la diarrea del perro?', 'No lo uses como remedio casero. Si tiene diarrea, consulta a tu veterinario.'],
+      ['¿Puede comer plátano congelado?', 'Sí, en poca cantidad. Machácalo antes de congelarlo para evitar trozos grandes.'],
+      ['¿Los cachorros pueden comer plátano?', 'Sí, con moderación, en porciones más pequeñas que un adulto y como único alimento nuevo cada vez.'],
+    ],
+    links: links(ref('bananas', 'el plátano')),
+  },
+  sandia: {
+    benefit: 'La sandía tiene más de un 90 % de agua y aporta vitaminas A, B6 y C y potasio, pero no sustituye al agua fresca.',
+    portions: { rows: table(SIZES_A, ['2 a 3 trozos', '3 a 4 trozos', '3 a 4 trozos', '4 a 5 trozos', '5 a 6 trozos']), note: 'Hasta 2 o 3 veces por semana. Trozos de unos 2,5 x 2,5 cm y 0,5 cm de grosor.' },
+    forms: [
+      ['si', 'Fresca, sin cáscara ni semillas', 'Es la forma más sencilla.'],
+      ['si', 'Congelada en cubos', 'Un premio refrescante en días de calor.'],
+      ['si', 'Puré congelado', 'Sin azúcar ni otros ingredientes.'],
+      ['no', 'Productos con azúcar o edulcorantes', 'Pueden contener ingredientes perjudiciales.'],
+      ['no', 'Cáscara', 'No se digiere y puede causar atragantamiento u obstrucción.'],
+    ],
+    caution: ['Perros con diabetes, obesidad o sensibilidad al azúcar: consulta antes al veterinario.', 'Perros con alergias: suspende si aparecen ronchas, picor, vómitos o diarrea.'],
+    ifTitle: 'Si se ha comido la cáscara o muchas semillas',
+    ifEaten: 'Llama al veterinario. Vigila vómitos, falta de apetito, dolor abdominal, debilidad o dificultad para defecar, porque una obstrucción puede ser una urgencia grave.',
+    faq: [
+      ['¿Es peligroso si traga alguna semilla?', 'Tragar unas pocas semillas por accidente es poco probable que cause problemas, pero conviene retirarlas todas.'],
+      ['¿La sandía puede darle diarrea?', 'Sí, si come demasiada. También puede provocar gases e hinchazón.'],
+      ['¿Los cachorros pueden comer sandía?', 'Sí, con moderación y sin semillas ni cáscara.'],
+    ],
+    links: links(ref('watermelon', 'la sandía')),
+  },
+  uva: {
+    benefit: 'No hay ninguna cantidad que se considere segura. Algunos perros enferman con muy poco y no se puede saber de antemano cómo reaccionará el tuyo.',
+    forms: [
+      ['no', 'Uvas de cualquier color', 'Moradas, rojas, verdes y blancas pueden ser tóxicas.'],
+      ['no', 'Uvas peladas', 'Son igual de tóxicas.'],
+      ['no', 'Pasas', 'Están más concentradas y son especialmente peligrosas.'],
+      ['no', 'Mermelada o jalea de uva', 'Contiene la fruta, azúcar y a veces xilitol.'],
+    ],
+    caution: ['Afecta a perros de cualquier edad, raza o tamaño.', 'Cuanto más pequeño es el perro, menor es la cantidad que puede hacerle daño.'],
+    ifTitle: 'Si ha comido uvas o pasas',
+    ifEaten: 'Llama al veterinario de inmediato, aunque haya comido solo una y parezca estar bien. No le provoques el vómito ni le des carbón en casa sin indicación veterinaria. Actuar pronto mejora mucho el pronóstico.',
+    faq: [
+      ['¿Una sola uva puede hacerle daño?', 'No todos los perros reaccionan igual, pero cualquier ingesta debe tratarse como una urgencia.'],
+      ['¿Cuándo aparecen los síntomas?', 'Los vómitos o la diarrea suelen aparecer en las primeras 6 a 12 horas. El daño renal puede detectarse entre 24 y 72 horas después.'],
+      ['¿Qué fruta puedo darle en su lugar?', 'Arándanos, sandía sin semillas ni cáscara, mango sin hueso o plátano en pequeñas cantidades.'],
+    ],
+    links: links(ref('grapes', 'las uvas')),
+  },
+  mango: {
+    benefit: 'El mango aporta fibra y vitaminas A, B6, C y E, aunque un perro rara vez come suficiente para obtener un beneficio nutricional importante.',
+    portions: { rows: table(SIZES_A, ['Unos 30 ml en dados (1/8 de taza)', 'Hasta 80 ml en dados (1/3 de taza)', 'Hasta 120 ml en dados (1/2 taza)', 'Hasta 180 ml en dados (3/4 de taza)', 'Hasta 240 ml en dados (1 taza)']), note: 'Cantidad máxima. Redúcela si ese día le das otros premios.' },
+    forms: [
+      ['si', 'Fresco y maduro', 'Pelado, sin hueso y en trozos pequeños.'],
+      ['no', 'Mango deshidratado', 'Concentra mucho azúcar.'],
+      ['no', 'Piel', 'Es difícil de digerir.'],
+      ['no', 'Hueso', 'Puede causar atragantamiento u obstrucción y contiene cianuro.'],
+    ],
+    caution: ['Perros con diabetes: deben evitarlo.', 'Perros con estómago sensible o dieta restringida: consulta antes al veterinario.'],
+    ifTitle: 'Si se ha tragado el hueso',
+    ifEaten: 'Acude directamente a urgencias veterinarias. Si solo ha comido demasiada pulpa, vigila vómitos y diarrea, y llama al veterinario si no mejora en 24 horas.',
+    faq: [
+      ['¿Puede comer la piel del mango?', 'No. Es difícil de digerir. Llama al veterinario si ha comido mucha o tiene arcadas o dificultad para respirar.'],
+      ['¿Puede comer mango deshidratado?', 'Es mejor evitarlo por su alto contenido en azúcar. El mango fresco es mejor opción.'],
+      ['¿Cuánto mango es demasiado?', 'Los premios no deben superar el 10 % de su alimentación diaria. Un exceso puede causar diarrea y dolor de barriga.'],
+    ],
+    links: links(ref('mango', 'el mango')),
+  },
+  manzana: {
+    benefit: 'La manzana aporta vitamina C, fibra y pocas calorías, pero contiene azúcar: una manzana entera suele ser demasiado.',
+    portions: { rows: table(SIZES_A, ['1 a 2 trozos', '2 a 3 trozos', '3 a 4 trozos', '4 a 5 trozos', '5 a 6 trozos']), note: 'Trozos de unos 2,5 cm de ancho y 0,5 cm de grosor.' },
+    forms: [
+      ['si', 'Fresca en trozos', 'Es la opción más segura.'],
+      ['si', 'Compota sin azúcar', 'Solo natural y en poca cantidad.'],
+      ['cuidado', 'Deshidratada', 'Mejor casera, en porciones más pequeñas y sin azúcar añadido.'],
+      ['no', 'Tarta de manzana', 'Lleva azúcar, masa y a veces nuez moscada.'],
+      ['no', 'Corazón, tallo y semillas', 'Pueden causar atragantamiento u obstrucción, y las semillas contienen cianuro.'],
+    ],
+    caution: ['Perros con diabetes o dieta estricta: dásela solo con aprobación veterinaria.', 'Perros con estómago sensible: pélala antes.'],
+    ifTitle: 'Si se ha comido el corazón o las semillas',
+    ifEaten: 'Unas pocas semillas difícilmente le harán daño, pero vigila si aparecen molestias digestivas o signos de obstrucción y, en ese caso, llama al veterinario.',
+    faq: [
+      ['¿Puede comer manzana verde?', 'Sí, con las mismas precauciones que cualquier otra manzana.'],
+      ['¿Los cachorros pueden comer manzana?', 'Sí, en pequeñas cantidades. Empieza con un trocito y observa cómo le sienta.'],
+      ['¿La manzana puede darle diarrea?', 'Sí, si come demasiada o se la introduces muy rápido.'],
+    ],
+    links: links(ref('apples', 'la manzana')),
+  },
+  melon: {
+    benefit: 'El melón cantalupo tiene cerca de un 90 % de agua y aporta fibra y vitaminas A, B6 y C. También tiene bastante azúcar.',
+    portions: { rows: table(SIZES_B, ['1 a 2 trozos', 'Hasta 3 trozos', 'Hasta 5 trozos', 'Hasta 6 trozos', 'Un puñado de trozos']), note: 'Trozos de aproximadamente 1 cm. Datos para melón cantalupo.' },
+    forms: [
+      ['si', 'Fresco en trozos', 'Sin cáscara ni semillas.'],
+      ['si', 'Congelado', 'Con moderación.'],
+      ['cuidado', 'Deshidratado', 'Mejor casero, en porciones más pequeñas y sin azúcar añadido.'],
+      ['no', 'Cáscara', 'Es difícil de masticar y digerir, y puede causar una obstrucción.'],
+      ['no', 'Semillas', 'No se consideran tóxicas, pero pueden provocar atragantamiento.'],
+    ],
+    caution: ['Perros con diabetes: puede no ser un premio adecuado.', 'Perros con sobrepeso: limita mucho la cantidad por su azúcar.'],
+    ifTitle: 'Si se ha comido la cáscara',
+    ifEaten: 'Llama al veterinario de inmediato, aunque al principio parezca estar bien. Puede causar atragantamiento, obstrucción intestinal o malestar digestivo.',
+    faq: [
+      ['¿Puede comer melón todos los días?', 'Es mejor ofrecerlo de forma ocasional por su contenido en azúcar.'],
+      ['¿Los cachorros pueden comer melón?', 'Sí, en pequeñas cantidades, cuando ya comen sólidos y lo toleran bien.'],
+      ['¿Qué signos indican que ha comido demasiado?', 'Diarrea, vómitos, falta de apetito, decaimiento o abdomen hinchado o doloroso.'],
+    ],
+    links: links(ref('cantaloupe', 'el melón cantalupo')),
+  },
+  aguacate: {
+    benefit: 'No es un alimento necesario para los perros y su grasa supone un riesgo real, por eso preferimos no recomendarlo. Algunas fuentes veterinarias admiten un máximo de 1 cucharadita de pulpa por cada 4,5 kg de peso, de forma ocasional.',
+    forms: [
+      ['cuidado', 'Pulpa sola, sin condimentos', 'Solo si tu veterinario lo aprueba y en cantidad mínima.'],
+      ['no', 'Guacamole', 'Suele llevar cebolla, ajo y sal.'],
+      ['no', 'Aceite de aguacate', 'Tiene muchísima grasa.'],
+      ['no', 'Hueso, piel y hojas', 'Contienen persina, y el hueso puede causar una obstrucción.'],
+    ],
+    caution: ['Perros propensos a la pancreatitis o con sobrepeso: evítalo por completo.', 'Cachorros: es mejor no dárselo.', 'Perros con dieta veterinaria: no le des alimentos fuera de su dieta.'],
+    ifTitle: 'Si se ha tragado el hueso',
+    ifEaten: 'Es una urgencia: acude al veterinario lo antes posible. Si ha comido pulpa, vigila durante 24 a 48 horas si aparecen vómitos, diarrea o dolor abdominal y avisa al veterinario.',
+    faq: [
+      ['¿El aguacate es tóxico para los perros?', 'La pulpa no es muy tóxica en cantidades pequeñas, pero su grasa puede provocar pancreatitis. La piel, las hojas y el hueso contienen persina.'],
+      ['¿Puede comer aguacate todos los días?', 'No se recomienda.'],
+      ['¿Qué signos indican una obstrucción?', 'Vómitos o intentos de vomitar, abdomen hinchado o doloroso, rechazo de la comida y mucho decaimiento.'],
+    ],
+    links: links(ref('avocado', 'el aguacate')),
+  },
+  tomate: {
+    benefit: 'El tomate maduro aporta vitaminas A y C, potasio y licopeno con pocas calorías, pero su acidez y las partes verdes obligan a ser prudente.',
+    portionText: 'Ofrece solo unos pocos trozos de 1 cm de tomate rojo como premio ocasional, y empieza con muy poca cantidad para ver cómo le sienta.',
+    forms: [
+      ['cuidado', 'Tomate rojo y maduro', 'Lavado, sin tallo y en trozos pequeños.'],
+      ['cuidado', 'Tomate cherry', 'Solo maduro y siempre cortado para evitar atragantamientos.'],
+      ['no', 'Tomate verde, hojas y tallos', 'Contienen tomatina, que puede intoxicarlo.'],
+      ['no', 'Kétchup', 'Suele llevar azúcar, sal y a veces xilitol.'],
+      ['no', 'Salsa y sopa de tomate', 'Pueden contener ajo, cebolla y especias.'],
+    ],
+    caution: ['Perros con estómago sensible o reflujo: su acidez puede irritarles.', 'Perros con gastroenteritis crónica o enfermedad renal: consulta antes al veterinario.', 'Cachorros y razas pequeñas: una cantidad menor puede afectarles.'],
+    ifTitle: 'Si ha comido la planta o tomates verdes',
+    ifEaten: 'Llama al veterinario lo antes posible. Vigila falta de coordinación, debilidad, salivación excesiva, pupilas dilatadas, temblores, vómitos o diarrea.',
+    faq: [
+      ['¿Puede comer tomate crudo?', 'Sí, si está completamente maduro y rojo, en poca cantidad.'],
+      ['¿Y si ha comido un poco de tomate verde?', 'Una cantidad pequeña quizá no cause daños graves, pero las cantidades mayores pueden provocar vómitos, debilidad o temblores. Contacta con el veterinario.'],
+      ['¿Puede comer kétchup o salsa de tomate?', 'No. Suelen contener azúcar, sal, ajo, cebolla o xilitol.'],
+    ],
+    links: links(ref('tomatoes', 'el tomate')),
+  },
+  pepino: {
+    benefit: 'El pepino tiene un 96 % de agua y muy pocas calorías: alrededor de 8 kcal por media taza de rodajas.',
+    portions: { rows: table(SIZES_B, ['1 a 2 rodajas', '2 a 3 rodajas', '5 a 6 rodajas', 'Un puñado de rodajas', 'Un puñado grande de rodajas']), note: 'Rodajas de hasta 2,5 cm de ancho y 0,5 cm de grosor.' },
+    forms: [
+      ['si', 'Crudo en rodajas', 'Lavado y cortado fino.'],
+      ['si', 'Congelado', 'Un premio crujiente y frío.'],
+      ['si', 'Agua de pepino casera', 'Solo agua y pepino.'],
+      ['no', 'Pepinillos en vinagre', 'Llevan sal, ajo, cebolla y especias.'],
+      ['no', 'Pepino entero', 'Puede causar atragantamiento u obstrucción.'],
+    ],
+    caution: ['Perros pequeños y los que comen muy rápido: córtalo en trozos muy pequeños.', 'Si nunca lo ha probado: empieza con un solo trozo.'],
+    ifTitle: 'Si ha comido demasiado',
+    ifEaten: 'Puede tener malestar digestivo. Llama al veterinario de inmediato si notas falta de apetito, cansancio, vómitos, diarrea intensa, sangre, debilidad o colapso.',
+    faq: [
+      ['¿Puede comer la piel y las semillas?', 'Generalmente sí, pero algunos perros digieren mal las semillas. Si tiene el estómago sensible, retira la piel y las semillas.'],
+      ['¿Los cachorros pueden comer pepino?', 'Sí, en rodajas finas y bien lavado.'],
+      ['¿Es un buen premio si tiene sobrepeso?', 'Sí. Tiene muchas menos calorías que una galleta para perros.'],
+    ],
+    links: links(ref('cucumbers', 'el pepino')),
+  },
+  papa: {
+    benefit: 'La papa cocida aporta carbohidratos, vitamina C, vitaminas del grupo B, hierro, potasio y magnesio. Debe ser un premio, no una comida.',
+    portionText: 'Ofrece solo una cantidad pequeña de papa cocida y sencilla, de forma ocasional. Todos los premios juntos no deben superar el 10 % de su dieta diaria.',
+    forms: [
+      ['si', 'Hervida o asada, sin nada', 'Sin sal, mantequilla ni condimentos.'],
+      ['si', 'Puré sencillo', 'Sin mantequilla, leche, sal ni especias.'],
+      ['no', 'Cruda', 'Es difícil de digerir y puede causar atragantamiento.'],
+      ['no', 'Verde o con brotes', 'Contiene solanina, una toxina.'],
+      ['no', 'Fritas', 'Tienen demasiado aceite y sal.'],
+      ['no', 'Con ajo o cebolla', 'Ambos son tóxicos para los perros.'],
+    ],
+    caution: ['Perros con diabetes: no se recomienda salvo aprobación veterinaria.', 'Perros con dieta veterinaria: no le des alimentos fuera de su dieta.', 'Perros con sobrepeso: limita mucho la cantidad.'],
+    ifTitle: 'Si ha comido papa verde o con brotes',
+    ifEaten: 'Contacta con el veterinario. Busca atención inmediata si aparecen vómitos, diarrea, decaimiento o debilidad muscular.',
+    faq: [
+      ['¿Puede comer la piel de la papa?', 'Solo un poco, cocida y nunca si está verde o tiene brotes.'],
+      ['¿Los cachorros pueden comer papa?', 'Pueden tomar pequeñas cantidades de papa cocida como premio ocasional, sin sustituir su alimento para cachorros.'],
+      ['¿Puede comer puré de papas?', 'Sí, si es sencillo y no lleva mantequilla, leche, sal ni condimentos.'],
+    ],
+    links: links(ref('potatoes', 'la papa')),
+  },
+  pera: {
+    benefit: 'La pera aporta fibra, vitamina C y antioxidantes, y tiene relativamente pocas calorías. No es un alimento imprescindible en su dieta.',
+    portionText: 'Para un perro pequeño, una rodaja de vez en cuando es suficiente, y una pera entera probablemente sea demasiado. Ajusta la cantidad a su tamaño, con trozos de unos 2,5 cm de ancho y 0,5 cm de grosor.',
+    forms: [
+      ['si', 'Fresca y madura', 'Sin corazón, semillas, tallo ni hojas.'],
+      ['cuidado', 'Con piel', 'Lávala bien y retírala si tiene el estómago sensible.'],
+      ['no', 'Pera en almíbar o en conserva', 'Lleva demasiado azúcar.'],
+      ['no', 'Semillas, tallo y hojas', 'Contienen trazas de cianuro y pueden causar atragantamiento.'],
+    ],
+    caution: ['Perros poco acostumbrados a la fibra: empieza con muy poca cantidad.', 'Perros pequeños: tienen más riesgo de atragantamiento u obstrucción.'],
+    ifTitle: 'Si ha comido semillas o demasiada pera',
+    ifEaten: 'Una cantidad grande puede causar vómitos, diarrea o malestar. Contacta con tu veterinario si tienes dudas o aparecen síntomas.',
+    faq: [
+      ['¿Puede comer pera asiática?', 'Sí, si está bien preparada y se le da en una porción adecuada.'],
+      ['¿Puede comer la piel de la pera?', 'Sí, bien lavada, aunque puede sentar mal a los perros con el estómago sensible.'],
+      ['¿Cuánta pera es demasiada?', 'Los premios no deben superar el 10 % de su alimentación diaria.'],
+    ],
+    links: links(ref('pears', 'la pera')),
+  },
+  nuez: {
+    benefit: 'Las nueces no aportan a los perros ningún beneficio que justifique el riesgo: tienen mucha grasa y algunas son tóxicas.',
+    forms: [
+      ['no', 'Nueces negras', 'Son tóxicas para los perros.'],
+      ['no', 'Nueces con moho', 'Pueden contener toxinas que causan temblores y convulsiones.'],
+      ['no', 'Saladas o condimentadas', 'La sal, la cebolla y el ajo son perjudiciales.'],
+      ['no', 'Con cáscara', 'Pueden causar atragantamiento u obstrucción.'],
+    ],
+    caution: ['Razas pequeñas: tienen más riesgo de atragantamiento u obstrucción.', 'Perros con antecedentes de pancreatitis: su grasa es especialmente peligrosa.'],
+    ifTitle: 'Si ha comido nueces',
+    ifEaten: 'Una o dos nueces comunes difícilmente le harán daño, pero vigílalo. Si eran nueces negras o tenían moho, o si aparecen vómitos, temblores o convulsiones, acude al veterinario de inmediato.',
+    faq: [
+      ['¿Una nuez puede matar a un perro?', 'Es poco frecuente, pero las nueces negras y las mohosas pueden causar intoxicaciones graves. Lo mejor es evitarlas.'],
+      ['¿Qué pasa si come muchas nueces?', 'Más de un puñado puede provocar vómitos, diarrea o pancreatitis.'],
+      ['¿Puede comer otros frutos secos?', 'Las nueces de macadamia son muy tóxicas. Los cacahuates y anacardos sin sal solo se toleran en cantidades muy pequeñas y no conviene darlos con regularidad.'],
+    ],
+    links: [...links(ref('walnuts', 'las nueces')), { name: 'American Kennel Club: guía sobre los frutos secos', url: 'https://www.akc.org/expert-advice/nutrition/can-dogs-eat-nuts/' }],
+  },
+  huevo: {
+    benefit: 'El huevo cocido aporta proteínas, ácidos grasos, vitaminas A, D, E y del grupo B, hierro, zinc y selenio.',
+    portions: { rows: table(SIZES_A, ['1/4 de huevo', '1/2 huevo', '1 huevo', '1 huevo y medio', '2 huevos']), note: 'Cantidad máxima por semana, cocido y sin grasa.' },
+    forms: [
+      ['si', 'Duro', 'Bien cocido, picado y sin sal.'],
+      ['si', 'Revuelto o escalfado', 'Sin aceite, mantequilla ni condimentos.'],
+      ['no', 'Crudo', 'Puede transmitir Salmonella y dificultar la absorción de biotina.'],
+      ['no', 'Con mantequilla, sal o especias', 'Añaden grasa y sal innecesarias.'],
+      ['cuidado', 'Cáscara', 'Tiene bordes afilados. Úsala solo con indicación veterinaria.'],
+    ],
+    caution: ['Perros con pancreatitis, obesidad o dieta baja en grasa: dale solo clara o evita el huevo.', 'Perros con alergia alimentaria: vigila picor, otitis, vómitos o diarrea.'],
+    ifTitle: 'Si ha comido huevo crudo',
+    ifEaten: 'Vigílalo de cerca. Contacta con el veterinario si aparecen fiebre, vómitos, diarrea o decaimiento.',
+    faq: [
+      ['¿Puede comer huevo todos los días?', 'No se recomienda como alimento diario, salvo que lo indique tu veterinario.'],
+      ['¿Los cachorros pueden comer huevo?', 'Sí, cocido, en cantidades pequeñas y añadiéndolo poco a poco.'],
+      ['¿Puede comer la yema?', 'Sí, cocida, pero tiene más grasa que la clara.'],
+    ],
+    links: links(ref('eggs', 'el huevo')),
+  },
+  naranja: {
+    benefit: 'La naranja aporta vitamina C, fibra y potasio, aunque los perros ya producen su propia vitamina C. Su azúcar y su acidez limitan la cantidad.',
+    portions: { rows: table(SIZES_A, ['1/2 gajo', '1 gajo', '1 gajo y medio', '2 gajos', '2 gajos y medio']), note: 'Como máximo 1 o 2 veces por semana. Sin cáscara, parte blanca ni semillas.' },
+    forms: [
+      ['cuidado', 'Gajos frescos', 'Pelados, sin semillas y en poca cantidad.'],
+      ['cuidado', 'Mandarina o clementina', 'Peladas, sin semillas y en poca cantidad.'],
+      ['no', 'Jugo o zumo de naranja', 'Concentra el azúcar y es muy ácido.'],
+      ['no', 'Cáscara y semillas', 'La cáscara se digiere mal y puede causar una obstrucción.'],
+      ['no', 'Pomelo, limón y lima', 'Son demasiado ácidos.'],
+    ],
+    caution: ['Perros con sobrepeso o diabetes: no se la des.', 'Perros con estómago sensible: puede causar diarrea o gases.'],
+    ifTitle: 'Si se ha comido la cáscara',
+    ifEaten: 'Vigila si aparecen vómitos, diarrea o decaimiento y llama al veterinario, porque la cáscara puede provocar una obstrucción intestinal.',
+    faq: [
+      ['¿Puede comer mandarinas?', 'Sí, peladas, sin semillas y en pequeñas cantidades.'],
+      ['¿Puede beber jugo de naranja?', 'No es tóxico, pero no se recomienda por su azúcar y su acidez.'],
+      ['¿Los cachorros pueden comer naranja?', 'Sí, pero con más cuidado: empieza con un trocito muy pequeño, sin cáscara ni semillas.'],
+    ],
+    links: links(ref('oranges', 'la naranja')),
+  },
+});
+
+export const getFoodDetails = (species, slug) => (species === 'dog' ? FOOD_DETAILS[slug] : undefined);

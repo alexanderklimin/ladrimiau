@@ -4,20 +4,24 @@ import Icon from './Icon.astro';
 import FoodEmoji from './FoodEmoji.astro';
 import PageHero from './PageHero.astro';
 import { FOODS, REVIEWED_ON, SOURCES, VERDICTS, findFood } from '../lib/foods.js';
+import { getFoodDetails } from '../lib/foodDetails.js';
 
 interface Props { species: 'dog' | 'cat'; slug: string }
 const { species, slug } = Astro.props;
 const item = findFood(species, slug)!;
+function question0() { return `¿Los ${species === 'dog' ? 'perros' : 'gatos'} pueden comer ${item.name}?`; }
 
 const copy = {
   dog: { folder: 'perros', animal: 'perro', plural: 'perros', article: 'tu perro', calc: '/calculadoras/comida-perro/', calcLabel: 'Calcula su ración diaria', tone: 'teal' },
   cat: { folder: 'gatos', animal: 'gato', plural: 'gatos', article: 'tu gato', calc: '/calculadoras/comida-gato/', calcLabel: 'Calcula su ración diaria', tone: 'coral' },
 }[species];
 
+const details = getFoodDetails(species, slug);
+const faq = [[question0(), item.answer], ...(details?.faq ?? [])];
 const verdict = VERDICTS[item.verdict];
 const indexPath = `/${copy.folder}/pueden-comer/`;
 const path = `${indexPath}${item.slug}/`;
-const question = `¿Los ${copy.plural} pueden comer ${item.name}?`;
+const question = question0();
 const related = FOODS[species].filter((other) => other.slug !== item.slug && other.verdict === item.verdict).slice(0, 4);
 const otherSpecies = species === 'dog' ? 'cat' : 'dog';
 const counterpart = findFood(otherSpecies, item.slug);
@@ -40,7 +44,7 @@ const jsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [{ '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: item.answer } }],
+    mainEntity: faq.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })),
   },
 ];
 ---
@@ -82,10 +86,65 @@ const jsonLd = [
     {item.how.map((step) => <li><Icon name={item.verdict === 'no' ? 'circle-x' : 'circle-check'} size={20} /><span>{step}</span></li>)}
   </ul>
 
+  {details && <p class="food-benefit">{details.benefit}</p>}
+
+  {details?.portions && (
+    <>
+      <h2>Cuánto puede comer según su peso</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Peso del perro</th><th scope="col">Cantidad máxima</th></tr></thead>
+          <tbody>{details.portions.rows.map(([size, amount]) => <tr><td>{size}</td><td>{amount}</td></tr>)}</tbody>
+        </table>
+      </div>
+      <p class="table-note">{details.portions.note} Todos los premios juntos no deben superar el 10 % de sus calorías diarias.</p>
+    </>
+  )}
+  {details?.portionText && (
+    <>
+      <h2>Cuánto puede comer</h2>
+      <p>{details.portionText}</p>
+    </>
+  )}
+
+  {details && (
+    <>
+      <h2>{details.forms.every(([state]) => state === 'no') ? 'Ninguna forma es segura' : 'Qué formas son seguras'}</h2>
+      <ul class="form-list">
+        {details.forms.map(([state, name, note]) => (
+          <li>
+            <span class:list={['pill', `v-${state}`]}><Icon name={VERDICTS[state].icon as never} size={15} />{VERDICTS[state].short}</span>
+            <span><strong>{name}</strong><span class="form-note">{note}</span></span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
   <h2>Riesgos que debes conocer</h2>
   <ul class="steps bad">
     {item.risks.map((risk) => <li><Icon name="triangle-alert" size={20} /><span>{risk}</span></li>)}
   </ul>
+
+  {details && (
+    <>
+      <h2>Perros que necesitan más cuidado</h2>
+      <ul class="steps bad">
+        {details.caution.map((text) => <li><Icon name="stethoscope" size={20} /><span>{text}</span></li>)}
+      </ul>
+      <div class="notice urgent">
+        <Icon name="phone" />
+        <p><strong>{details.ifTitle}.</strong> {details.ifEaten}</p>
+      </div>
+      <h2>Preguntas frecuentes</h2>
+      {details.faq.map(([q, a]) => (
+        <>
+          <h3>{q}</h3>
+          <p>{a}</p>
+        </>
+      ))}
+    </>
+  )}
 
   {item.verdict !== 'no' && (
     <div class="notice">
@@ -139,7 +198,17 @@ const jsonLd = [
     <h2>Fuentes</h2>
     <ul>
       {item.sources.map((key) => <li><a href={SOURCES[key].url} rel="noopener">{SOURCES[key].name}</a></li>)}
+      {details?.links.map((link) => <li><a href={link.url} rel="noopener">{link.name}</a></li>)}
     </ul>
     <p>Revisado el {reviewed}.</p>
   </section>
 </Base>
+
+<style is:global>
+  .food-benefit { margin: 1rem 0 0; }
+  .table-note { margin: 0.5rem 0 0; color: var(--muted); font-size: 0.925rem; }
+  .form-list { display: grid; gap: 0.5rem; list-style: none; margin: 0.5rem 0 0; padding: 0; }
+  .form-list li { display: grid; grid-template-columns: 6.25rem minmax(0, 1fr); gap: 0.7rem; align-items: start; padding: 0.7rem 0.8rem; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+  .form-list .pill { justify-self: start; }
+  .form-note { display: block; color: var(--muted); font-size: 0.95rem; line-height: 1.4; }
+</style>

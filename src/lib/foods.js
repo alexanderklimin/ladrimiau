@@ -62,7 +62,7 @@ const dog = [
     ['La cáscara, las semillas y los aceites de los cítricos pueden irritar su aparato digestivo.', 'Su azúcar y acidez pueden causar malestar de estómago.'], ['akc', 'petmdDogFruit', 'petmdDogAvoid', 'aspcaAvoid']),
   food('tomate', 'tomate', '🍅', 'cuidado', 'Con cuidado. El tomate maduro no suele ser tóxico, pero las partes verdes sí son un riesgo, y algunas fuentes aconsejan no dárselo.',
     ['Si se lo das, que sea solo tomate rojo y maduro.', 'Nunca le des hojas, tallos ni tomates verdes.'],
-    ['Las partes verdes de la planta contienen solanina.'], ['akc', 'petmdDogFruit']),
+    ['Las partes verdes de la planta contienen tomatina, que puede intoxicarlo.'], ['akc', 'petmdDogFruit']),
   food('pepino', 'pepino', '🥒', 'si', 'Sí. El pepino es un premio ligero e hidratante para perros, porque está compuesto casi por completo de agua.',
     ['Lávalo bien.', 'Córtalo en rodajas pequeñas.'],
     ['Las fuentes consultadas no señalan riesgos específicos si se ofrece en trozos adecuados.'], ['petmdDogVeg', 'akc', 'aspcaShare']),
