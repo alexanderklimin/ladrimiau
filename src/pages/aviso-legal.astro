@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
-import { CONTACT_EMAIL, LEGAL_UPDATED } from '../data/site.js';
+import { CONTACT_EMAIL, LEGAL_UPDATED, OWNER_COUNTRY, OWNER_NAME } from '../data/site.js';
 ---
 <Base
   title="Aviso legal | Ladrimiau"
@@ -11,7 +11,7 @@ import { CONTACT_EMAIL, LEGAL_UPDATED } from '../data/site.js';
   <PageHero title="Aviso legal" lead="Condiciones de uso de este sitio web." icon="book-open" tone="teal" />
 
   <h2>Titular del sitio</h2>
-  <p>Ladrimiau es un sitio web de información sobre el cuidado de perros y gatos. Contacto: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+  <p>Ladrimiau es un sitio web de información sobre el cuidado de perros y gatos. Su titular es {OWNER_NAME}, con residencia en {OWNER_COUNTRY}. Contacto: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
 
   <h2>Información veterinaria</h2>
   <p>Los contenidos y las calculadoras ofrecen información general y resultados orientativos. No sustituyen el diagnóstico, el tratamiento ni el consejo de un veterinario. Ante cualquier duda sobre la salud de tu mascota, o si ha comido algo peligroso, consulta de inmediato a un profesional.</p>

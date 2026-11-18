@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
-import { CONTACT_EMAIL, GTM_ID, LEGAL_UPDATED } from '../data/site.js';
+import { CONTACT_EMAIL, GTM_ID, LEGAL_UPDATED, OWNER_COUNTRY, OWNER_NAME } from '../data/site.js';
 ---
 <Base
   title="Política de privacidad y cookies | Ladrimiau"
@@ -14,7 +14,7 @@ import { CONTACT_EMAIL, GTM_ID, LEGAL_UPDATED } from '../data/site.js';
   <p>Ladrimiau no te pide registrarte y no incluye publicidad. {GTM_ID ? 'Usamos Google Analytics para saber qué páginas resultan útiles.' : 'No usa cookies ni herramientas de analítica.'} Los datos que introduces en las calculadoras y en el generador de nombres se procesan en tu navegador y no se envían a nuestros servidores ni a Google.</p>
 
   <h2>Responsable</h2>
-  <p>El responsable del tratamiento es el titular de Ladrimiau. Puedes contactar con él en <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+  <p>El responsable del tratamiento es {OWNER_NAME}, con residencia en {OWNER_COUNTRY}. Puedes escribir a <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
 
   <h2>Datos que tratamos</h2>
   <h3>Datos técnicos de la conexión</h3>
