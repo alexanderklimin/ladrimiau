@@ -203,6 +203,7 @@ const jsonLd = [
         grams.textContent = `${range(portionGrams(energy.minKcal, density), portionGrams(energy.maxKcal, density), 'g')} al día`;
         kcal.textContent = `Equivale a ${range(energy.minKcal, energy.maxKcal, 'kcal')} al día.`;
         result.hidden = false;
+        window.gtag?.('event', 'calc_food', { species });
       } catch {
         error.textContent = 'Revisa el peso: el valor no parece correcto para este animal.';
       }

@@ -179,6 +179,7 @@ const jsonLd = [
           progress.textContent = `Han pasado ${elapsed} ${elapsed === 1 ? 'día' : 'días'} desde la fecha indicada.`;
         }
         result.hidden = false;
+        window.gtag?.('event', 'calc_pregnancy', { species });
       } catch {
         error.textContent = 'Revisa la fecha introducida.';
       }

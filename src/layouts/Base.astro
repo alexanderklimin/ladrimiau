@@ -1,5 +1,7 @@
 ---
 import Icon from '../components/Icon.astro';
+import Analytics from '../components/Analytics.astro';
+import { GA_ID } from '../data/site.js';
 
 interface Crumb { name: string; path: string }
 interface Props {
@@ -102,10 +104,12 @@ if (crumbs.length) {
           <a href="/contacto/">Contacto</a>
           <a href="/privacidad/">Privacidad y cookies</a>
           <a href="/aviso-legal/">Aviso legal</a>
+          {GA_ID && <button type="button" class="footer-button" data-open-consent>Cookies</button>}
         </nav>
         <p class="credits">Iconos: <a href="https://lucide.dev" rel="noopener">Lucide</a> y <a href="https://github.com/jdecked/twemoji" rel="noopener">Twemoji</a> (CC BY 4.0).</p>
       </div>
     </footer>
+    <Analytics />
   </body>
 </html>
 
