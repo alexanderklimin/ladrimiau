@@ -6,6 +6,10 @@ const emojiFile = (emoji: string) =>
   [...emoji].map((char) => char.codePointAt(0)!.toString(16)).filter((code) => code !== 'fe0f').join('-');
 const compact = (items: typeof FOODS.dog) =>
   items.map(({ slug, name, aka, verdict, emoji }) => ({ slug, name, aka, verdict, file: emojiFile(emoji) }));
+const verdictLabels = { si: 'Sí', cuidado: 'Cuidado', no: 'No' } as const;
+const initialFoods = ['fresa', 'platano', 'sandia', 'uva', 'huevo', 'chocolate']
+  .map((slug) => FOODS.dog.find((item) => item.slug === slug)!)
+  .map((item) => ({ ...item, file: emojiFile(item.emoji) }));
 const data = JSON.stringify({ dog: compact(FOODS.dog), cat: compact(FOODS.cat) }).replace(/</g, '\\u003c');
 
 const tabs = [
@@ -39,7 +43,17 @@ const tabs = [
   <div class="quick-panel" role="tabpanel" id="panel-comer" aria-labelledby="tab-comer">
     <label class="quick-label" for="quick-food">Escribe un alimento</label>
     <input id="quick-food" type="search" placeholder="Ejemplo: fresas, huevo, palta…" autocomplete="off" />
-    <ul class="food-grid quick-results" data-quick-results aria-live="polite"></ul>
+    <ul class="food-grid quick-results" data-quick-results aria-live="polite">
+      {initialFoods.map((item) => (
+        <li>
+          <a class="food-link" href={`/perros/pueden-comer/${item.slug}/`}>
+            <img class="food-emoji" src={`/food/${item.file}.svg`} alt="" width="32" height="32" />
+            <span class="food-name">{item.name}</span>
+            <span class={`pill v-${item.verdict}`}>{verdictLabels[item.verdict]}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
     <p class="empty" data-quick-empty hidden>Todavía no tenemos ese alimento. Consulta a tu veterinario antes de dárselo.</p>
   </div>
 
@@ -101,8 +115,6 @@ const tabs = [
 </style>
 
 <script>
-  import { dailyEnergy, portionGrams } from '../lib/energy.js';
-  import { estimateDueDate } from '../lib/pregnancy.js';
 
   type Food = { slug: string; name: string; aka: string; verdict: 'si' | 'cuidado' | 'no'; file: string };
   type Species = 'dog' | 'cat';
@@ -170,7 +182,7 @@ const tabs = [
       pregnancyResult.hidden = true;
     };
 
-    portionForm.addEventListener('submit', (event) => {
+    portionForm.addEventListener('submit', async (event) => {
       event.preventDefault();
       clearResults();
       const weightKg = Number(String(new FormData(portionForm).get('weight')).replace(',', '.'));
@@ -180,6 +192,7 @@ const tabs = [
       }
       try {
         const current = species();
+        const { dailyEnergy, portionGrams } = await import('../lib/energy.js');
         const energy = dailyEnergy({ species: current, weightKg, stage: 'neutered' });
         const min = portionGrams(energy.minKcal, 350);
         const max = portionGrams(energy.maxKcal, 350);
@@ -193,7 +206,7 @@ const tabs = [
       }
     });
 
-    pregnancyForm.addEventListener('submit', (event) => {
+    pregnancyForm.addEventListener('submit', async (event) => {
       event.preventDefault();
       clearResults();
       const date = String(new FormData(pregnancyForm).get('date') ?? '');
@@ -203,6 +216,7 @@ const tabs = [
       }
       try {
         const current = species();
+        const { estimateDueDate } = await import('../lib/pregnancy.js');
         const due = estimateDueDate({ species: current, date });
         root.querySelector<HTMLElement>('[data-quick-likely]')!.textContent = `Fecha probable: ${formatDate(due.likely)}`;
         root.querySelector<HTMLElement>('[data-quick-range]')!.textContent = `Rango posible: del ${formatDate(due.earliest)} al ${formatDate(due.latest)}.`;
